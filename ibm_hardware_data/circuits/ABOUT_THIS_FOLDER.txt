@@ -1,0 +1,25 @@
+ABOUT THIS FOLDER: CIRCUITS
+===========================
+
+The 10 compiled circuits that actually ran on ibm_fez, one folder per
+pairing and version (v1 = 12 October, v2 = 14 October, v3 = 16 October).
+Jobs 1 to 26 used v1, job 27 used v2 and jobs 28 to 40 used v3; only bay C
+with the QUBO encoding ran in more than one version.
+
+Each folder has:
+- logical.qpy: the QAOA circuit before compiling.
+- isa.qpy: the compiled circuit that ran on the hardware. Open either one
+  with Qiskit (qiskit.qpy.load).
+- backend_snapshot.json: IBM's calibration data when the circuit was
+  compiled. The noise-model simulations were built from these.
+- check.json: the check, made before submission, that the compiled circuit
+  gives the same ideal output as the logical one (within 1e-9).
+- prep.json: the settings and hashes for that version.
+
+NAMES USED IN THE FILES
+- random-S3T4C6-21 = bay A, random-S3T4C6-24 = bay B, random-S3T4C7-32 = bay
+  C, random-S4T3C6-16 = bay D, data3-3-8 = bay E.
+- "galle" = the QUBO-based encoding (named after the Galle et al. model).
+  "predicate" = the predicate-based encoding.
+- "accepted" = what the paper calls a legal plan. "replay-optimal" = an
+  optimal plan.

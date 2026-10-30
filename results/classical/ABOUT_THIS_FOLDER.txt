@@ -1,0 +1,29 @@
+ABOUT THIS FOLDER: CLASSICAL
+============================
+
+Short version: "does a normal computer do better?" (As the paper says: yes.)
+Paper Section 2.7 and Table 5.
+
+Start with RESULTS.md. It's a one-page verdict table that points to the
+evidence for each claim.
+
+WHAT'S IN HERE
+- milp/: the exact MILP results.
+- greedy/: the greedy rule results.
+- simulated_annealing/: simulated annealing, including every step of every
+  run.
+- calibration_check/: proof that all 40 hardware jobs used their frozen
+  angles and circuits.
+
+HEADS-UP
+SA versus QAOA is a "same number of guesses" comparison, not a "same cost"
+one: each SA run evaluates 2,000 candidates and each QAOA job has 2,000
+shots. That's the only thing matched, and the paper says so.
+
+NAMES USED IN THE FILES
+- random-S3T4C6-21 = bay A, random-S3T4C6-24 = bay B, random-S3T4C7-32 = bay
+  C, random-S4T3C6-16 = bay D, data3-3-8 = bay E.
+- "galle" = the QUBO-based encoding (named after the Galle et al. model).
+  "predicate" = the predicate-based encoding.
+- "accepted" = what the paper calls a legal plan. "replay-optimal" = an
+  optimal plan.

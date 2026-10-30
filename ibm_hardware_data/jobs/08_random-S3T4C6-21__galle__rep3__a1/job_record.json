@@ -1,0 +1,227 @@
+{
+  "accounting": {
+    "error": null,
+    "field": "metrics.usage.qpu_charge_time_seconds (status 'complete')",
+    "history": [
+      {
+        "field": "metrics.usage.qpu_charge_time_seconds (status 'complete')",
+        "job_terminal": true,
+        "observed_utc": "2026-10-12T18:26:33.351252+00:00",
+        "raw_usage": {
+          "details": [
+            {
+              "metric": {
+                "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+                "value": 3
+              },
+              "unit": "resource_units",
+              "value": 0.0374
+            }
+          ],
+          "qpu_charge_time_seconds": 3,
+          "status": "complete",
+          "unit": "resource_units",
+          "value": 0.0374
+        },
+        "sdk_job_usage": 3,
+        "seconds": 3.0,
+        "status": "final"
+      }
+    ],
+    "observed_utc": "2026-10-12T18:26:33.351252+00:00",
+    "raw_usage": {
+      "details": [
+        {
+          "metric": {
+            "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+            "value": 3
+          },
+          "unit": "resource_units",
+          "value": 0.0374
+        }
+      ],
+      "qpu_charge_time_seconds": 3,
+      "status": "complete",
+      "unit": "resource_units",
+      "value": 0.0374
+    },
+    "sdk_job_usage": 3,
+    "seconds": 3.0,
+    "status": "final"
+  },
+  "allowance_before": {
+    "available": true,
+    "raw": {
+      "usage_consumed_ru": 0.262,
+      "usage_consumed_seconds": 21,
+      "usage_limit_reached": false,
+      "usage_limit_ru": 10,
+      "usage_limit_seconds": 600,
+      "usage_period": {
+        "end_time": "2026-10-12T18:23:51.235Z",
+        "start_time": "2026-09-14T18:23:51.235Z"
+      },
+      "usage_remaining_seconds": 579
+    },
+    "remaining_seconds": 579.0,
+    "user_reported_remaining_seconds": 579.0
+  },
+  "analysis_role": "primary",
+  "attempt_id": "08_random-S3T4C6-21__galle__rep3__a1",
+  "attempt_no": 1,
+  "backend": "ibm_fez",
+  "budget_before": {
+    "committed_seconds": 21.0,
+    "final_confirmed_seconds": 21.0,
+    "study_cap_seconds": 300.0,
+    "study_headroom_seconds": 279.0,
+    "unresolved_reserved_seconds": 0
+  },
+  "case": "random-S3T4C6-21",
+  "created_utc": "2026-10-12T18:23:51.258227+00:00",
+  "data_kind": "HARDWARE",
+  "history": [
+    {
+      "from_state": null,
+      "note": "reservation recorded before dispatch",
+      "to_state": "submitting",
+      "utc": "2026-10-12T18:23:51.260123+00:00"
+    },
+    {
+      "from_state": "submitting",
+      "note": "IBM accepted the job",
+      "to_state": "submitted",
+      "utc": "2026-10-12T18:23:53.027832+00:00"
+    },
+    {
+      "from_state": "submitted",
+      "note": "collect: IBM status DONE; accounting final",
+      "to_state": "completed",
+      "utc": "2026-10-12T18:26:34.619566+00:00"
+    }
+  ],
+  "identity": {
+    "backend": "ibm_fez",
+    "checked_utc": "2026-10-12T18:26:30.803151+00:00",
+    "input_circuit": "equal to frozen ISA circuit",
+    "input_shots": 2000,
+    "instance": "[REDACTED: IBM instance CRN]",
+    "tag": "sim92-5d3bf0ffe1af5dba"
+  },
+  "instance_crn": "[REDACTED: IBM instance CRN]",
+  "job_id": "db6ibe04qg6s73c4rur0",
+  "method": "galle",
+  "options": {
+    "dynamical_decoupling": false,
+    "job_tags": [
+      "sim9.2-rcrp",
+      "sim92-5d3bf0ffe1af5dba"
+    ],
+    "max_execution_time": 30,
+    "twirling_gates": false,
+    "twirling_measure": false
+  },
+  "planned_shots": 2000,
+  "prep": {
+    "age_seconds": 3219.4,
+    "angle_id": "fresh:galle:p2",
+    "isa_sha256": "d23d2895ae21aa418d6ade2b362191f00aa99fbfe069942707122548898c066e",
+    "item": "random-S3T4C6-21__galle",
+    "prepared_utc": "2026-10-12T17:29:54.143831+00:00",
+    "theta": [
+      0.647,
+      -2.595,
+      -0.409,
+      0.211
+    ],
+    "version": 1
+  },
+  "repetition": 3,
+  "replacement_reason": null,
+  "replaces": null,
+  "reservation_seconds": 30.0,
+  "results": {
+    "executed_shots": 2000,
+    "saved_utc": "2026-10-12T18:26:33.351216+00:00",
+    "score": {
+      "accepted_count": 314,
+      "accepted_rate": 0.157,
+      "accepted_rate_ci95": [
+        0.14171502349766557,
+        0.17360011917628632
+      ],
+      "best_accepted_relocations": 1,
+      "distinct_states": 1077,
+      "energy_ground_count": 8,
+      "mean_energy": 7.271,
+      "median_accepted_relocations": 2.0,
+      "no_valid_plan": false,
+      "replay_optimal_count": 138,
+      "replay_optimal_rate": 0.069,
+      "replay_optimal_rate_ci95": [
+        0.058698094889270865,
+        0.0809544604823713
+      ],
+      "reported_plan": {
+        "independent_replay_relocations": 1,
+        "is_replay_optimal": true,
+        "moves": [
+          {
+            "container": 1,
+            "source": 1,
+            "type": "retrieve"
+          },
+          {
+            "container": 5,
+            "destination": 1,
+            "source": 3,
+            "type": "relocate"
+          },
+          {
+            "container": 2,
+            "source": 3,
+            "type": "retrieve"
+          },
+          {
+            "container": 3,
+            "source": 2,
+            "type": "retrieve"
+          },
+          {
+            "container": 4,
+            "source": 2,
+            "type": "retrieve"
+          },
+          {
+            "container": 5,
+            "source": 1,
+            "type": "retrieve"
+          },
+          {
+            "container": 6,
+            "source": 3,
+            "type": "retrieve"
+          }
+        ],
+        "relocations": 1,
+        "state": 8
+      },
+      "shots": 2000
+    },
+    "shot_count_matches_plan": true,
+    "states_file": "results/08_random-S3T4C6-21__galle__rep3__a1/states.npy",
+    "states_sha256": "08b5a898bef817ecfbd8505d8cc1b04f4207310e3e793f0e159e936147802646"
+  },
+  "schema": "sim9.2-ibm-attempt/1",
+  "slot_id": "08_random-S3T4C6-21__galle__rep3",
+  "state": "completed",
+  "tag": "sim92-5d3bf0ffe1af5dba",
+  "versions": {
+    "numpy": "2.5.3",
+    "python": "3.12.14",
+    "qiskit": "2.5.2",
+    "qiskit_aer": "0.17.2",
+    "qiskit_ibm_runtime": "0.50.0",
+    "sim_sha256": "bbd2c4473ac4540d8770d02191e505dd6c204dda4f3bac7a6085dc14b9a6dec0"
+  }
+}

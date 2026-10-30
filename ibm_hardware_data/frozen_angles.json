@@ -1,0 +1,3505 @@
+{
+  "schema": "rcrp-angles/2",
+  "entries": [
+    {
+      "angle_id": "loo:data3-3-3:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.2458926996730333,
+        -0.5536990683825883
+      ],
+      "unrounded_selected_vector": [
+        0.2458926996730333,
+        -0.5536990683825883
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:data3-3-3:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5522082029399951,
+        -0.2533214357321605
+      ],
+      "unrounded_selected_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5522082029399951,
+        -0.2533214357321605
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:data3-3-3:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.45244814062247174,
+        -0.5359844373661226,
+        -0.3503822869070048,
+        -0.15964552284790312
+      ],
+      "unrounded_selected_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.45244814062247174,
+        -0.5359844373661226,
+        -0.3503822869070048,
+        -0.15964552284790312
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:data3-3-30:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.23473889745704518,
+        -0.561832443310751
+      ],
+      "unrounded_selected_vector": [
+        0.23473889745704518,
+        -0.561832443310751
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:data3-3-30:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "unrounded_selected_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:data3-3-30:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5885578637761063,
+        -0.35522931347193687,
+        -0.15964552284790312
+      ],
+      "unrounded_selected_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5885578637761063,
+        -0.35522931347193687,
+        -0.15964552284790312
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:data3-3-8:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.2458926996730333,
+        -0.5536990683825883
+      ],
+      "unrounded_selected_vector": [
+        0.2458926996730333,
+        -0.5536990683825883
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:data3-3-8:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5522082029399951,
+        -0.2533214357321605
+      ],
+      "unrounded_selected_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5522082029399951,
+        -0.2533214357321605
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:data3-3-8:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.12997949225568797,
+        0.2401080415784995,
+        0.45244814062247174,
+        -0.5359844373661226,
+        -0.3503822869070048,
+        -0.15964552284790312
+      ],
+      "unrounded_selected_vector": [
+        0.12997949225568797,
+        0.2401080415784995,
+        0.45244814062247174,
+        -0.5359844373661226,
+        -0.3503822869070048,
+        -0.15964552284790312
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C6-12:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.23473889745704518,
+        -0.5536990683825883
+      ],
+      "unrounded_selected_vector": [
+        0.23473889745704518,
+        -0.5536990683825883
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C6-12:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5522082029399951,
+        -0.2533214357321605
+      ],
+      "unrounded_selected_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5522082029399951,
+        -0.2533214357321605
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C6-12:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5359844373661226,
+        -0.3503822869070048,
+        -0.15932799225931688
+      ],
+      "unrounded_selected_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5359844373661226,
+        -0.3503822869070048,
+        -0.15932799225931688
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C6-21:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.23473889745704518,
+        -0.561832443310751
+      ],
+      "unrounded_selected_vector": [
+        0.23473889745704518,
+        -0.561832443310751
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C6-21:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5522082029399951,
+        -0.2607101873221711
+      ],
+      "unrounded_selected_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5522082029399951,
+        -0.2607101873221711
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C6-21:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5359844373661226,
+        -0.35522931347193687,
+        -0.15932799225931688
+      ],
+      "unrounded_selected_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5359844373661226,
+        -0.35522931347193687,
+        -0.15932799225931688
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C6-24:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.23473889745704518,
+        -0.56169135554427
+      ],
+      "unrounded_selected_vector": [
+        0.23473889745704518,
+        -0.56169135554427
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C6-24:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "unrounded_selected_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C6-24:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5359844373661226,
+        -0.35522931347193687,
+        -0.15945071631339153
+      ],
+      "unrounded_selected_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5359844373661226,
+        -0.35522931347193687,
+        -0.15945071631339153
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C7-32:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.23473889745704518,
+        -0.5536990683825883
+      ],
+      "unrounded_selected_vector": [
+        0.23473889745704518,
+        -0.5536990683825883
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C7-32:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5522082029399951,
+        -0.2665598289545603
+      ],
+      "unrounded_selected_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5522082029399951,
+        -0.2665598289545603
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C7-32:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5359844373661226,
+        -0.35522931347193687,
+        -0.15964552284790312
+      ],
+      "unrounded_selected_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5359844373661226,
+        -0.35522931347193687,
+        -0.15964552284790312
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C7-7:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.23473889745704518,
+        -0.5536990683825883
+      ],
+      "unrounded_selected_vector": [
+        0.23473889745704518,
+        -0.5536990683825883
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C7-7:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.18475450182353567,
+        0.3402714873349897,
+        -0.5522082029399951,
+        -0.2533214357321605
+      ],
+      "unrounded_selected_vector": [
+        0.18475450182353567,
+        0.3402714873349897,
+        -0.5522082029399951,
+        -0.2533214357321605
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T4C7-7:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5359844373661226,
+        -0.3503822869070048,
+        -0.15932799225931688
+      ],
+      "unrounded_selected_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5359844373661226,
+        -0.3503822869070048,
+        -0.15932799225931688
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T5C7-27:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.23473889745704518,
+        -0.561832443310751
+      ],
+      "unrounded_selected_vector": [
+        0.23473889745704518,
+        -0.561832443310751
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T5C7-27:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5522082029399951,
+        -0.2533214357321605
+      ],
+      "unrounded_selected_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5522082029399951,
+        -0.2533214357321605
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S3T5C7-27:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5547704288240227,
+        -0.35522931347193687,
+        -0.15932799225931688
+      ],
+      "unrounded_selected_vector": [
+        0.12302375924262074,
+        0.22207328230798526,
+        0.4086336761924352,
+        -0.5547704288240227,
+        -0.35522931347193687,
+        -0.15932799225931688
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T3C6-16:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.2458926996730333,
+        -0.561832443310751
+      ],
+      "unrounded_selected_vector": [
+        0.2458926996730333,
+        -0.561832443310751
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T3C6-16:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.18047204389825558,
+        0.3421377912084009,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "unrounded_selected_vector": [
+        0.18047204389825558,
+        0.3421377912084009,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T3C6-16:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.45244814062247174,
+        -0.5885578637761063,
+        -0.35522931347193687,
+        -0.15932799225931688
+      ],
+      "unrounded_selected_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.45244814062247174,
+        -0.5885578637761063,
+        -0.35522931347193687,
+        -0.15932799225931688
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T3C7-44:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.24036564375020614,
+        -0.561832443310751
+      ],
+      "unrounded_selected_vector": [
+        0.24036564375020614,
+        -0.561832443310751
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T3C7-44:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "unrounded_selected_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T3C7-44:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.45244814062247174,
+        -0.5885578637761063,
+        -0.35522931347193687,
+        -0.15964552284790312
+      ],
+      "unrounded_selected_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.45244814062247174,
+        -0.5885578637761063,
+        -0.35522931347193687,
+        -0.15964552284790312
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T4C7-25:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.2458926996730333,
+        -0.561832443310751
+      ],
+      "unrounded_selected_vector": [
+        0.2458926996730333,
+        -0.561832443310751
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T4C7-25:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "unrounded_selected_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T4C7-25:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.44139743491659367,
+        -0.5885578637761063,
+        -0.3503822869070048,
+        -0.15964552284790312
+      ],
+      "unrounded_selected_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.44139743491659367,
+        -0.5885578637761063,
+        -0.3503822869070048,
+        -0.15964552284790312
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T4C7-31:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.2458926996730333,
+        -0.5536990683825883
+      ],
+      "unrounded_selected_vector": [
+        0.2458926996730333,
+        -0.5536990683825883
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T4C7-31:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5645835545486001,
+        -0.2533214357321605
+      ],
+      "unrounded_selected_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5645835545486001,
+        -0.2533214357321605
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T4C7-31:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.45244814062247174,
+        -0.5885578637761063,
+        -0.3503822869070048,
+        -0.15932799225931688
+      ],
+      "unrounded_selected_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.45244814062247174,
+        -0.5885578637761063,
+        -0.3503822869070048,
+        -0.15932799225931688
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T4C7-43:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.2458926996730333,
+        -0.5536990683825883
+      ],
+      "unrounded_selected_vector": [
+        0.2458926996730333,
+        -0.5536990683825883
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T4C7-43:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5630618295592691,
+        -0.2533214357321605
+      ],
+      "unrounded_selected_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5630618295592691,
+        -0.2533214357321605
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T4C7-43:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.45244814062247174,
+        -0.5885578637761063,
+        -0.3503822869070048,
+        -0.15932799225931688
+      ],
+      "unrounded_selected_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.45244814062247174,
+        -0.5885578637761063,
+        -0.3503822869070048,
+        -0.15932799225931688
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "excluded_equivalence_key": "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T4C8-42:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.2458926996730333,
+        -0.561832443310751
+      ],
+      "unrounded_selected_vector": [
+        0.2458926996730333,
+        -0.561832443310751
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3"
+      ],
+      "excluded_equivalence_key": "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T4C8-42:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "unrounded_selected_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3"
+      ],
+      "excluded_equivalence_key": "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "loo:random-S4T4C8-42:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.45244814062247174,
+        -0.5885578637761063,
+        -0.35044074240079703,
+        -0.15964552284790312
+      ],
+      "unrounded_selected_vector": [
+        0.13140944997964066,
+        0.2468142132486938,
+        0.45244814062247174,
+        -0.5885578637761063,
+        -0.35044074240079703,
+        -0.15964552284790312
+      ],
+      "rounding": "none; historical full precision",
+      "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3"
+      ],
+      "excluded_equivalence_key": "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0",
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "fresh:predicate:p1",
+      "method": "predicate",
+      "p": 1,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.24,
+        -0.554
+      ],
+      "unrounded_selected_vector": [
+        0.24026595337987233,
+        -0.5538401561490693
+      ],
+      "rounding": "3 decimal places; preserved historical evaluated vector",
+      "selection": "all-training median",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "fresh:predicate:p2",
+      "method": "predicate",
+      "p": 2,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.185,
+        0.346,
+        -0.554,
+        -0.259
+      ],
+      "unrounded_selected_vector": [
+        0.1847330340911294,
+        0.34641420221086044,
+        -0.5537299279293261,
+        -0.2591710773645497
+      ],
+      "rounding": "3 decimal places; preserved historical evaluated vector",
+      "selection": "all-training median",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "fresh:predicate:p3",
+      "method": "predicate",
+      "p": 3,
+      "cutoff": 5,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.124,
+        0.229,
+        0.42,
+        -0.57,
+        -0.355,
+        -0.16
+      ],
+      "unrounded_selected_vector": [
+        0.12445371696657342,
+        0.22877945397817956,
+        0.41968438189831325,
+        -0.5697718723182061,
+        -0.3551708579781446,
+        -0.15952279879382847
+      ],
+      "rounding": "3 decimal places; preserved historical evaluated vector",
+      "selection": "all-training median",
+      "training_ids": [
+        "data3-3-3",
+        "data3-3-30",
+        "data3-3-8",
+        "random-S3T4C6-12",
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S3T4C7-7",
+        "random-S3T5C7-27",
+        "random-S4T3C6-16",
+        "random-S4T3C7-44",
+        "random-S4T4C7-25",
+        "random-S4T4C7-31",
+        "random-S4T4C7-43",
+        "random-S4T4C8-42"
+      ],
+      "training_equivalence_keys": [
+        "b1e4381d83364f8beff424d57af13d4235088efb67e579d94567c8ca6f0bc8ee",
+        "41bf9ec53fdac949d6968f4339586f867f3d47a9e621ab0487d0be5574c42b4e",
+        "7f74eb184bf0da677c885270f4c1e09a8552ef2175b2acc46678b8fcd6343f2c",
+        "da96f88fd2719f244b5b34d1e137a6b306fb14c678cf4a9974c9970c2a6b74dc",
+        "9e906c463e4bf4b20dfe3a74180a3f711be65552af05d10507726d8309c808be",
+        "a388943e20d76214aa14cd0df8d69ff588babbe4cfbcfc579f4bd8b1950593a1",
+        "39087ef3546f64d3cff18fd218b9343e094f3d69490fca0ddcea2f6a5077c14d",
+        "d2d0158e0b086b907ba4e458dee3e4bc604802ad6c5e549c504e14fa61258934",
+        "4a77baa9aaedd006d4829711c0ede1ad75023570dc8e53572ed2cf1277d4bac9",
+        "b6c45019938017c16660fb76f56df3eb965d1cd7f64d2bf4a34aff6463603a3c",
+        "5a0d72c2c77e0d7e62aabd4a479a1faf8c334052ea58d6cfb71129a69a312a7c",
+        "e893395a3f71a04aa4bf6e50b242c328aa4e5e2d7ae73068f5acb1d50f44333e",
+        "61a50db1b8601283863fcea18ecb8f09c260f78443d9c2b72b475a8a28f740e5",
+        "8b5975ff523753b8163259f3c167ce8f5e4eb3df11d6846383c3067c6090cca3",
+        "70fd682cdd3fbc73ead1d99d7c0fd4dc5394d192772fe2949441dd23dd1528c0"
+      ],
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/bench_0.jsonl",
+          "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+        },
+        {
+          "path": "legacy_snapshot/results/bench_1.jsonl",
+          "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "fresh:hybrid:p1",
+      "method": "hybrid",
+      "p": 1,
+      "cutoff": 3,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.141,
+        -0.501
+      ],
+      "unrounded_selected_vector": [
+        0.14107518871793245,
+        -0.5011470002834071
+      ],
+      "rounding": "3 decimal places; preserved historical evaluated vector",
+      "selection": "maximum mean log legal amplification among 8 wrapped candidates plus median; validate separately",
+      "training_ids": [
+        "calibration:hybrid:0",
+        "calibration:hybrid:1",
+        "calibration:hybrid:2",
+        "calibration:hybrid:3",
+        "calibration:hybrid:4",
+        "calibration:hybrid:5",
+        "calibration:hybrid:6",
+        "calibration:hybrid:7"
+      ],
+      "training_equivalence_keys": [
+        "0f3367b6a39e332b5735120ec864a79497f5151570d25073adbac0d103ffbf6a",
+        "cd1ddf2e4ec2cd77f1c068070bcdedb5ccb0ec90021164833da332c4ce9effb3",
+        "c69ea611d5232f40681fc82337b2ca439845c7867b45f7ca46d5232e6a4c4f8e",
+        "1c103dcd32de6ba1449735a11f03c97c01ee0cdf0c67f757965cacc56634c013",
+        "019ca30ce51dff9dfe77c64c99ea3f014257f29aea1bae5afe949d17af0b1f4c",
+        "f54241eb3a8ea49d7ea475148bcf59a45ae27628ffe3aef44ae8a2d31f17890a",
+        "da42cda605e70fb378852b1ad3358698b3434a0f8cb67cce7fda91297243ccf3",
+        "d8453ec989b3b2eff912cf8f11a62bb060c7a2c1a9dd2ddf0fb2636838823c88"
+      ],
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/angles_hybrid.json",
+          "sha256": "275d275d27477ab99bd9b61f91cca9df38742f282c0a168d817c69a65ca8a69d"
+        },
+        {
+          "path": "legacy_snapshot/results/angles_selected.json",
+          "sha256": "bd66a66514955772d6648d3c3638e9d7d92c075dd54f071d22815797aa3f9c7d"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "fresh:hybrid:p2",
+      "method": "hybrid",
+      "p": 2,
+      "cutoff": 3,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.129,
+        0.86,
+        -0.512,
+        -0.181
+      ],
+      "unrounded_selected_vector": [
+        0.12921817465506955,
+        0.8603518953562794,
+        -0.512190818079904,
+        -0.18149737185717696
+      ],
+      "rounding": "3 decimal places; preserved historical evaluated vector",
+      "selection": "maximum mean log legal amplification among 8 wrapped candidates plus median; validate separately",
+      "training_ids": [
+        "calibration:hybrid:0",
+        "calibration:hybrid:1",
+        "calibration:hybrid:2",
+        "calibration:hybrid:3",
+        "calibration:hybrid:4",
+        "calibration:hybrid:5",
+        "calibration:hybrid:6",
+        "calibration:hybrid:7"
+      ],
+      "training_equivalence_keys": [
+        "0f3367b6a39e332b5735120ec864a79497f5151570d25073adbac0d103ffbf6a",
+        "cd1ddf2e4ec2cd77f1c068070bcdedb5ccb0ec90021164833da332c4ce9effb3",
+        "c69ea611d5232f40681fc82337b2ca439845c7867b45f7ca46d5232e6a4c4f8e",
+        "1c103dcd32de6ba1449735a11f03c97c01ee0cdf0c67f757965cacc56634c013",
+        "019ca30ce51dff9dfe77c64c99ea3f014257f29aea1bae5afe949d17af0b1f4c",
+        "f54241eb3a8ea49d7ea475148bcf59a45ae27628ffe3aef44ae8a2d31f17890a",
+        "da42cda605e70fb378852b1ad3358698b3434a0f8cb67cce7fda91297243ccf3",
+        "d8453ec989b3b2eff912cf8f11a62bb060c7a2c1a9dd2ddf0fb2636838823c88"
+      ],
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/angles_hybrid.json",
+          "sha256": "275d275d27477ab99bd9b61f91cca9df38742f282c0a168d817c69a65ca8a69d"
+        },
+        {
+          "path": "legacy_snapshot/results/angles_selected.json",
+          "sha256": "bd66a66514955772d6648d3c3638e9d7d92c075dd54f071d22815797aa3f9c7d"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "fresh:hybrid:p3",
+      "method": "hybrid",
+      "p": 3,
+      "cutoff": 3,
+      "scale_rule": "max(1,W)",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.089,
+        0.222,
+        5.5,
+        -0.494,
+        -0.19,
+        0.154
+      ],
+      "unrounded_selected_vector": [
+        0.0887228161451738,
+        0.2217329139890617,
+        5.499832112176518,
+        -0.4935374220296571,
+        -0.19014093454132364,
+        0.15361403811940266
+      ],
+      "rounding": "3 decimal places; preserved historical evaluated vector",
+      "selection": "maximum mean log legal amplification among 8 wrapped candidates plus median; validate separately",
+      "training_ids": [
+        "calibration:hybrid:0",
+        "calibration:hybrid:1",
+        "calibration:hybrid:2",
+        "calibration:hybrid:3",
+        "calibration:hybrid:4",
+        "calibration:hybrid:5",
+        "calibration:hybrid:6",
+        "calibration:hybrid:7"
+      ],
+      "training_equivalence_keys": [
+        "0f3367b6a39e332b5735120ec864a79497f5151570d25073adbac0d103ffbf6a",
+        "cd1ddf2e4ec2cd77f1c068070bcdedb5ccb0ec90021164833da332c4ce9effb3",
+        "c69ea611d5232f40681fc82337b2ca439845c7867b45f7ca46d5232e6a4c4f8e",
+        "1c103dcd32de6ba1449735a11f03c97c01ee0cdf0c67f757965cacc56634c013",
+        "019ca30ce51dff9dfe77c64c99ea3f014257f29aea1bae5afe949d17af0b1f4c",
+        "f54241eb3a8ea49d7ea475148bcf59a45ae27628ffe3aef44ae8a2d31f17890a",
+        "da42cda605e70fb378852b1ad3358698b3434a0f8cb67cce7fda91297243ccf3",
+        "d8453ec989b3b2eff912cf8f11a62bb060c7a2c1a9dd2ddf0fb2636838823c88"
+      ],
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/angles_hybrid.json",
+          "sha256": "275d275d27477ab99bd9b61f91cca9df38742f282c0a168d817c69a65ca8a69d"
+        },
+        {
+          "path": "legacy_snapshot/results/angles_selected.json",
+          "sha256": "bd66a66514955772d6648d3c3638e9d7d92c075dd54f071d22815797aa3f9c7d"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "fresh:galle:p1",
+      "method": "galle",
+      "p": 1,
+      "cutoff": null,
+      "scale_rule": "max(1,abs(QUBO linear and quadratic coefficients))",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.696,
+        -0.482
+      ],
+      "unrounded_selected_vector": [
+        0.6959036290636184,
+        -0.4824110700833599
+      ],
+      "rounding": "3 decimal places; preserved historical evaluated vector",
+      "selection": "maximum mean log legal amplification among 8 wrapped candidates plus median; validate separately",
+      "training_ids": [
+        "calibration:galle:0",
+        "calibration:galle:1",
+        "calibration:galle:2",
+        "calibration:galle:3",
+        "calibration:galle:4",
+        "calibration:galle:5",
+        "calibration:galle:6",
+        "calibration:galle:7"
+      ],
+      "training_equivalence_keys": [
+        "549d383e0060f0aa5de5e62a0a89e67d4c971969cdf222d096381445c1ce7969",
+        "92a3faae2c14fa4b041ac1e559f2b979196b45aea22199f77e4d0e9e4940d35a",
+        "b639a92d80ee75634481af725e85ba2487505bbce2b42524911d33737b368997",
+        "7e6912d14c844065c2919bc4c83685f63eefafd735fc019d5408ff389e328e34",
+        "c057976b2baf11d5360eb6bc19bf706a484b2bf2b378313b76b02fdba3e76456",
+        "48fb0d0662df32bdeab126fa9cd6ac953724ee82d171ab3cc7b39e2570a4f0fd",
+        "ee0db89a5e5864e676fef8193a8f243300a07f8b70c1f28308f13e08aa1e2df0",
+        "38be75bf6b48f6c845efac33b3d76eebfb6402542e4321f40e8bec82dd468e99"
+      ],
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/angles_galle.json",
+          "sha256": "3d63865dfa7ab3f2fa6094539ebd33af4739c3ee8cd75888933cb3371fcf325f"
+        },
+        {
+          "path": "legacy_snapshot/results/angles_selected.json",
+          "sha256": "bd66a66514955772d6648d3c3638e9d7d92c075dd54f071d22815797aa3f9c7d"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "fresh:galle:p2",
+      "method": "galle",
+      "p": 2,
+      "cutoff": null,
+      "scale_rule": "max(1,abs(QUBO linear and quadratic coefficients))",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.647,
+        -2.595,
+        -0.409,
+        0.211
+      ],
+      "unrounded_selected_vector": [
+        0.6468080011485031,
+        -2.595443641440264,
+        -0.4089712469686331,
+        0.21101341103084592
+      ],
+      "rounding": "3 decimal places; preserved historical evaluated vector",
+      "selection": "maximum mean log legal amplification among 8 wrapped candidates plus median; validate separately",
+      "training_ids": [
+        "calibration:galle:0",
+        "calibration:galle:1",
+        "calibration:galle:2",
+        "calibration:galle:3",
+        "calibration:galle:4",
+        "calibration:galle:5",
+        "calibration:galle:6",
+        "calibration:galle:7"
+      ],
+      "training_equivalence_keys": [
+        "549d383e0060f0aa5de5e62a0a89e67d4c971969cdf222d096381445c1ce7969",
+        "92a3faae2c14fa4b041ac1e559f2b979196b45aea22199f77e4d0e9e4940d35a",
+        "b639a92d80ee75634481af725e85ba2487505bbce2b42524911d33737b368997",
+        "7e6912d14c844065c2919bc4c83685f63eefafd735fc019d5408ff389e328e34",
+        "c057976b2baf11d5360eb6bc19bf706a484b2bf2b378313b76b02fdba3e76456",
+        "48fb0d0662df32bdeab126fa9cd6ac953724ee82d171ab3cc7b39e2570a4f0fd",
+        "ee0db89a5e5864e676fef8193a8f243300a07f8b70c1f28308f13e08aa1e2df0",
+        "38be75bf6b48f6c845efac33b3d76eebfb6402542e4321f40e8bec82dd468e99"
+      ],
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/angles_galle.json",
+          "sha256": "3d63865dfa7ab3f2fa6094539ebd33af4739c3ee8cd75888933cb3371fcf325f"
+        },
+        {
+          "path": "legacy_snapshot/results/angles_selected.json",
+          "sha256": "bd66a66514955772d6648d3c3638e9d7d92c075dd54f071d22815797aa3f9c7d"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    },
+    {
+      "angle_id": "fresh:galle:p3",
+      "method": "galle",
+      "p": 3,
+      "cutoff": null,
+      "scale_rule": "max(1,abs(QUBO linear and quadratic coefficients))",
+      "parameter_order": "gamma_then_beta",
+      "evaluated_vector": [
+        0.511,
+        -0.391,
+        -3.013,
+        -1.02,
+        0.49,
+        0.212
+      ],
+      "unrounded_selected_vector": [
+        0.5108821572995079,
+        -0.3912724944086078,
+        -3.013489483050864,
+        -1.0195860926530138,
+        0.48964763069310946,
+        0.21172616995774352
+      ],
+      "rounding": "3 decimal places; preserved historical evaluated vector",
+      "selection": "maximum mean log legal amplification among 8 wrapped candidates plus median; validate separately",
+      "training_ids": [
+        "calibration:galle:0",
+        "calibration:galle:1",
+        "calibration:galle:2",
+        "calibration:galle:3",
+        "calibration:galle:4",
+        "calibration:galle:5",
+        "calibration:galle:6",
+        "calibration:galle:7"
+      ],
+      "training_equivalence_keys": [
+        "549d383e0060f0aa5de5e62a0a89e67d4c971969cdf222d096381445c1ce7969",
+        "92a3faae2c14fa4b041ac1e559f2b979196b45aea22199f77e4d0e9e4940d35a",
+        "b639a92d80ee75634481af725e85ba2487505bbce2b42524911d33737b368997",
+        "7e6912d14c844065c2919bc4c83685f63eefafd735fc019d5408ff389e328e34",
+        "c057976b2baf11d5360eb6bc19bf706a484b2bf2b378313b76b02fdba3e76456",
+        "48fb0d0662df32bdeab126fa9cd6ac953724ee82d171ab3cc7b39e2570a4f0fd",
+        "ee0db89a5e5864e676fef8193a8f243300a07f8b70c1f28308f13e08aa1e2df0",
+        "38be75bf6b48f6c845efac33b3d76eebfb6402542e4321f40e8bec82dd468e99"
+      ],
+      "dependencies": [
+        {
+          "path": "legacy_snapshot/results/angles_galle.json",
+          "sha256": "3d63865dfa7ab3f2fa6094539ebd33af4739c3ee8cd75888933cb3371fcf325f"
+        },
+        {
+          "path": "legacy_snapshot/results/angles_selected.json",
+          "sha256": "bd66a66514955772d6648d3c3638e9d7d92c075dd54f071d22815797aa3f9c7d"
+        }
+      ],
+      "historical_optimizer_nfev": null
+    }
+  ],
+  "retuned": false,
+  "dependencies": [
+    {
+      "path": "legacy_snapshot/results/bench_0.jsonl",
+      "sha256": "79e3dbc1740a704c1761a630fd94539744f5f29d56fdebaaf6886d880484066a"
+    },
+    {
+      "path": "legacy_snapshot/results/bench_1.jsonl",
+      "sha256": "25f68755a0303945294a96d256c0b226a5b8eb8f2642fdbc9c0c02d20883a9fe"
+    }
+  ]
+}

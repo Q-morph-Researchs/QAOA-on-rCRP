@@ -1,0 +1,29 @@
+ABOUT THIS FOLDER: JOBS
+=======================
+
+One folder per hardware job (40), named like
+38_data3-3-8__predicate__rep3__a1: the job slot (submission order), the
+pairing, the repeat number (1 to 5) and the attempt number (always a1).
+
+Each job folder has three files:
+- raw_result.json: what IBM sent back. "counts" maps each measured bit
+  string to how many times it came up; the counts add up to 2,000.
+- states.npy: the same 2,000 shots as integers, in the order IBM returned
+  them. Load it with numpy.load. Bit i of a shot is (state >> i) & 1.
+- job_record.json: the IBM job ID, timing, the identity checks (did IBM run
+  exactly the circuit we sent?), which circuit version it used and the QPU
+  time charged.
+
+To check a shot count yourself:
+
+    import json
+    r = json.load(open("38_data3-3-8__predicate__rep3__a1/raw_result.json"))
+    print(sum(r["counts"].values()))   # 2000
+
+NAMES USED IN THE FILES
+- random-S3T4C6-21 = bay A, random-S3T4C6-24 = bay B, random-S3T4C7-32 = bay
+  C, random-S4T3C6-16 = bay D, data3-3-8 = bay E.
+- "galle" = the QUBO-based encoding (named after the Galle et al. model).
+  "predicate" = the predicate-based encoding.
+- "accepted" = what the paper calls a legal plan. "replay-optimal" = an
+  optimal plan.

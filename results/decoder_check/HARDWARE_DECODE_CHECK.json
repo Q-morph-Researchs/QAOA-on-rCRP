@@ -1,0 +1,446 @@
+{
+  "jobs": 40,
+  "shots": 80000,
+  "passed": true,
+  "rows": [
+    {
+      "attempt": "01_random-S3T4C6-21__predicate__rep1__a1",
+      "shots": 2000,
+      "legal_count": 290,
+      "relocation_histogram": {
+        "1": 74,
+        "2": 216
+      },
+      "saved_legal_count": 290,
+      "passed": true
+    },
+    {
+      "attempt": "02_random-S3T4C6-21__predicate__rep2__a1",
+      "shots": 2000,
+      "legal_count": 272,
+      "relocation_histogram": {
+        "1": 83,
+        "2": 189
+      },
+      "saved_legal_count": 272,
+      "passed": true
+    },
+    {
+      "attempt": "03_random-S3T4C6-21__predicate__rep3__a1",
+      "shots": 2000,
+      "legal_count": 256,
+      "relocation_histogram": {
+        "1": 73,
+        "2": 183
+      },
+      "saved_legal_count": 256,
+      "passed": true
+    },
+    {
+      "attempt": "04_random-S3T4C6-21__predicate__rep4__a1",
+      "shots": 2000,
+      "legal_count": 270,
+      "relocation_histogram": {
+        "1": 62,
+        "2": 208
+      },
+      "saved_legal_count": 270,
+      "passed": true
+    },
+    {
+      "attempt": "05_random-S3T4C6-21__predicate__rep5__a1",
+      "shots": 2000,
+      "legal_count": 280,
+      "relocation_histogram": {
+        "1": 62,
+        "2": 218
+      },
+      "saved_legal_count": 280,
+      "passed": true
+    },
+    {
+      "attempt": "06_random-S3T4C6-21__galle__rep1__a1",
+      "shots": 2000,
+      "legal_count": 322,
+      "relocation_histogram": {
+        "1": 134,
+        "2": 188
+      },
+      "saved_legal_count": 322,
+      "passed": true
+    },
+    {
+      "attempt": "07_random-S3T4C6-21__galle__rep2__a1",
+      "shots": 2000,
+      "legal_count": 309,
+      "relocation_histogram": {
+        "1": 109,
+        "2": 200
+      },
+      "saved_legal_count": 309,
+      "passed": true
+    },
+    {
+      "attempt": "08_random-S3T4C6-21__galle__rep3__a1",
+      "shots": 2000,
+      "legal_count": 314,
+      "relocation_histogram": {
+        "1": 138,
+        "2": 176
+      },
+      "saved_legal_count": 314,
+      "passed": true
+    },
+    {
+      "attempt": "09_random-S3T4C6-21__galle__rep4__a1",
+      "shots": 2000,
+      "legal_count": 320,
+      "relocation_histogram": {
+        "1": 126,
+        "2": 194
+      },
+      "saved_legal_count": 320,
+      "passed": true
+    },
+    {
+      "attempt": "10_random-S3T4C6-21__galle__rep5__a1",
+      "shots": 2000,
+      "legal_count": 303,
+      "relocation_histogram": {
+        "1": 121,
+        "2": 182
+      },
+      "saved_legal_count": 303,
+      "passed": true
+    },
+    {
+      "attempt": "11_random-S3T4C6-24__galle__rep1__a1",
+      "shots": 2000,
+      "legal_count": 103,
+      "relocation_histogram": {
+        "3": 86,
+        "2": 17
+      },
+      "saved_legal_count": 103,
+      "passed": true
+    },
+    {
+      "attempt": "12_random-S3T4C6-24__galle__rep2__a1",
+      "shots": 2000,
+      "legal_count": 81,
+      "relocation_histogram": {
+        "3": 72,
+        "2": 9
+      },
+      "saved_legal_count": 81,
+      "passed": true
+    },
+    {
+      "attempt": "13_random-S3T4C6-24__galle__rep3__a1",
+      "shots": 2000,
+      "legal_count": 87,
+      "relocation_histogram": {
+        "3": 74,
+        "2": 13
+      },
+      "saved_legal_count": 87,
+      "passed": true
+    },
+    {
+      "attempt": "14_random-S3T4C6-24__galle__rep4__a1",
+      "shots": 2000,
+      "legal_count": 100,
+      "relocation_histogram": {
+        "3": 85,
+        "2": 15
+      },
+      "saved_legal_count": 100,
+      "passed": true
+    },
+    {
+      "attempt": "15_random-S3T4C6-24__galle__rep5__a1",
+      "shots": 2000,
+      "legal_count": 99,
+      "relocation_histogram": {
+        "3": 84,
+        "2": 15
+      },
+      "saved_legal_count": 99,
+      "passed": true
+    },
+    {
+      "attempt": "16_random-S3T4C6-24__predicate__rep1__a1",
+      "shots": 2000,
+      "legal_count": 66,
+      "relocation_histogram": {
+        "3": 47,
+        "2": 19
+      },
+      "saved_legal_count": 66,
+      "passed": true
+    },
+    {
+      "attempt": "17_random-S3T4C6-24__predicate__rep2__a1",
+      "shots": 2000,
+      "legal_count": 81,
+      "relocation_histogram": {
+        "3": 55,
+        "2": 26
+      },
+      "saved_legal_count": 81,
+      "passed": true
+    },
+    {
+      "attempt": "18_random-S3T4C6-24__predicate__rep3__a1",
+      "shots": 2000,
+      "legal_count": 81,
+      "relocation_histogram": {
+        "3": 55,
+        "2": 26
+      },
+      "saved_legal_count": 81,
+      "passed": true
+    },
+    {
+      "attempt": "19_random-S3T4C6-24__predicate__rep4__a1",
+      "shots": 2000,
+      "legal_count": 70,
+      "relocation_histogram": {
+        "3": 50,
+        "2": 20
+      },
+      "saved_legal_count": 70,
+      "passed": true
+    },
+    {
+      "attempt": "20_random-S3T4C6-24__predicate__rep5__a1",
+      "shots": 2000,
+      "legal_count": 77,
+      "relocation_histogram": {
+        "3": 57,
+        "2": 20
+      },
+      "saved_legal_count": 77,
+      "passed": true
+    },
+    {
+      "attempt": "21_random-S3T4C7-32__predicate__rep1__a1",
+      "shots": 2000,
+      "legal_count": 83,
+      "relocation_histogram": {
+        "1": 11,
+        "2": 72
+      },
+      "saved_legal_count": 83,
+      "passed": true
+    },
+    {
+      "attempt": "22_random-S3T4C7-32__predicate__rep2__a1",
+      "shots": 2000,
+      "legal_count": 66,
+      "relocation_histogram": {
+        "1": 12,
+        "2": 54
+      },
+      "saved_legal_count": 66,
+      "passed": true
+    },
+    {
+      "attempt": "23_random-S3T4C7-32__predicate__rep3__a1",
+      "shots": 2000,
+      "legal_count": 76,
+      "relocation_histogram": {
+        "1": 11,
+        "2": 65
+      },
+      "saved_legal_count": 76,
+      "passed": true
+    },
+    {
+      "attempt": "24_random-S3T4C7-32__predicate__rep4__a1",
+      "shots": 2000,
+      "legal_count": 82,
+      "relocation_histogram": {
+        "1": 23,
+        "2": 59
+      },
+      "saved_legal_count": 82,
+      "passed": true
+    },
+    {
+      "attempt": "25_random-S3T4C7-32__predicate__rep5__a1",
+      "shots": 2000,
+      "legal_count": 84,
+      "relocation_histogram": {
+        "1": 11,
+        "2": 73
+      },
+      "saved_legal_count": 84,
+      "passed": true
+    },
+    {
+      "attempt": "26_random-S3T4C7-32__galle__rep1__a1",
+      "shots": 2000,
+      "legal_count": 52,
+      "relocation_histogram": {
+        "1": 22,
+        "2": 30
+      },
+      "saved_legal_count": 52,
+      "passed": true
+    },
+    {
+      "attempt": "27_random-S3T4C7-32__galle__rep2__a1",
+      "shots": 2000,
+      "legal_count": 91,
+      "relocation_histogram": {
+        "1": 51,
+        "2": 40
+      },
+      "saved_legal_count": 91,
+      "passed": true
+    },
+    {
+      "attempt": "28_random-S3T4C7-32__galle__rep3__a1",
+      "shots": 2000,
+      "legal_count": 80,
+      "relocation_histogram": {
+        "1": 35,
+        "2": 45
+      },
+      "saved_legal_count": 80,
+      "passed": true
+    },
+    {
+      "attempt": "29_random-S3T4C7-32__galle__rep4__a1",
+      "shots": 2000,
+      "legal_count": 79,
+      "relocation_histogram": {
+        "1": 31,
+        "2": 48
+      },
+      "saved_legal_count": 79,
+      "passed": true
+    },
+    {
+      "attempt": "30_random-S3T4C7-32__galle__rep5__a1",
+      "shots": 2000,
+      "legal_count": 85,
+      "relocation_histogram": {
+        "1": 34,
+        "2": 51
+      },
+      "saved_legal_count": 85,
+      "passed": true
+    },
+    {
+      "attempt": "31_random-S4T3C6-16__predicate__rep1__a1",
+      "shots": 2000,
+      "legal_count": 184,
+      "relocation_histogram": {
+        "2": 165,
+        "3": 19
+      },
+      "saved_legal_count": 184,
+      "passed": true
+    },
+    {
+      "attempt": "32_random-S4T3C6-16__predicate__rep2__a1",
+      "shots": 2000,
+      "legal_count": 167,
+      "relocation_histogram": {
+        "2": 151,
+        "3": 16
+      },
+      "saved_legal_count": 167,
+      "passed": true
+    },
+    {
+      "attempt": "33_random-S4T3C6-16__predicate__rep3__a1",
+      "shots": 2000,
+      "legal_count": 157,
+      "relocation_histogram": {
+        "2": 143,
+        "3": 14
+      },
+      "saved_legal_count": 157,
+      "passed": true
+    },
+    {
+      "attempt": "34_random-S4T3C6-16__predicate__rep4__a1",
+      "shots": 2000,
+      "legal_count": 155,
+      "relocation_histogram": {
+        "2": 140,
+        "3": 15
+      },
+      "saved_legal_count": 155,
+      "passed": true
+    },
+    {
+      "attempt": "35_random-S4T3C6-16__predicate__rep5__a1",
+      "shots": 2000,
+      "legal_count": 152,
+      "relocation_histogram": {
+        "2": 128,
+        "3": 24
+      },
+      "saved_legal_count": 152,
+      "passed": true
+    },
+    {
+      "attempt": "36_data3-3-8__predicate__rep1__a1",
+      "shots": 2000,
+      "legal_count": 21,
+      "relocation_histogram": {
+        "3": 13,
+        "2": 8
+      },
+      "saved_legal_count": 21,
+      "passed": true
+    },
+    {
+      "attempt": "37_data3-3-8__predicate__rep2__a1",
+      "shots": 2000,
+      "legal_count": 38,
+      "relocation_histogram": {
+        "3": 27,
+        "2": 11
+      },
+      "saved_legal_count": 38,
+      "passed": true
+    },
+    {
+      "attempt": "38_data3-3-8__predicate__rep3__a1",
+      "shots": 2000,
+      "legal_count": 13,
+      "relocation_histogram": {
+        "3": 13
+      },
+      "saved_legal_count": 13,
+      "passed": true
+    },
+    {
+      "attempt": "39_data3-3-8__predicate__rep4__a1",
+      "shots": 2000,
+      "legal_count": 23,
+      "relocation_histogram": {
+        "3": 17,
+        "2": 6
+      },
+      "saved_legal_count": 23,
+      "passed": true
+    },
+    {
+      "attempt": "40_data3-3-8__predicate__rep5__a1",
+      "shots": 2000,
+      "legal_count": 21,
+      "relocation_histogram": {
+        "3": 12,
+        "2": 9
+      },
+      "saved_legal_count": 21,
+      "passed": true
+    }
+  ]
+}

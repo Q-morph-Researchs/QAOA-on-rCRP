@@ -1,0 +1,15 @@
+ABOUT THIS FOLDER: CLASSICAL
+============================
+
+The classical comparison methods (paper Section 2.7). None of them uses any
+QAOA code.
+- galle_milp.py: the exact MILP (the Galle et al. CRP-I model, solved with
+  HiGHS through SciPy, no hints and zero optimality gap).
+- greedy.py: the greedy rule.
+- sa_matched.py: simulated annealing with 2,000 candidates per run, the same
+  number as the shots in one QAOA job.
+- calibration_bridge.py: checks that all 40 hardware jobs used their frozen
+  angles and circuits.
+- common.py, sim9_bridge.py: shared helpers and a read-only link to
+  Sim9_2.py for building the energy tables. The results are in
+  results/classical/.

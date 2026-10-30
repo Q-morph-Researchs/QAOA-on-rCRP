@@ -1,0 +1,34 @@
+{
+  "angle_id": "fresh:galle:p2",
+  "backend": "ibm_fez",
+  "backend_version": "1.3.37",
+  "case": "random-S3T4C7-32",
+  "check_sha256": "ba763708f6e9be13ac264a6b8c792b66e4285d5ecb60ea11ebf0427158ecead5",
+  "compile": {
+    "optimization_level": 3,
+    "seed_transpiler": 11
+  },
+  "compiled_two_qubit": 372,
+  "isa_sha256": "c2982d71b553bc0b209a70fb581df5bc1717a01fc5616588127c2b92dca0ba8a",
+  "item": "random-S3T4C7-32__galle",
+  "logical_sha256": "85ad43eb457bc9c506c19dc771481a751db75c4ec3bd9d58a398fae0715fb45f",
+  "method": "galle",
+  "prepared_utc": "2026-10-14T20:05:48.596109+00:00",
+  "qubits": 15,
+  "snapshot_sha256": "20ff590603c32724d4ae06998f1436b81e216f5373aa9e6281339352b3d03e60",
+  "theta": [
+    0.647,
+    -2.595,
+    -0.409,
+    0.211
+  ],
+  "version": 2,
+  "versions": {
+    "numpy": "2.5.3",
+    "python": "3.12.14",
+    "qiskit": "2.5.2",
+    "qiskit_aer": "0.17.2",
+    "qiskit_ibm_runtime": "0.50.0",
+    "sim_sha256": "bbd2c4473ac4540d8770d02191e505dd6c204dda4f3bac7a6085dc14b9a6dec0"
+  }
+}

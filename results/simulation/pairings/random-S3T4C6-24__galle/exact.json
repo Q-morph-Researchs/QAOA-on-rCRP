@@ -1,0 +1,20 @@
+{
+  "case": "random-S3T4C6-24",
+  "method": "galle",
+  "n": 12,
+  "theta": [
+    0.647,
+    -2.595,
+    -0.409,
+    0.211
+  ],
+  "scale": 8.0,
+  "states": 4096,
+  "legal_states": 96,
+  "optimal_states": 32,
+  "uniform_legal": 0.0234375,
+  "uniform_optimal": 0.0078125,
+  "ideal_legal": 0.08782521191713472,
+  "ideal_optimal": 0.034680867191230445,
+  "enumeration_seconds": 3.099974666009075
+}

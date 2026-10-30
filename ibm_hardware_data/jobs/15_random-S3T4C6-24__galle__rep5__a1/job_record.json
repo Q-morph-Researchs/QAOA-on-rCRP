@@ -1,0 +1,233 @@
+{
+  "accounting": {
+    "error": null,
+    "field": "metrics.usage.qpu_charge_time_seconds (status 'complete')",
+    "history": [
+      {
+        "field": "metrics.usage.qpu_charge_time_seconds (status 'complete')",
+        "job_terminal": true,
+        "observed_utc": "2026-10-12T19:55:14.136604+00:00",
+        "raw_usage": {
+          "details": [
+            {
+              "metric": {
+                "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+                "value": 3
+              },
+              "unit": "resource_units",
+              "value": 0.0374
+            }
+          ],
+          "qpu_charge_time_seconds": 3,
+          "status": "complete",
+          "unit": "resource_units",
+          "value": 0.0374
+        },
+        "sdk_job_usage": 3,
+        "seconds": 3.0,
+        "status": "final"
+      }
+    ],
+    "observed_utc": "2026-10-12T19:55:14.136604+00:00",
+    "raw_usage": {
+      "details": [
+        {
+          "metric": {
+            "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+            "value": 3
+          },
+          "unit": "resource_units",
+          "value": 0.0374
+        }
+      ],
+      "qpu_charge_time_seconds": 3,
+      "status": "complete",
+      "unit": "resource_units",
+      "value": 0.0374
+    },
+    "sdk_job_usage": 3,
+    "seconds": 3.0,
+    "status": "final"
+  },
+  "allowance_before": {
+    "available": true,
+    "raw": {
+      "usage_consumed_ru": 0.5241,
+      "usage_consumed_seconds": 42,
+      "usage_limit_reached": false,
+      "usage_limit_ru": 10,
+      "usage_limit_seconds": 600,
+      "usage_period": {
+        "end_time": "2026-10-12T19:54:22.846Z",
+        "start_time": "2026-09-14T19:54:22.846Z"
+      },
+      "usage_remaining_seconds": 558
+    },
+    "remaining_seconds": 558.0,
+    "user_reported_remaining_seconds": 558.0
+  },
+  "analysis_role": "primary",
+  "attempt_id": "15_random-S3T4C6-24__galle__rep5__a1",
+  "attempt_no": 1,
+  "backend": "ibm_fez",
+  "budget_before": {
+    "committed_seconds": 42.0,
+    "final_confirmed_seconds": 42.0,
+    "study_cap_seconds": 300.0,
+    "study_headroom_seconds": 258.0,
+    "unresolved_reserved_seconds": 0
+  },
+  "case": "random-S3T4C6-24",
+  "created_utc": "2026-10-12T19:54:22.907376+00:00",
+  "data_kind": "HARDWARE",
+  "history": [
+    {
+      "from_state": null,
+      "note": "reservation recorded before dispatch",
+      "to_state": "submitting",
+      "utc": "2026-10-12T19:54:22.908713+00:00"
+    },
+    {
+      "from_state": "submitting",
+      "note": "IBM accepted the job",
+      "to_state": "submitted",
+      "utc": "2026-10-12T19:54:24.608887+00:00"
+    },
+    {
+      "from_state": "submitted",
+      "note": "collect: IBM status DONE; accounting final",
+      "to_state": "completed",
+      "utc": "2026-10-12T19:55:15.129812+00:00"
+    }
+  ],
+  "identity": {
+    "backend": "ibm_fez",
+    "checked_utc": "2026-10-12T19:55:13.063543+00:00",
+    "input_circuit": "equal to frozen ISA circuit",
+    "input_shots": 2000,
+    "instance": "[REDACTED: IBM instance CRN]",
+    "tag": "sim92-c8df8b146ead4159"
+  },
+  "instance_crn": "[REDACTED: IBM instance CRN]",
+  "job_id": "db6jls2mb58s738bub4g",
+  "method": "galle",
+  "options": {
+    "dynamical_decoupling": false,
+    "job_tags": [
+      "sim9.2-rcrp",
+      "sim92-c8df8b146ead4159"
+    ],
+    "max_execution_time": 30,
+    "twirling_gates": false,
+    "twirling_measure": false
+  },
+  "planned_shots": 2000,
+  "prep": {
+    "age_seconds": 8651.4,
+    "angle_id": "fresh:galle:p2",
+    "isa_sha256": "784b8cfafc9985b6e9f28c2f3cdf8e1bc4874aee810adde9f34780c3e49e6cd5",
+    "item": "random-S3T4C6-24__galle",
+    "prepared_utc": "2026-10-12T17:29:54.272641+00:00",
+    "theta": [
+      0.647,
+      -2.595,
+      -0.409,
+      0.211
+    ],
+    "version": 1
+  },
+  "repetition": 5,
+  "replacement_reason": null,
+  "replaces": null,
+  "reservation_seconds": 30.0,
+  "results": {
+    "executed_shots": 2000,
+    "saved_utc": "2026-10-12T19:55:14.136585+00:00",
+    "score": {
+      "accepted_count": 99,
+      "accepted_rate": 0.0495,
+      "accepted_rate_ci95": [
+        0.04082710995475903,
+        0.059900213003303136
+      ],
+      "best_accepted_relocations": 2,
+      "distinct_states": 1260,
+      "energy_ground_count": 3,
+      "mean_energy": 15.728,
+      "median_accepted_relocations": 3.0,
+      "no_valid_plan": false,
+      "replay_optimal_count": 15,
+      "replay_optimal_rate": 0.0075,
+      "replay_optimal_rate_ci95": [
+        0.004550336456172238,
+        0.012338024380333004
+      ],
+      "reported_plan": {
+        "independent_replay_relocations": 2,
+        "is_replay_optimal": true,
+        "moves": [
+          {
+            "container": 1,
+            "source": 1,
+            "type": "retrieve"
+          },
+          {
+            "container": 6,
+            "destination": 2,
+            "source": 1,
+            "type": "relocate"
+          },
+          {
+            "container": 2,
+            "source": 1,
+            "type": "retrieve"
+          },
+          {
+            "container": 3,
+            "source": 3,
+            "type": "retrieve"
+          },
+          {
+            "container": 6,
+            "destination": 3,
+            "source": 2,
+            "type": "relocate"
+          },
+          {
+            "container": 4,
+            "source": 2,
+            "type": "retrieve"
+          },
+          {
+            "container": 5,
+            "source": 1,
+            "type": "retrieve"
+          },
+          {
+            "container": 6,
+            "source": 3,
+            "type": "retrieve"
+          }
+        ],
+        "relocations": 2,
+        "state": 722
+      },
+      "shots": 2000
+    },
+    "shot_count_matches_plan": true,
+    "states_file": "results/15_random-S3T4C6-24__galle__rep5__a1/states.npy",
+    "states_sha256": "f8d40ffcad332394ced44bd14d485b2832ee209e2b706490d896aa81f6862785"
+  },
+  "schema": "sim9.2-ibm-attempt/1",
+  "slot_id": "15_random-S3T4C6-24__galle__rep5",
+  "state": "completed",
+  "tag": "sim92-c8df8b146ead4159",
+  "versions": {
+    "numpy": "2.5.3",
+    "python": "3.12.14",
+    "qiskit": "2.5.2",
+    "qiskit_aer": "0.17.2",
+    "qiskit_ibm_runtime": "0.50.0",
+    "sim_sha256": "bbd2c4473ac4540d8770d02191e505dd6c204dda4f3bac7a6085dc14b9a6dec0"
+  }
+}

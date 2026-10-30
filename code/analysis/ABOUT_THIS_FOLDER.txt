@@ -1,0 +1,16 @@
+ABOUT THIS FOLDER: ANALYSIS
+===========================
+
+The scripts that turned the raw data into the results tables.
+- build_sorted.py: builds the sorted job table, the per-bay summary and the
+  Excel workbook (results/tables/).
+- build_analysis.py: rebuilds the analysis tables from the saved evidence.
+- esp.py: computes the estimated success probability (ESP) of each compiled
+  circuit from IBM's calibration data (Appendix Table A4).
+- build_ibm_database.py: builds the SQLite results database
+  (results/database/).
+- queries.sql: example SQL queries for the database.
+
+HEADS-UP
+These point to folders on our own computers, so they won't run unchanged on
+yours. They're here to show how the tables were made.

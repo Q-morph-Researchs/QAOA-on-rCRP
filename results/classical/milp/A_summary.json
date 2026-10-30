@@ -1,0 +1,102 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "executable": "/Users/radin/Downloads/QAOA_IBM_Hardware_Study_2026_10_10_v1/.venv/bin/python",
+    "platform": "macOS-15.6-arm64-arm-64bit",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "highs": "1.12.0",
+    "threads": {
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2",
+      "VECLIB_MAXIMUM_THREADS": "2"
+    }
+  },
+  "rows": [
+    {
+      "case": "random-S3T4C6-21",
+      "milp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "milp_objective": 1.0,
+      "milp_bound": 1.0,
+      "optimality_proven": true,
+      "milp_objective_with_preprocessing": 1.0,
+      "plan_reconstructed": true,
+      "replay_legal": true,
+      "replay_relocations": 1,
+      "independent_bfs_optimum": 1,
+      "claimed_optimum": 1,
+      "runtime_seconds": 0.0056,
+      "variables": 142,
+      "constraints": 578,
+      "verdict": "MATCH"
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "milp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "milp_objective": 2.0,
+      "milp_bound": 2.0,
+      "optimality_proven": true,
+      "milp_objective_with_preprocessing": 2.0,
+      "plan_reconstructed": true,
+      "replay_legal": true,
+      "replay_relocations": 2,
+      "independent_bfs_optimum": 2,
+      "claimed_optimum": 2,
+      "runtime_seconds": 0.0022,
+      "variables": 142,
+      "constraints": 578,
+      "verdict": "MATCH"
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "milp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "milp_objective": 1.0,
+      "milp_bound": 1.0,
+      "optimality_proven": true,
+      "milp_objective_with_preprocessing": 1.0,
+      "plan_reconstructed": true,
+      "replay_legal": true,
+      "replay_relocations": 1,
+      "independent_bfs_optimum": 1,
+      "claimed_optimum": 1,
+      "runtime_seconds": 0.0028,
+      "variables": 212,
+      "constraints": 963,
+      "verdict": "MATCH"
+    },
+    {
+      "case": "random-S4T3C6-16",
+      "milp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "milp_objective": 2.0,
+      "milp_bound": 2.0,
+      "optimality_proven": true,
+      "milp_objective_with_preprocessing": 2.0,
+      "plan_reconstructed": true,
+      "replay_legal": true,
+      "replay_relocations": 2,
+      "independent_bfs_optimum": 2,
+      "claimed_optimum": 2,
+      "runtime_seconds": 0.0021,
+      "variables": 140,
+      "constraints": 584,
+      "verdict": "MATCH"
+    },
+    {
+      "case": "data3-3-8",
+      "milp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "milp_objective": 2.0,
+      "milp_bound": 2.0,
+      "optimality_proven": true,
+      "milp_objective_with_preprocessing": 2.0,
+      "plan_reconstructed": true,
+      "replay_legal": true,
+      "replay_relocations": 2,
+      "independent_bfs_optimum": 2,
+      "claimed_optimum": 2,
+      "runtime_seconds": 0.0053,
+      "variables": 408,
+      "constraints": 2152,
+      "verdict": "MATCH"
+    }
+  ]
+}

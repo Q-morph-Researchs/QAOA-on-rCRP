@@ -1,0 +1,365 @@
+{
+  "case": "data3-3-8",
+  "formulation": "Galle et al. 2018 CRP-I (plain)",
+  "preprocessing": false,
+  "input": {
+    "stacks_bottom_to_top": [
+      [
+        9,
+        2,
+        4
+      ],
+      [
+        8,
+        7,
+        1
+      ],
+      [
+        5,
+        6,
+        3
+      ]
+    ],
+    "capacity_T": 5,
+    "containers_C": 9,
+    "stacks_S": 3,
+    "N": 7
+  },
+  "variables_total": 408,
+  "variable_categories": {
+    "a[n,c,d]: container c below container d at stage n": 280,
+    "a[n,C+s,d]: container d in stack s at stage n": 126,
+    "b[d]: terminal blocking flag, d=N+1..C": 2
+  },
+  "constraints_total": 2152,
+  "constraint_categories": {
+    "1": {
+      "count": 108,
+      "meaning": "stage-1 variables equal the initial configuration's binary encoding"
+    },
+    "2": {
+      "count": 33,
+      "meaning": "each remaining container is in exactly one stack (n>=2)"
+    },
+    "3": {
+      "count": 33,
+      "meaning": "a container is not below itself (n>=2)"
+    },
+    "4": {
+      "count": 166,
+      "meaning": "c below d and d below c cannot both hold (n>=2)"
+    },
+    "5": {
+      "count": 498,
+      "meaning": "two containers in the same stack are ordered (n>=2)"
+    },
+    "6": {
+      "count": 498,
+      "meaning": "two ordered containers share a stack (n>=2)"
+    },
+    "7": {
+      "count": 18,
+      "meaning": "stack height at most the tier capacity T (n>=2)"
+    },
+    "8": {
+      "count": 3,
+      "meaning": "b[d] = 1 if d is above a higher-priority container at stage N"
+    },
+    "9": {
+      "count": 265,
+      "meaning": "non-relocated container keeps what is below it (upper side)"
+    },
+    "10": {
+      "count": 265,
+      "meaning": "non-relocated container keeps what is below it (lower side)"
+    },
+    "11": {
+      "count": 99,
+      "meaning": "a relocated container leaves its stack"
+    },
+    "12": {
+      "count": 166,
+      "meaning": "two blockers moved in the same stage cannot keep their old order"
+    }
+  },
+  "constraint_matrix_file": "data3-3-8__plain__constraint_matrix.npz",
+  "solver": {
+    "name": "scipy.optimize.milp -> HiGHS",
+    "options": {
+      "presolve": true,
+      "time_limit": 600,
+      "mip_rel_gap": 0.0
+    },
+    "known_optimum_used": false,
+    "incumbent_supplied": false,
+    "bound_supplied": false
+  },
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "success": true,
+  "objective_value": 2.0,
+  "objective_bound": 2.0,
+  "mip_gap": 0.0,
+  "mip_node_count": 0,
+  "runtime_seconds": 0.0053,
+  "rounded_solution_violations": {},
+  "objective_of_rounded_solution": 2,
+  "solution_vector_nonzero": [
+    "a[1,2,4]",
+    "a[1,5,3]",
+    "a[1,5,6]",
+    "a[1,6,3]",
+    "a[1,7,1]",
+    "a[1,8,1]",
+    "a[1,8,7]",
+    "a[1,9,2]",
+    "a[1,9,4]",
+    "a[1,10,2]",
+    "a[1,10,4]",
+    "a[1,10,9]",
+    "a[1,11,1]",
+    "a[1,11,7]",
+    "a[1,11,8]",
+    "a[1,12,3]",
+    "a[1,12,5]",
+    "a[1,12,6]",
+    "a[2,2,4]",
+    "a[2,5,3]",
+    "a[2,5,6]",
+    "a[2,6,3]",
+    "a[2,8,7]",
+    "a[2,9,2]",
+    "a[2,9,4]",
+    "a[2,10,2]",
+    "a[2,10,4]",
+    "a[2,10,9]",
+    "a[2,11,7]",
+    "a[2,11,8]",
+    "a[2,12,3]",
+    "a[2,12,5]",
+    "a[2,12,6]",
+    "a[3,5,3]",
+    "a[3,5,6]",
+    "a[3,6,3]",
+    "a[3,7,4]",
+    "a[3,8,4]",
+    "a[3,8,7]",
+    "a[3,10,9]",
+    "a[3,11,4]",
+    "a[3,11,7]",
+    "a[3,11,8]",
+    "a[3,12,3]",
+    "a[3,12,5]",
+    "a[3,12,6]",
+    "a[4,5,6]",
+    "a[4,7,4]",
+    "a[4,8,4]",
+    "a[4,8,7]",
+    "a[4,10,9]",
+    "a[4,11,4]",
+    "a[4,11,7]",
+    "a[4,11,8]",
+    "a[4,12,5]",
+    "a[4,12,6]",
+    "a[5,5,6]",
+    "a[5,8,7]",
+    "a[5,10,9]",
+    "a[5,11,7]",
+    "a[5,11,8]",
+    "a[5,12,5]",
+    "a[5,12,6]",
+    "a[6,7,6]",
+    "a[6,8,6]",
+    "a[6,8,7]",
+    "a[6,10,9]",
+    "a[6,11,6]",
+    "a[6,11,7]",
+    "a[6,11,8]",
+    "a[7,8,7]",
+    "a[7,10,9]",
+    "a[7,11,7]",
+    "a[7,11,8]"
+  ],
+  "solution_vector_file": "data3-3-8__plain__solution_vector.json",
+  "objective_breakdown": {
+    "stage_relocations": 2,
+    "terminal_blockers_b": 0
+  },
+  "stage_configurations_bottom_to_top": {
+    "1": [
+      [
+        9,
+        2,
+        4
+      ],
+      [
+        8,
+        7,
+        1
+      ],
+      [
+        5,
+        6,
+        3
+      ]
+    ],
+    "2": [
+      [
+        9,
+        2,
+        4
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        5,
+        6,
+        3
+      ]
+    ],
+    "3": [
+      [
+        9
+      ],
+      [
+        8,
+        7,
+        4
+      ],
+      [
+        5,
+        6,
+        3
+      ]
+    ],
+    "4": [
+      [
+        9
+      ],
+      [
+        8,
+        7,
+        4
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "5": [
+      [
+        9
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "6": [
+      [
+        9
+      ],
+      [
+        8,
+        7,
+        6
+      ],
+      []
+    ],
+    "7": [
+      [
+        9
+      ],
+      [
+        8,
+        7
+      ],
+      []
+    ]
+  },
+  "reconstructed_plan": [
+    {
+      "type": "retrieve",
+      "container": 1,
+      "source": 2
+    },
+    {
+      "type": "relocate",
+      "container": 4,
+      "source": 1,
+      "destination": 2
+    },
+    {
+      "type": "retrieve",
+      "container": 2,
+      "source": 1
+    },
+    {
+      "type": "retrieve",
+      "container": 3,
+      "source": 3
+    },
+    {
+      "type": "retrieve",
+      "container": 4,
+      "source": 2
+    },
+    {
+      "type": "relocate",
+      "container": 6,
+      "source": 3,
+      "destination": 2
+    },
+    {
+      "type": "retrieve",
+      "container": 5,
+      "source": 3
+    },
+    {
+      "type": "retrieve",
+      "container": 6,
+      "source": 2
+    },
+    {
+      "type": "retrieve",
+      "container": 7,
+      "source": 2
+    },
+    {
+      "type": "retrieve",
+      "container": 8,
+      "source": 2
+    },
+    {
+      "type": "retrieve",
+      "container": 9,
+      "source": 1
+    }
+  ],
+  "replay_validation": {
+    "legal": true,
+    "relocations": 2,
+    "error": null
+  },
+  "plan_status": "reconstructed",
+  "replay_equals_objective": true,
+  "environment": {
+    "python": "3.12.14",
+    "executable": "/Users/radin/Downloads/QAOA_IBM_Hardware_Study_2026_10_10_v1/.venv/bin/python",
+    "platform": "macOS-15.6-arm64-arm-64bit",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "highs": "1.12.0",
+    "threads": {
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2",
+      "VECLIB_MAXIMUM_THREADS": "2"
+    }
+  }
+}

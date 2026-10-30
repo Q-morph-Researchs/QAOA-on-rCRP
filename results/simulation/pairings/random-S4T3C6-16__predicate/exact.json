@@ -1,0 +1,20 @@
+{
+  "case": "random-S4T3C6-16",
+  "method": "predicate",
+  "n": 8,
+  "theta": [
+    0.18047204389825558,
+    0.3421377912084009,
+    -0.5645835545486001,
+    -0.2665598289545603
+  ],
+  "scale": 3.0,
+  "states": 256,
+  "legal_states": 10,
+  "optimal_states": 8,
+  "uniform_legal": 0.0390625,
+  "uniform_optimal": 0.03125,
+  "ideal_legal": 0.10438918800425408,
+  "ideal_optimal": 0.09211266754537675,
+  "enumeration_seconds": 0.22894324999651872
+}

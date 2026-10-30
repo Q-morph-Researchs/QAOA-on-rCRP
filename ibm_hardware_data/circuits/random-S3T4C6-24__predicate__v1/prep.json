@@ -1,0 +1,34 @@
+{
+  "angle_id": "loo:random-S3T4C6-24:p2",
+  "backend": "ibm_fez",
+  "backend_version": "1.3.37",
+  "case": "random-S3T4C6-24",
+  "check_sha256": "3ff49353ad93e58852cee1c661c69d98863eaf76f70b32056ddb4fe6a80f03e8",
+  "compile": {
+    "optimization_level": 3,
+    "seed_transpiler": 11
+  },
+  "compiled_two_qubit": 188,
+  "isa_sha256": "0bef3b52c7e10d4cc9850e67e4616654a058e4bcb80b2f92c66cf07a7789bec9",
+  "item": "random-S3T4C6-24__predicate",
+  "logical_sha256": "2e6245fa9c274a79e3dc97f84ffdeb2e6d1c6f2dad2aeb3a5dbf7a1446ad7d63",
+  "method": "predicate",
+  "prepared_utc": "2026-10-12T17:29:54.370281+00:00",
+  "qubits": 8,
+  "snapshot_sha256": "758bd78d95c7b410add142807c8ed23621dab9d27c1192683e71a70c4bae78af",
+  "theta": [
+    0.18047204389825558,
+    0.3402714873349897,
+    -0.5645835545486001,
+    -0.2665598289545603
+  ],
+  "version": 1,
+  "versions": {
+    "numpy": "2.5.3",
+    "python": "3.12.14",
+    "qiskit": "2.5.2",
+    "qiskit_aer": "0.17.2",
+    "qiskit_ibm_runtime": "0.50.0",
+    "sim_sha256": "bbd2c4473ac4540d8770d02191e505dd6c204dda4f3bac7a6085dc14b9a6dec0"
+  }
+}

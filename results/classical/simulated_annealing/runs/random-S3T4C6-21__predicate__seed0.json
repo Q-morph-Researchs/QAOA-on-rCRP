@@ -1,0 +1,67 @@
+{
+  "seed": 0,
+  "rng": "numpy PCG64",
+  "initial_state": 7,
+  "initial_bits_q0_first": "11100000",
+  "sa_loop_seconds": 0.020162957996944897,
+  "accepted_proposals": 224,
+  "evaluations": 2000,
+  "final_state": 37,
+  "final_state_legal": true,
+  "final_state_relocations": 2,
+  "selected": {
+    "evaluation_index": 142,
+    "state": 8,
+    "bitstring_q0_first": "00010000",
+    "energy": 1.0,
+    "relocations": 1,
+    "own_replay_legal": true,
+    "own_replay_relocations": 1,
+    "moves": [
+      {
+        "type": "retrieve",
+        "container": 1,
+        "source": 1
+      },
+      {
+        "type": "relocate",
+        "container": 5,
+        "source": 3,
+        "destination": 1
+      },
+      {
+        "type": "retrieve",
+        "container": 2,
+        "source": 3
+      },
+      {
+        "type": "retrieve",
+        "container": 3,
+        "source": 2
+      },
+      {
+        "type": "retrieve",
+        "container": 4,
+        "source": 2
+      },
+      {
+        "type": "retrieve",
+        "container": 5,
+        "source": 1
+      },
+      {
+        "type": "retrieve",
+        "container": 6,
+        "source": 3
+      }
+    ]
+  },
+  "legal_candidates": 508,
+  "all_own_checks_agree": true,
+  "case": "random-S3T4C6-21",
+  "encoding": "predicate",
+  "n_bits": 8,
+  "energy_scale": 4.0,
+  "trace_file": "traces/random-S3T4C6-21__predicate__seed0.csv",
+  "success_optimal_legal_plan": true
+}

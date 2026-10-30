@@ -1,0 +1,11 @@
+ABOUT THIS FOLDER: SIMULATION
+=============================
+
+- run_simulations.py: simulates every hardware job twice, once ideal (no
+  noise) and once with a noise model built from IBM's calibration snapshot
+  for that job, with frozen seeds (paper Section 2.8). It never contacts
+  IBM.
+- resource_scaling.py: counts the qubits and two-qubit gates our encodings
+  would need for benchmark bays with 12 to 20 containers (Appendix Table
+  A7). It only counts; it doesn't simulate or solve anything. The results
+  are in results/simulation/ and results/tables/resource_scaling.json.

@@ -1,0 +1,12 @@
+{
+  "jobs": 40,
+  "shots": 80000,
+  "pairings": 8,
+  "instances": 5,
+  "histograms_equal_saved_shots": true,
+  "all_decoded_counts_equal_registry_and_summary": true,
+  "foreign_keys": "pass",
+  "sqlite_integrity": "ok",
+  "source_files_unchanged_on_import": true,
+  "bootstrapping": "post-hoc; seed 20261016; 10000 job-resamples; five jobs/group; exploratory only"
+}

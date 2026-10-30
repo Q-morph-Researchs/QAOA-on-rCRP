@@ -1,0 +1,92 @@
+{
+  "active_qubits": 12,
+  "angle_id": "fresh:galle:p2",
+  "backend": "ibm_fez",
+  "best_cost_by_enumeration": 2,
+  "case": "random-S3T4C6-24",
+  "check_A_max_abs_prob_diff": 8.673617379884035e-18,
+  "check_B_enumerated_optimum_equals_BFS": true,
+  "check_B_every_ground_string_replays_optimal": true,
+  "check_C_max_abs_prob_diff": 2.6020852139652106e-17,
+  "compile_seconds": 0.05,
+  "compiled_depth": 420,
+  "compiled_ops": {
+    "cz": 235,
+    "measure": 12,
+    "rz": 290,
+    "sx": 506,
+    "x": 4
+  },
+  "compiled_two_qubit": 235,
+  "compiled_two_qubit_depth": 141,
+  "created_utc": "2026-10-12T17:29:54.163950+00:00",
+  "data_kind": "CHECK (no shots)",
+  "ideal": {
+    "accepted": 0.08782521191713477,
+    "energy_ground": 0.007598202816870063,
+    "replay_optimal": 0.034680867191230466
+  },
+  "layout_final": [
+    143,
+    122,
+    124,
+    136,
+    142,
+    145,
+    50,
+    125,
+    146,
+    123,
+    144,
+    141
+  ],
+  "layout_initial": [
+    122,
+    144,
+    142,
+    123,
+    145,
+    136,
+    50,
+    125,
+    143,
+    124,
+    146,
+    141
+  ],
+  "live_target": true,
+  "method": "galle",
+  "method_name": "QUBO QAOA (Galle CRP-I)",
+  "optimum_for_scoring_only": 2,
+  "passed": true,
+  "qubits": 12,
+  "settings": {
+    "batches": 5,
+    "check_tolerance": 1e-09,
+    "direct_cutoff": 5,
+    "enumeration_qubit_guard": 22,
+    "fake_device": "FakeFez",
+    "max_execution_time_per_job_seconds": 30,
+    "mitigation": "none: dynamical decoupling off, gate and measurement twirling off, no readout correction",
+    "optimization_level": 3,
+    "p": 2,
+    "preparation_max_age_hours": 24,
+    "presolve": "standard",
+    "protocol_id": "sim9-ladder-v1: 8 items x 5 jobs x 2000 shots",
+    "seed_transpiler": 11,
+    "shots_per_batch": 2000,
+    "synthesis": "pauli",
+    "total_qpu_seconds_cap": 300
+  },
+  "theta": [
+    0.647,
+    -2.595,
+    -0.409,
+    0.211
+  ],
+  "uniform": {
+    "accepted": 0.0234375,
+    "energy_ground": 0.000244140625,
+    "replay_optimal": 0.0078125
+  }
+}

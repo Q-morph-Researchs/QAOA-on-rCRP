@@ -1,0 +1,9 @@
+ABOUT THIS FOLDER: POSTHOC
+==========================
+
+Results of the noiseless angle and depth study (paper Section 3.6). Nothing
+here ran on hardware.
+- Table_A6.md: the paper's Appendix Table A6.
+- results.json: everything behind it, including every tuned angle vector,
+  where its search started, how many starts and evaluations were used, and
+  the sensitivity percentiles.

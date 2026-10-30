@@ -1,0 +1,87 @@
+{
+  "active_qubits": 9,
+  "angle_id": "loo:random-S3T4C7-32:p2",
+  "backend": "ibm_fez",
+  "best_cost_by_enumeration": 1,
+  "case": "random-S3T4C7-32",
+  "check_A_max_abs_prob_diff": 1.249000902703301e-16,
+  "check_B_enumerated_optimum_equals_BFS": true,
+  "check_B_every_ground_string_replays_optimal": true,
+  "check_B_max_rel_diff_vs_sealed_release": 4.0571762418180176e-15,
+  "check_C_max_abs_prob_diff": 2.0816681711721685e-16,
+  "compile_seconds": 0.03,
+  "compiled_depth": 553,
+  "compiled_ops": {
+    "cz": 237,
+    "measure": 9,
+    "rz": 300,
+    "sx": 428,
+    "x": 9
+  },
+  "compiled_two_qubit": 237,
+  "compiled_two_qubit_depth": 183,
+  "created_utc": "2026-10-12T17:29:54.428489+00:00",
+  "data_kind": "CHECK (no shots)",
+  "ideal": {
+    "accepted": 0.11464063023210103,
+    "energy_ground": 0.01111679840538213,
+    "replay_optimal": 0.03755780587316937
+  },
+  "layout_final": [
+    124,
+    141,
+    123,
+    142,
+    136,
+    143,
+    144,
+    110,
+    2
+  ],
+  "layout_initial": [
+    143,
+    142,
+    136,
+    144,
+    123,
+    141,
+    124,
+    110,
+    2
+  ],
+  "live_target": true,
+  "method": "predicate",
+  "method_name": "Predicate QAOA",
+  "optimum_for_scoring_only": 1,
+  "passed": true,
+  "qubits": 9,
+  "settings": {
+    "batches": 5,
+    "check_tolerance": 1e-09,
+    "direct_cutoff": 5,
+    "enumeration_qubit_guard": 22,
+    "fake_device": "FakeFez",
+    "max_execution_time_per_job_seconds": 30,
+    "mitigation": "none: dynamical decoupling off, gate and measurement twirling off, no readout correction",
+    "optimization_level": 3,
+    "p": 2,
+    "preparation_max_age_hours": 24,
+    "presolve": "standard",
+    "protocol_id": "sim9-ladder-v1: 8 items x 5 jobs x 2000 shots",
+    "seed_transpiler": 11,
+    "shots_per_batch": 2000,
+    "synthesis": "pauli",
+    "total_qpu_seconds_cap": 300
+  },
+  "theta": [
+    0.18047204389825558,
+    0.3402714873349897,
+    -0.5522082029399951,
+    -0.2665598289545603
+  ],
+  "uniform": {
+    "accepted": 0.0234375,
+    "energy_ground": 0.001953125,
+    "replay_optimal": 0.0078125
+  }
+}

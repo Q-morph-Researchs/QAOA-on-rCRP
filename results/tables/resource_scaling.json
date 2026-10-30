@@ -1,0 +1,806 @@
+[
+  {
+    "case": "data3-4-1",
+    "containers": 12,
+    "stacks": [
+      [
+        9,
+        3,
+        12
+      ],
+      [
+        6,
+        8,
+        2
+      ],
+      [
+        7,
+        11,
+        4
+      ],
+      [
+        10,
+        5,
+        1
+      ]
+    ],
+    "capacity": 5,
+    "method": "predicate",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 114,
+      "decision_qubits": 89,
+      "cx": 18420,
+      "direct_cx": 6996,
+      "arithmetic_cx": 11424,
+      "max_parity_weight": 5
+    },
+    "seconds": 0.13200354100263212,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data3-4-1",
+    "containers": 12,
+    "stacks": [
+      [
+        9,
+        3,
+        12
+      ],
+      [
+        6,
+        8,
+        2
+      ],
+      [
+        7,
+        11,
+        4
+      ],
+      [
+        10,
+        5,
+        1
+      ]
+    ],
+    "capacity": 5,
+    "method": "galle",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 409,
+      "decision_qubits": 89,
+      "cx": 6524,
+      "direct_cx": 6524,
+      "arithmetic_cx": 0,
+      "max_parity_weight": 2
+    },
+    "seconds": 0.10129662499821279,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data3-4-2",
+    "containers": 12,
+    "stacks": [
+      [
+        12,
+        5,
+        2
+      ],
+      [
+        9,
+        7,
+        6
+      ],
+      [
+        10,
+        11,
+        8
+      ],
+      [
+        1,
+        4,
+        3
+      ]
+    ],
+    "capacity": 5,
+    "method": "predicate",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 90,
+      "decision_qubits": 65,
+      "cx": 8172,
+      "direct_cx": 4908,
+      "arithmetic_cx": 3264,
+      "max_parity_weight": 4
+    },
+    "seconds": 0.12793612500536256,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data3-4-2",
+    "containers": 12,
+    "stacks": [
+      [
+        12,
+        5,
+        2
+      ],
+      [
+        9,
+        7,
+        6
+      ],
+      [
+        10,
+        11,
+        8
+      ],
+      [
+        1,
+        4,
+        3
+      ]
+    ],
+    "capacity": 5,
+    "method": "galle",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 295,
+      "decision_qubits": 65,
+      "cx": 4368,
+      "direct_cx": 4368,
+      "arithmetic_cx": 0,
+      "max_parity_weight": 2
+    },
+    "seconds": 0.11967116699088365,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data3-4-3",
+    "containers": 12,
+    "stacks": [
+      [
+        4,
+        5,
+        3
+      ],
+      [
+        8,
+        9,
+        12
+      ],
+      [
+        7,
+        10,
+        1
+      ],
+      [
+        2,
+        6,
+        11
+      ]
+    ],
+    "capacity": 5,
+    "method": "predicate",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 176,
+      "decision_qubits": 151,
+      "cx": 37828,
+      "direct_cx": 13348,
+      "arithmetic_cx": 24480,
+      "max_parity_weight": 5
+    },
+    "seconds": 0.1526027090003481,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data3-4-3",
+    "containers": 12,
+    "stacks": [
+      [
+        4,
+        5,
+        3
+      ],
+      [
+        8,
+        9,
+        12
+      ],
+      [
+        7,
+        10,
+        1
+      ],
+      [
+        2,
+        6,
+        11
+      ]
+    ],
+    "capacity": 5,
+    "method": "galle",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 734,
+      "decision_qubits": 151,
+      "cx": 12196,
+      "direct_cx": 12196,
+      "arithmetic_cx": 0,
+      "max_parity_weight": 2
+    },
+    "seconds": 0.10692608400131576,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data4-4-1",
+    "containers": 16,
+    "stacks": [
+      [
+        7,
+        1,
+        6,
+        11
+      ],
+      [
+        12,
+        10,
+        4,
+        2
+      ],
+      [
+        5,
+        8,
+        15,
+        9
+      ],
+      [
+        16,
+        14,
+        3,
+        13
+      ]
+    ],
+    "capacity": 6,
+    "method": "predicate",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 521,
+      "decision_qubits": 496,
+      "cx": 208748,
+      "direct_cx": 52588,
+      "arithmetic_cx": 156160,
+      "max_parity_weight": 5
+    },
+    "seconds": 0.4329247080022469,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data4-4-1",
+    "containers": 16,
+    "stacks": [
+      [
+        7,
+        1,
+        6,
+        11
+      ],
+      [
+        12,
+        10,
+        4,
+        2
+      ],
+      [
+        5,
+        8,
+        15,
+        9
+      ],
+      [
+        16,
+        14,
+        3,
+        13
+      ]
+    ],
+    "capacity": 6,
+    "method": "galle",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 2887,
+      "decision_qubits": 496,
+      "cx": 52364,
+      "direct_cx": 52364,
+      "arithmetic_cx": 0,
+      "max_parity_weight": 2
+    },
+    "seconds": 0.29223704199830536,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data4-4-2",
+    "containers": 16,
+    "stacks": [
+      [
+        10,
+        14,
+        3,
+        16
+      ],
+      [
+        8,
+        1,
+        2,
+        4
+      ],
+      [
+        12,
+        6,
+        5,
+        11
+      ],
+      [
+        13,
+        15,
+        7,
+        9
+      ]
+    ],
+    "capacity": 6,
+    "method": "predicate",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 303,
+      "decision_qubits": 278,
+      "cx": 63448,
+      "direct_cx": 24280,
+      "arithmetic_cx": 39168,
+      "max_parity_weight": 5
+    },
+    "seconds": 0.3789335420005955,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data4-4-2",
+    "containers": 16,
+    "stacks": [
+      [
+        10,
+        14,
+        3,
+        16
+      ],
+      [
+        8,
+        1,
+        2,
+        4
+      ],
+      [
+        12,
+        6,
+        5,
+        11
+      ],
+      [
+        13,
+        15,
+        7,
+        9
+      ]
+    ],
+    "capacity": 6,
+    "method": "galle",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 1401,
+      "decision_qubits": 278,
+      "cx": 22628,
+      "direct_cx": 22628,
+      "arithmetic_cx": 0,
+      "max_parity_weight": 2
+    },
+    "seconds": 0.2921814169967547,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data4-4-3",
+    "containers": 16,
+    "stacks": [
+      [
+        6,
+        7,
+        10,
+        5
+      ],
+      [
+        13,
+        14,
+        11,
+        1
+      ],
+      [
+        8,
+        3,
+        16,
+        2
+      ],
+      [
+        4,
+        9,
+        15,
+        12
+      ]
+    ],
+    "capacity": 6,
+    "method": "predicate",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 435,
+      "decision_qubits": 410,
+      "cx": 203844,
+      "direct_cx": 44892,
+      "arithmetic_cx": 158952,
+      "max_parity_weight": 5
+    },
+    "seconds": 0.47228141700907145,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data4-4-3",
+    "containers": 16,
+    "stacks": [
+      [
+        6,
+        7,
+        10,
+        5
+      ],
+      [
+        13,
+        14,
+        11,
+        1
+      ],
+      [
+        8,
+        3,
+        16,
+        2
+      ],
+      [
+        4,
+        9,
+        15,
+        12
+      ]
+    ],
+    "capacity": 6,
+    "method": "galle",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 2446,
+      "decision_qubits": 410,
+      "cx": 46152,
+      "direct_cx": 46152,
+      "arithmetic_cx": 0,
+      "max_parity_weight": 2
+    },
+    "seconds": 0.3301328329980606,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data4-5-1",
+    "containers": 20,
+    "stacks": [
+      [
+        8,
+        6,
+        18,
+        12
+      ],
+      [
+        10,
+        13,
+        15,
+        3
+      ],
+      [
+        7,
+        5,
+        14,
+        16
+      ],
+      [
+        4,
+        19,
+        17,
+        20
+      ],
+      [
+        11,
+        1,
+        2,
+        9
+      ]
+    ],
+    "capacity": 6,
+    "method": "predicate",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 1335,
+      "decision_qubits": 1281,
+      "cx": 1495476,
+      "direct_cx": 203556,
+      "arithmetic_cx": 1291920,
+      "max_parity_weight": 5
+    },
+    "seconds": 1.5807338329905178,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data4-5-1",
+    "containers": 20,
+    "stacks": [
+      [
+        8,
+        6,
+        18,
+        12
+      ],
+      [
+        10,
+        13,
+        15,
+        3
+      ],
+      [
+        7,
+        5,
+        14,
+        16
+      ],
+      [
+        4,
+        19,
+        17,
+        20
+      ],
+      [
+        11,
+        1,
+        2,
+        9
+      ]
+    ],
+    "capacity": 6,
+    "method": "galle",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 9657,
+      "decision_qubits": 1281,
+      "cx": 232240,
+      "direct_cx": 232240,
+      "arithmetic_cx": 0,
+      "max_parity_weight": 2
+    },
+    "seconds": 0.9693346249987371,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data4-5-2",
+    "containers": 20,
+    "stacks": [
+      [
+        5,
+        17,
+        19,
+        4
+      ],
+      [
+        12,
+        13,
+        6,
+        3
+      ],
+      [
+        1,
+        16,
+        2,
+        18
+      ],
+      [
+        9,
+        15,
+        8,
+        7
+      ],
+      [
+        14,
+        11,
+        10,
+        20
+      ]
+    ],
+    "capacity": 6,
+    "method": "predicate",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 968,
+      "decision_qubits": 937,
+      "cx": 754472,
+      "direct_cx": 151064,
+      "arithmetic_cx": 603408,
+      "max_parity_weight": 5
+    },
+    "seconds": 1.3662103340029716,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data4-5-2",
+    "containers": 20,
+    "stacks": [
+      [
+        5,
+        17,
+        19,
+        4
+      ],
+      [
+        12,
+        13,
+        6,
+        3
+      ],
+      [
+        1,
+        16,
+        2,
+        18
+      ],
+      [
+        9,
+        15,
+        8,
+        7
+      ],
+      [
+        14,
+        11,
+        10,
+        20
+      ]
+    ],
+    "capacity": 6,
+    "method": "galle",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 6435,
+      "decision_qubits": 937,
+      "cx": 141108,
+      "direct_cx": 141108,
+      "arithmetic_cx": 0,
+      "max_parity_weight": 2
+    },
+    "seconds": 0.8734663749928586,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data4-5-3",
+    "containers": 20,
+    "stacks": [
+      [
+        19,
+        12,
+        17,
+        1
+      ],
+      [
+        6,
+        15,
+        20,
+        4
+      ],
+      [
+        7,
+        11,
+        8,
+        18
+      ],
+      [
+        2,
+        9,
+        5,
+        13
+      ],
+      [
+        10,
+        14,
+        3,
+        16
+      ]
+    ],
+    "capacity": 6,
+    "method": "predicate",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 1144,
+      "decision_qubits": 1097,
+      "cx": 999680,
+      "direct_cx": 176496,
+      "arithmetic_cx": 823184,
+      "max_parity_weight": 5
+    },
+    "seconds": 1.502355709002586,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  },
+  {
+    "case": "data4-5-3",
+    "containers": 20,
+    "stacks": [
+      [
+        19,
+        12,
+        17,
+        1
+      ],
+      [
+        6,
+        15,
+        20,
+        4
+      ],
+      [
+        7,
+        11,
+        8,
+        18
+      ],
+      [
+        2,
+        9,
+        5,
+        13
+      ],
+      [
+        10,
+        14,
+        3,
+        16
+      ]
+    ],
+    "capacity": 6,
+    "method": "galle",
+    "presolve": "standard",
+    "depth": 2,
+    "resources": {
+      "qubits": 7737,
+      "decision_qubits": 1097,
+      "cx": 174456,
+      "direct_cx": 174456,
+      "arithmetic_cx": 0,
+      "max_parity_weight": 2
+    },
+    "seconds": 0.9130312079942087,
+    "scope": "logical construction estimate; no IBM routing, no solution samples"
+  }
+]

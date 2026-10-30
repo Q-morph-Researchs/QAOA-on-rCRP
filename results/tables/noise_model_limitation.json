@@ -1,0 +1,7 @@
+{
+  "full_thermal_constructor": "failed",
+  "exception_type": "BackendPropertyError",
+  "message": "\"Couldn't find the property 'frequency' for qubit 0.\"",
+  "file": "inputs/prep/data3-3-8__predicate/v3/backend_snapshot.json",
+  "action": "No missing frequencies invented. Protocol uses thermal_relaxation=False and clearly limits interpretation."
+}

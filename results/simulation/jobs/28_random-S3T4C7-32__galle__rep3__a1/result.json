@@ -1,0 +1,152 @@
+{
+  "slot": 28,
+  "item": "random-S3T4C7-32__galle",
+  "case": "random-S3T4C7-32",
+  "method": "galle",
+  "job_id": "db8ura0b3g5c73eh1ce0",
+  "prep_version": 3,
+  "ideal_seed": 1879162579,
+  "noise_seed": 2922254056,
+  "rng_before": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 329496562960809770870813209721285862945,
+      "inc": 1433883066633063277518894201302309393
+    },
+    "has_uint32": 0,
+    "uinteger": 0
+  },
+  "rng_after": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 3723369501098458757107721638811703313,
+      "inc": 1433883066633063277518894201302309393
+    },
+    "has_uint32": 0,
+    "uinteger": 0
+  },
+  "noisy_wall_seconds": 79.3889150830073,
+  "scores": {
+    "hardware": {
+      "shots": 2000,
+      "legal_count": 80,
+      "optimal_count": 35
+    },
+    "ideal_sampled": {
+      "shots": 2000,
+      "legal_count": 197,
+      "optimal_count": 92
+    },
+    "snapshot_noise": {
+      "shots": 2000,
+      "legal_count": 147,
+      "optimal_count": 54
+    }
+  },
+  "simulator_metadata": {
+    "num_bind_params": 1,
+    "runtime_parameter_bind": false,
+    "parallel_state_update": 2,
+    "parallel_shots": 1,
+    "noise": "circuit",
+    "batched_shots_optimization": false,
+    "remapped_qubits": false,
+    "active_input_qubits": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "device": "CPU",
+    "time_taken": 79.350245834,
+    "measure_sampling": false,
+    "num_clbits": 15,
+    "max_memory_mb": 2048,
+    "input_qubit_map": [
+      [
+        14,
+        14
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "num_qubits": 15,
+    "method": "statevector",
+    "required_memory_mb": 1,
+    "fusion": {
+      "cost_factor": 1.8,
+      "time_taken": 0.010790083,
+      "parallelization": 1,
+      "method": "unitary",
+      "applied": true,
+      "max_fused_qubits": 5,
+      "threshold": 14,
+      "enabled": true
+    }
+  }
+}

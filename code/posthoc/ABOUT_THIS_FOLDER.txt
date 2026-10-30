@@ -1,0 +1,25 @@
+ABOUT THIS FOLDER: POSTHOC
+==========================
+
+The noiseless angle and depth study done after the hardware runs (paper
+Section 3.6, Appendix Table A6). Nothing here ran on a quantum computer.
+- load.py: loads Sim9_2.py read-only and checks its hash.
+- tables.py: builds the exact energy table for each pairing.
+- reproduce.py: checks that the frozen angles reproduce the ideal
+  probabilities in Table 6.
+- study.py: the study itself (sensitivity to small angle changes, tuned
+  angles at depths 1 to 5).
+- verify.py: an independent re-check with its own state-vector code (agrees
+  to about 1e-13).
+- make_table.py, text_numbers.py: make Table A6 and the numbers quoted in
+  the text.
+
+HEADS-UP
+- "Energy-tuned" angles are the normal QAOA way and need no knowledge of the
+  answer. "Oracle-tuned" angles use the known answer, so they only show how
+  good angles could possibly get. They are not a usable solver.
+- It was run with Python 3.13, NumPy 2.5.3 and SciPy 1.18.1, random seed
+  2026102001, and took about 20 minutes on 4 cores.
+- Some comments call the table "Table 7", its number in an earlier draft. In
+  the final paper it is Appendix Table A6. The results are in
+  results/posthoc/.

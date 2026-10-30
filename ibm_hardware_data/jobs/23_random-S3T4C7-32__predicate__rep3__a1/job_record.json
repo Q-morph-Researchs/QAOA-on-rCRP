@@ -1,0 +1,232 @@
+{
+  "accounting": {
+    "error": null,
+    "field": "metrics.usage.qpu_charge_time_seconds (status 'complete')",
+    "history": [
+      {
+        "field": "metrics.usage.qpu_charge_time_seconds (status 'complete')",
+        "job_terminal": true,
+        "observed_utc": "2026-10-12T20:54:20.672284+00:00",
+        "raw_usage": {
+          "details": [
+            {
+              "metric": {
+                "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+                "value": 3
+              },
+              "unit": "resource_units",
+              "value": 0.0376
+            }
+          ],
+          "qpu_charge_time_seconds": 3,
+          "status": "complete",
+          "unit": "resource_units",
+          "value": 0.0376
+        },
+        "sdk_job_usage": 3,
+        "seconds": 3.0,
+        "status": "final"
+      }
+    ],
+    "observed_utc": "2026-10-12T20:54:20.672284+00:00",
+    "raw_usage": {
+      "details": [
+        {
+          "metric": {
+            "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+            "value": 3
+          },
+          "unit": "resource_units",
+          "value": 0.0376
+        }
+      ],
+      "qpu_charge_time_seconds": 3,
+      "status": "complete",
+      "unit": "resource_units",
+      "value": 0.0376
+    },
+    "sdk_job_usage": 3,
+    "seconds": 3.0,
+    "status": "final"
+  },
+  "allowance_before": {
+    "available": true,
+    "raw": {
+      "usage_consumed_ru": 0.8239,
+      "usage_consumed_seconds": 66,
+      "usage_limit_reached": false,
+      "usage_limit_ru": 10,
+      "usage_limit_seconds": 600,
+      "usage_period": {
+        "end_time": "2026-10-12T20:53:39.954Z",
+        "start_time": "2026-09-14T20:53:39.954Z"
+      },
+      "usage_remaining_seconds": 534
+    },
+    "remaining_seconds": 534.0,
+    "user_reported_remaining_seconds": 534.0
+  },
+  "analysis_role": "primary",
+  "attempt_id": "23_random-S3T4C7-32__predicate__rep3__a1",
+  "attempt_no": 1,
+  "backend": "ibm_fez",
+  "budget_before": {
+    "committed_seconds": 66.0,
+    "final_confirmed_seconds": 66.0,
+    "study_cap_seconds": 300.0,
+    "study_headroom_seconds": 234.0,
+    "unresolved_reserved_seconds": 0
+  },
+  "case": "random-S3T4C7-32",
+  "created_utc": "2026-10-12T20:53:39.993849+00:00",
+  "data_kind": "HARDWARE",
+  "history": [
+    {
+      "from_state": null,
+      "note": "reservation recorded before dispatch",
+      "to_state": "submitting",
+      "utc": "2026-10-12T20:53:39.995798+00:00"
+    },
+    {
+      "from_state": "submitting",
+      "note": "IBM accepted the job",
+      "to_state": "submitted",
+      "utc": "2026-10-12T20:53:41.468228+00:00"
+    },
+    {
+      "from_state": "submitted",
+      "note": "collect: IBM status DONE; accounting final",
+      "to_state": "completed",
+      "utc": "2026-10-12T20:54:22.213055+00:00"
+    }
+  ],
+  "identity": {
+    "backend": "ibm_fez",
+    "checked_utc": "2026-10-12T20:54:18.923431+00:00",
+    "input_circuit": "equal to frozen ISA circuit",
+    "input_shots": 2000,
+    "instance": "[REDACTED: IBM instance CRN]",
+    "tag": "sim92-17777f928de8ccd8"
+  },
+  "instance_crn": "[REDACTED: IBM instance CRN]",
+  "job_id": "db6khlamb58s738bvah0",
+  "method": "predicate",
+  "options": {
+    "dynamical_decoupling": false,
+    "job_tags": [
+      "sim9.2-rcrp",
+      "sim92-17777f928de8ccd8"
+    ],
+    "max_execution_time": 30,
+    "twirling_gates": false,
+    "twirling_measure": false
+  },
+  "planned_shots": 2000,
+  "prep": {
+    "age_seconds": 12205.9,
+    "angle_id": "loo:random-S3T4C7-32:p2",
+    "isa_sha256": "23eb754ed2d9e564d4b3bec1e59bd051e344418e037102962876fb243a4f8ceb",
+    "item": "random-S3T4C7-32__predicate",
+    "prepared_utc": "2026-10-12T17:29:54.514092+00:00",
+    "theta": [
+      0.18047204389825558,
+      0.3402714873349897,
+      -0.5522082029399951,
+      -0.2665598289545603
+    ],
+    "version": 1
+  },
+  "repetition": 3,
+  "replacement_reason": null,
+  "replaces": null,
+  "reservation_seconds": 30.0,
+  "results": {
+    "executed_shots": 2000,
+    "saved_utc": "2026-10-12T20:54:20.672262+00:00",
+    "score": {
+      "accepted_count": 76,
+      "accepted_rate": 0.038,
+      "accepted_rate_ci95": [
+        0.03046747631677216,
+        0.0473039403461018
+      ],
+      "best_accepted_relocations": 1,
+      "distinct_states": 420,
+      "energy_ground_count": 4,
+      "mean_energy": 28.31,
+      "median_accepted_relocations": 2.0,
+      "no_valid_plan": false,
+      "replay_optimal_count": 11,
+      "replay_optimal_rate": 0.0055,
+      "replay_optimal_rate_ci95": [
+        0.003073865015608807,
+        0.009822164291298487
+      ],
+      "reported_plan": {
+        "independent_replay_relocations": 1,
+        "is_replay_optimal": true,
+        "moves": [
+          {
+            "container": 1,
+            "source": 3,
+            "type": "retrieve"
+          },
+          {
+            "container": 4,
+            "destination": 1,
+            "source": 2,
+            "type": "relocate"
+          },
+          {
+            "container": 2,
+            "source": 2,
+            "type": "retrieve"
+          },
+          {
+            "container": 3,
+            "source": 3,
+            "type": "retrieve"
+          },
+          {
+            "container": 4,
+            "source": 1,
+            "type": "retrieve"
+          },
+          {
+            "container": 5,
+            "source": 3,
+            "type": "retrieve"
+          },
+          {
+            "container": 6,
+            "source": 2,
+            "type": "retrieve"
+          },
+          {
+            "container": 7,
+            "source": 1,
+            "type": "retrieve"
+          }
+        ],
+        "relocations": 1,
+        "state": 24
+      },
+      "shots": 2000
+    },
+    "shot_count_matches_plan": true,
+    "states_file": "results/23_random-S3T4C7-32__predicate__rep3__a1/states.npy",
+    "states_sha256": "eab65d99216da9e40659884f619e5adbaa31458711ad4b2dd9dd8d12eb43d007"
+  },
+  "schema": "sim9.2-ibm-attempt/1",
+  "slot_id": "23_random-S3T4C7-32__predicate__rep3",
+  "state": "completed",
+  "tag": "sim92-17777f928de8ccd8",
+  "versions": {
+    "numpy": "2.5.3",
+    "python": "3.12.14",
+    "qiskit": "2.5.2",
+    "qiskit_aer": "0.17.2",
+    "qiskit_ibm_runtime": "0.50.0",
+    "sim_sha256": "bbd2c4473ac4540d8770d02191e505dd6c204dda4f3bac7a6085dc14b9a6dec0"
+  }
+}

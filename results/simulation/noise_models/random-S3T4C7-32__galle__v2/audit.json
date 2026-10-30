@@ -1,0 +1,29 @@
+{
+  "active_physical_qubits": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    16,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    37,
+    45
+  ],
+  "active_qubits": 15,
+  "decision_qubits": 15,
+  "compiled_two_qubit_gates": 372,
+  "compiled_depth": 555,
+  "max_ideal_error": 2.667137344314341e-17,
+  "snapshot_captured_utc": "2026-10-14T20:05:48.545525+00:00",
+  "isa_sha256": "c2982d71b553bc0b209a70fb581df5bc1717a01fc5616588127c2b92dca0ba8a",
+  "snapshot_sha256": "20ff590603c32724d4ae06998f1436b81e216f5373aa9e6281339352b3d03e60",
+  "noise_error_records": 176,
+  "noise_mode": "gate depolarization plus readout; no explicit thermal relaxation"
+}

@@ -1,0 +1,81 @@
+{
+  "scope": "Independent physical decoder from shared frozen bit-literal contract; no original decoder or recovery invoked",
+  "states": 46336,
+  "pairs": [
+    {
+      "pair": "data3-3-8__predicate",
+      "states": 4096,
+      "legal": 24,
+      "replayed_move_events": 280,
+      "objective_greater_than_plan_states": 18,
+      "n": 12,
+      "physical_bits": 12
+    },
+    {
+      "pair": "random-S3T4C6-21__galle",
+      "states": 4096,
+      "legal": 192,
+      "replayed_move_events": 1472,
+      "objective_greater_than_plan_states": 144,
+      "n": 12,
+      "physical_bits": 8
+    },
+    {
+      "pair": "random-S3T4C6-21__predicate",
+      "states": 256,
+      "legal": 12,
+      "replayed_move_events": 92,
+      "objective_greater_than_plan_states": 9,
+      "n": 8,
+      "physical_bits": 8
+    },
+    {
+      "pair": "random-S3T4C6-24__galle",
+      "states": 4096,
+      "legal": 96,
+      "replayed_move_events": 832,
+      "objective_greater_than_plan_states": 48,
+      "n": 12,
+      "physical_bits": 8
+    },
+    {
+      "pair": "random-S3T4C6-24__predicate",
+      "states": 256,
+      "legal": 6,
+      "replayed_move_events": 52,
+      "objective_greater_than_plan_states": 3,
+      "n": 8,
+      "physical_bits": 8
+    },
+    {
+      "pair": "random-S3T4C7-32__galle",
+      "states": 32768,
+      "legal": 768,
+      "replayed_move_events": 6656,
+      "objective_greater_than_plan_states": 576,
+      "n": 15,
+      "physical_bits": 9
+    },
+    {
+      "pair": "random-S3T4C7-32__predicate",
+      "states": 512,
+      "legal": 12,
+      "replayed_move_events": 104,
+      "objective_greater_than_plan_states": 9,
+      "n": 9,
+      "physical_bits": 9
+    },
+    {
+      "pair": "random-S4T3C6-16__predicate",
+      "states": 256,
+      "legal": 10,
+      "replayed_move_events": 82,
+      "objective_greater_than_plan_states": 7,
+      "n": 8,
+      "physical_bits": 8
+    }
+  ],
+  "mismatch_count": 0,
+  "mismatches": [],
+  "passed": true
+}

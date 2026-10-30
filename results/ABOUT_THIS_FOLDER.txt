@@ -1,0 +1,16 @@
+ABOUT THIS FOLDER: RESULTS
+==========================
+
+Short version: every result in the paper, ready to read. You don't need to
+run anything.
+
+WHAT'S IN HERE
+- tables/: the main results tables (CSV, JSON and one Excel workbook). Start
+  here.
+- database/: everything in one SQLite database, down to every single shot,
+  plus CSV exports.
+- classical/: the MILP, greedy rule and simulated annealing results.
+- simulation/: the ideal and noise-model simulation results.
+- posthoc/: the later angle and depth study (Appendix Table A6).
+- decoder_check/: the evidence that an independently written decoder agrees
+  with the main one. Each subfolder has its own ABOUT_THIS_FOLDER.txt.

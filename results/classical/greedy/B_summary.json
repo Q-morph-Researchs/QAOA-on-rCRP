@@ -1,0 +1,67 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "executable": "/Users/radin/Downloads/QAOA_IBM_Hardware_Study_2026_10_10_v1/.venv/bin/python",
+    "platform": "macOS-15.6-arm64-arm-64bit",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "highs": "1.12.0",
+    "threads": {
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2",
+      "VECLIB_MAXIMUM_THREADS": "2"
+    }
+  },
+  "rows": [
+    {
+      "case": "random-S3T4C6-21",
+      "greedy_relocations": 1,
+      "replay_legal": true,
+      "moves": 7,
+      "runtime_mean_seconds": 5.541541991988197e-06,
+      "milp_optimum": 1.0,
+      "greedy_minus_optimum": 0.0,
+      "greedy_optimal": true
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "greedy_relocations": 2,
+      "replay_legal": true,
+      "moves": 8,
+      "runtime_mean_seconds": 6.718709002598189e-06,
+      "milp_optimum": 2.0,
+      "greedy_minus_optimum": 0.0,
+      "greedy_optimal": true
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "greedy_relocations": 1,
+      "replay_legal": true,
+      "moves": 8,
+      "runtime_mean_seconds": 5.873332993360236e-06,
+      "milp_optimum": 1.0,
+      "greedy_minus_optimum": 0.0,
+      "greedy_optimal": true
+    },
+    {
+      "case": "random-S4T3C6-16",
+      "greedy_relocations": 2,
+      "replay_legal": true,
+      "moves": 8,
+      "runtime_mean_seconds": 7.295749994227662e-06,
+      "milp_optimum": 2.0,
+      "greedy_minus_optimum": 0.0,
+      "greedy_optimal": true
+    },
+    {
+      "case": "data3-3-8",
+      "greedy_relocations": 2,
+      "replay_legal": true,
+      "moves": 11,
+      "runtime_mean_seconds": 8.726917003514246e-06,
+      "milp_optimum": 2.0,
+      "greedy_minus_optimum": 0.0,
+      "greedy_optimal": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+ABOUT THIS FOLDER: TABLES
+=========================
+
+The numbers behind the paper's tables, ready to open.
+
+PAPER TABLE OR FIGURE, AND THE FILE TO OPEN
+- Appendix Table A3 (all 40 jobs, legal and optimal shots):
+  all_job_rates.csv, or Jobs_sorted.csv (same jobs sorted by bay, with IBM
+  job IDs and submission times).
+- Table 4, Figures 2 and 3, Appendix Table A5 (rates, intervals, ratios,
+  tests): Summary_by_bay.csv.
+- Table 3 (qubits, compiled two-qubit gates, depth): circuit_resources.csv.
+- Table 6 and Figure 4 (ideal vs noise model vs hardware, retention):
+  ideal_noise_hardware_comparison.csv.
+- Appendix Table A7 (resource estimates for 12 to 20 containers):
+  resource_scaling.json.
+- Summary measures and the predicate-vs-QUBO comparison (Section 3.10):
+  analysis_measures.json.
+- All of the above in one place: rCRP_IBM_Results_Sorted.xlsx. Its first
+  sheet, Read_me, explains the others.
+- noise_model_limitation.json: why the noise model has no thermal-relaxation
+  channel (IBM's snapshot had no qubit frequencies, and we didn't invent
+  them).
+
+HEADS-UP
+- Rates are fractions here and percentages in the paper: 0.1368 here is
+  13.68% in the paper.
+- Legal and optimal rates use every shot in the denominator, including shots
+  that decoded to nonsense, just like the paper.
+- Some files write the encoding as Predicate/QUBO and others as
+  predicate/galle. Same thing.
+
+NAMES USED IN THE FILES
+- random-S3T4C6-21 = bay A, random-S3T4C6-24 = bay B, random-S3T4C7-32 = bay
+  C, random-S4T3C6-16 = bay D, data3-3-8 = bay E.
+- "galle" = the QUBO-based encoding (named after the Galle et al. model).
+  "predicate" = the predicate-based encoding.
+- "accepted" = what the paper calls a legal plan. "replay-optimal" = an
+  optimal plan.

@@ -1,0 +1,37 @@
+ABOUT THIS FOLDER: IBM_HARDWARE_DATA
+====================================
+
+Short version: the raw results from the real IBM quantum computer (ibm_fez):
+all 40 jobs and 80,000 shots, the compiled circuits that actually ran, and
+IBM's calibration data. Nothing here was changed after the jobs came back,
+except that our IBM account name and instance ID were blanked out.
+
+WHAT'S IN HERE
+- jobs/: one folder per job with its measured results and its job record.
+- circuits/: the compiled circuits and IBM calibration snapshots for the 10
+  circuit versions that ran.
+- frozen_angles.json: the angle records. The ones used on hardware are named
+  like loo:random-S3T4C6-21:p2 (predicate) and fresh:galle:p2 (QUBO); see
+  paper Appendix Table A1.
+- study.json: the study setup (backend, settings, the 40 job slots).
+- summary.csv, summary.json: a summary per pairing, straight from the study
+  program. "accepted_rate" is the paper's legal-plan rate;
+  "replay_optimal_rate" is the optimal-plan rate.
+- events.jsonl: a timestamped log of everything the study did, one JSON
+  object per line.
+
+HEADS-UP
+- In IBM's bit strings, qubit 0 is the rightmost character.
+- Every job worked first time: no failures and no resubmissions.
+- Jobs 1 to 26 ran on 12 October, job 27 on 14 October and jobs 28 to 40 on
+  16 October, with circuits recompiled for each date.
+- For legal and optimal counts per job without decoding anything yourself,
+  open results/tables/all_job_rates.csv.
+
+NAMES USED IN THE FILES
+- random-S3T4C6-21 = bay A, random-S3T4C6-24 = bay B, random-S3T4C7-32 = bay
+  C, random-S4T3C6-16 = bay D, data3-3-8 = bay E.
+- "galle" = the QUBO-based encoding (named after the Galle et al. model).
+  "predicate" = the predicate-based encoding.
+- "accepted" = what the paper calls a legal plan. "replay-optimal" = an
+  optimal plan.

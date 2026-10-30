@@ -1,0 +1,17 @@
+ABOUT THIS FOLDER: DECODER_CHECK
+================================
+
+A second decoder, written from scratch, to make sure the main one isn't
+quietly wrong (paper Section 2.3.3 and Appendix B.4).
+- independent_decoder.py: the second decoder. It imports nothing from
+  Sim9_2.py and uses a different method: it replays crane moves forwards
+  from the starting bay and checks every stage.
+- test_decoder.py: ten "try to break it" tests. The results (it agrees with
+  the main decoder on all 46,336 possible bit strings and all 80,000
+  hardware shots) are in results/decoder_check/.
+
+THE HONEST LIMIT
+Both decoders share one file, results/decoder_check/ENCODING_CONTRACT.json,
+which says which qubit stands for which model variable after presolve. So
+this checks the step from bits to crane plan, not the presolve itself. The
+paper says this in its Limitations.

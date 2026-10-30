@@ -1,0 +1,6 @@
+case,milp_status,milp_objective,milp_bound,optimality_proven,milp_objective_with_preprocessing,plan_reconstructed,replay_legal,replay_relocations,independent_bfs_optimum,claimed_optimum,runtime_seconds,variables,constraints,verdict
+random-S3T4C6-21,Optimization terminated successfully. (HiGHS Status 7: Optimal),1.0,1.0,true,1.0,true,true,1,1,1,0.0056,142,578,MATCH
+random-S3T4C6-24,Optimization terminated successfully. (HiGHS Status 7: Optimal),2.0,2.0,true,2.0,true,true,2,2,2,0.0022,142,578,MATCH
+random-S3T4C7-32,Optimization terminated successfully. (HiGHS Status 7: Optimal),1.0,1.0,true,1.0,true,true,1,1,1,0.0028,212,963,MATCH
+random-S4T3C6-16,Optimization terminated successfully. (HiGHS Status 7: Optimal),2.0,2.0,true,2.0,true,true,2,2,2,0.0021,140,584,MATCH
+data3-3-8,Optimization terminated successfully. (HiGHS Status 7: Optimal),2.0,2.0,true,2.0,true,true,2,2,2,0.0053,408,2152,MATCH

@@ -1,0 +1,9 @@
+pairing_id,case_id,encoding,decision_qubits
+random-S3T4C6-21__predicate,random-S3T4C6-21,predicate,8
+random-S3T4C6-21__galle,random-S3T4C6-21,galle,12
+random-S3T4C6-24__galle,random-S3T4C6-24,galle,12
+random-S3T4C6-24__predicate,random-S3T4C6-24,predicate,8
+random-S3T4C7-32__predicate,random-S3T4C7-32,predicate,9
+random-S3T4C7-32__galle,random-S3T4C7-32,galle,15
+random-S4T3C6-16__predicate,random-S4T3C6-16,predicate,8
+data3-3-8__predicate,data3-3-8,predicate,12

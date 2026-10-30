@@ -1,0 +1,13 @@
+ABOUT THIS FOLDER: DECODER_CHECK
+================================
+
+The evidence that an independently written decoder (code/decoder_check/)
+agrees with the main one (paper Section 2.3.3 and Appendix B.4).
+- EXHAUSTIVE_RESULTS.json: all 46,336 possible bit strings of the eight
+  pairings. The legal or illegal verdicts, relocation counts and move lists
+  all match.
+- HARDWARE_DECODE_CHECK.json: all 40 hardware jobs (80,000 shots)
+  re-decoded. The legal and optimal counts all match.
+- ENCODING_CONTRACT.json: the one thing both decoders share, namely which
+  qubit stands for which model variable after presolve. Because of it, this
+  checks the step from bits to crane plan, not the presolve itself.

@@ -1,0 +1,250 @@
+[
+  {
+    "pairing_id": "random-S3T4C6-21__predicate",
+    "jobs": 5,
+    "shots": 10000,
+    "legal_count": 1368,
+    "optimal_count": 354,
+    "legal_rate": 0.1368,
+    "optimal_rate": 0.0354,
+    "optimal_given_legal": 0.25877192982456143,
+    "optimal_ci95_wilson": [
+      0.0319529181589372,
+      0.039203893127095484
+    ],
+    "successful_jobs": 5,
+    "success_rate": 1.0,
+    "success_ci95_wilson": [
+      0.5655175352168251,
+      1
+    ],
+    "optimal_job_sd": 0.0044637428241331295,
+    "optimal_job_min": 0.031,
+    "optimal_job_max": 0.0415,
+    "exploratory_job_bootstrap_ci95": [
+      0.032100000000000004,
+      0.0387
+    ],
+    "matched_uniform_optimal_rate": 0.0125,
+    "optimal_lift_vs_uniform": 2.832,
+    "optimal_difference_percentage_points": 2.29,
+    "best_relocations": 1
+  },
+  {
+    "pairing_id": "random-S3T4C6-21__galle",
+    "jobs": 5,
+    "shots": 10000,
+    "legal_count": 1568,
+    "optimal_count": 628,
+    "legal_rate": 0.1568,
+    "optimal_rate": 0.0628,
+    "optimal_given_legal": 0.4005102040816326,
+    "optimal_ci95_wilson": [
+      0.05821090451957561,
+      0.06772486365574398
+    ],
+    "successful_jobs": 5,
+    "success_rate": 1.0,
+    "success_ci95_wilson": [
+      0.5655175352168251,
+      1
+    ],
+    "optimal_job_sd": 0.005707451270050409,
+    "optimal_job_min": 0.0545,
+    "optimal_job_max": 0.069,
+    "exploratory_job_bootstrap_ci95": [
+      0.058199999999999995,
+      0.067
+    ],
+    "matched_uniform_optimal_rate": 0.015,
+    "optimal_lift_vs_uniform": 4.1866666666666665,
+    "optimal_difference_percentage_points": 4.779999999999999,
+    "best_relocations": 1
+  },
+  {
+    "pairing_id": "random-S3T4C6-24__galle",
+    "jobs": 5,
+    "shots": 10000,
+    "legal_count": 470,
+    "optimal_count": 69,
+    "legal_rate": 0.047,
+    "optimal_rate": 0.0069,
+    "optimal_given_legal": 0.14680851063829786,
+    "optimal_ci95_wilson": [
+      0.005456205431184981,
+      0.008722493761976275
+    ],
+    "successful_jobs": 5,
+    "success_rate": 1.0,
+    "success_ci95_wilson": [
+      0.5655175352168251,
+      1
+    ],
+    "optimal_job_sd": 0.0015165750888103103,
+    "optimal_job_min": 0.0045,
+    "optimal_job_max": 0.0085,
+    "exploratory_job_bootstrap_ci95": [
+      0.005699999999999999,
+      0.0079
+    ],
+    "matched_uniform_optimal_rate": 0.0097,
+    "optimal_lift_vs_uniform": 0.7113402061855669,
+    "optimal_difference_percentage_points": -0.28,
+    "best_relocations": 2
+  },
+  {
+    "pairing_id": "random-S3T4C6-24__predicate",
+    "jobs": 5,
+    "shots": 10000,
+    "legal_count": 375,
+    "optimal_count": 111,
+    "legal_rate": 0.0375,
+    "optimal_rate": 0.0111,
+    "optimal_given_legal": 0.296,
+    "optimal_ci95_wilson": [
+      0.00922610769453467,
+      0.013349365912312904
+    ],
+    "successful_jobs": 5,
+    "success_rate": 1.0,
+    "success_ci95_wilson": [
+      0.5655175352168251,
+      1
+    ],
+    "optimal_job_sd": 0.0017464249196572977,
+    "optimal_job_min": 0.0095,
+    "optimal_job_max": 0.013,
+    "exploratory_job_bootstrap_ci95": [
+      0.0098,
+      0.0124
+    ],
+    "matched_uniform_optimal_rate": 0.0069,
+    "optimal_lift_vs_uniform": 1.608695652173913,
+    "optimal_difference_percentage_points": 0.42000000000000004,
+    "best_relocations": 2
+  },
+  {
+    "pairing_id": "random-S3T4C7-32__predicate",
+    "jobs": 5,
+    "shots": 10000,
+    "legal_count": 391,
+    "optimal_count": 68,
+    "legal_rate": 0.0391,
+    "optimal_rate": 0.0068,
+    "optimal_given_legal": 0.17391304347826086,
+    "optimal_ci95_wilson": [
+      0.005367876155841787,
+      0.008610899836993606
+    ],
+    "successful_jobs": 5,
+    "success_rate": 1.0,
+    "success_ci95_wilson": [
+      0.5655175352168251,
+      1
+    ],
+    "optimal_job_sd": 0.0026362852652928137,
+    "optimal_job_min": 0.0055,
+    "optimal_job_max": 0.0115,
+    "exploratory_job_bootstrap_ci95": [
+      0.0055,
+      0.009199999999999998
+    ],
+    "matched_uniform_optimal_rate": 0.0078,
+    "optimal_lift_vs_uniform": 0.8717948717948718,
+    "optimal_difference_percentage_points": -0.1,
+    "best_relocations": 1
+  },
+  {
+    "pairing_id": "random-S3T4C7-32__galle",
+    "jobs": 5,
+    "shots": 10000,
+    "legal_count": 387,
+    "optimal_count": 173,
+    "legal_rate": 0.0387,
+    "optimal_rate": 0.0173,
+    "optimal_given_legal": 0.4470284237726098,
+    "optimal_ci95_wilson": [
+      0.014923598454330068,
+      0.020047113572721115
+    ],
+    "successful_jobs": 5,
+    "success_rate": 1.0,
+    "success_ci95_wilson": [
+      0.5655175352168251,
+      1
+    ],
+    "optimal_job_sd": 0.005251190341246449,
+    "optimal_job_min": 0.011,
+    "optimal_job_max": 0.0255,
+    "exploratory_job_bootstrap_ci95": [
+      0.013500000000000002,
+      0.021899999999999996
+    ],
+    "matched_uniform_optimal_rate": 0.0073,
+    "optimal_lift_vs_uniform": 2.36986301369863,
+    "optimal_difference_percentage_points": 0.9999999999999999,
+    "best_relocations": 1
+  },
+  {
+    "pairing_id": "random-S4T3C6-16__predicate",
+    "jobs": 5,
+    "shots": 10000,
+    "legal_count": 815,
+    "optimal_count": 727,
+    "legal_rate": 0.0815,
+    "optimal_rate": 0.0727,
+    "optimal_given_legal": 0.8920245398773006,
+    "optimal_ci95_wilson": [
+      0.06777349689232208,
+      0.07795466811525813
+    ],
+    "successful_jobs": 5,
+    "success_rate": 1.0,
+    "success_ci95_wilson": [
+      0.5655175352168251,
+      1
+    ],
+    "optimal_job_sd": 0.0068611223571657725,
+    "optimal_job_min": 0.064,
+    "optimal_job_max": 0.0825,
+    "exploratory_job_bootstrap_ci95": [
+      0.06760000000000001,
+      0.07830000000000001
+    ],
+    "matched_uniform_optimal_rate": 0.031,
+    "optimal_lift_vs_uniform": 2.3451612903225807,
+    "optimal_difference_percentage_points": 4.17,
+    "best_relocations": 2
+  },
+  {
+    "pairing_id": "data3-3-8__predicate",
+    "jobs": 5,
+    "shots": 10000,
+    "legal_count": 116,
+    "optimal_count": 34,
+    "legal_rate": 0.0116,
+    "optimal_rate": 0.0034,
+    "optimal_given_legal": 0.29310344827586204,
+    "optimal_ci95_wilson": [
+      0.002434181816300086,
+      0.004747205365455908
+    ],
+    "successful_jobs": 4,
+    "success_rate": 0.8,
+    "success_ci95_wilson": [
+      0.37553462976252533,
+      0.9637758913675698
+    ],
+    "optimal_job_sd": 0.002103568396796263,
+    "optimal_job_min": 0.0,
+    "optimal_job_max": 0.0055,
+    "exploratory_job_bootstrap_ci95": [
+      0.0017000000000000001,
+      0.0048000000000000004
+    ],
+    "matched_uniform_optimal_rate": 0.0018,
+    "optimal_lift_vs_uniform": 1.8888888888888888,
+    "optimal_difference_percentage_points": 0.15999999999999998,
+    "best_relocations": 2
+  }
+]

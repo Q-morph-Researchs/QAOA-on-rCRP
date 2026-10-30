@@ -1,0 +1,34 @@
+ABOUT THIS FOLDER: PROTOCOLS
+============================
+
+Short version: the rules we wrote down before touching the quantum computer.
+All three files are from 10 October 2026, two days before the first IBM job.
+
+WHAT'S IN HERE
+- STUDY_PROTOCOL.md: version 1 of the plan. The question, the frozen inputs,
+  the checks every circuit had to pass before submission, and the compiler
+  settings (seed 11 is the one we ran).
+- STUDY_PROTOCOL_v2.md: version 2, same day. Picks the five bays as a "size
+  ladder" from 158 to 418 compiled two-qubit gates (paper Appendix B.2).
+- IBM_RUN_PLAN_2026_10_10.pdf: the run plan. Which bays and encodings, 40
+  jobs, the job order and the QPU-time cap.
+
+THE ONE THING THAT LOOKS LIKE A CONTRADICTION
+Protocol v2 says QUBO is only a resource comparison, with no QUBO hardware
+run. The run plan, written later that day after the noiseless and
+fake-device simulations but before any hardware job, added QUBO for the
+three bays whose circuits fit under 400 compiled two-qubit gates. The paper
+describes exactly this in Appendix B.2.
+
+HEADS-UP
+The plan said all jobs would run on one day. They actually went in on 12, 14
+and 16 October, with the circuits recompiled each time. The paper says so
+(Section 2.5 and Limitations).
+
+NAMES USED IN THE FILES
+- random-S3T4C6-21 = bay A, random-S3T4C6-24 = bay B, random-S3T4C7-32 = bay
+  C, random-S4T3C6-16 = bay D, data3-3-8 = bay E.
+- "galle" = the QUBO-based encoding (named after the Galle et al. model).
+  "predicate" = the predicate-based encoding.
+- "accepted" = what the paper calls a legal plan. "replay-optimal" = an
+  optimal plan.

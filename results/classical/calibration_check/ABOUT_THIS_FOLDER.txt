@@ -1,0 +1,8 @@
+ABOUT THIS FOLDER: CALIBRATION_CHECK
+====================================
+
+Checks, for all 40 hardware jobs, that each one used its frozen angle
+record, the right circuit files and the right compiled circuit, and that the
+rates recomputed from the raw results match the saved summary (paper
+Sections 2.4 and 2.5). Read CALIBRATION_BRIDGE.md; calibration_bridge.json
+has the same results in machine-readable form.

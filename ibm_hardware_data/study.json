@@ -1,0 +1,429 @@
+{
+  "account_name": "[REDACTED: account name]",
+  "approval": {
+    "approved_by_radin_message": "I, Radin, approve 40 jobs x 2000 shots on ibm_fez, 30 s per job, 300 s total, on 2026-10-12.",
+    "backend": "ibm_fez",
+    "batches": 5,
+    "cases_by_method": {
+      "galle": [
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32"
+      ],
+      "predicate": [
+        "random-S3T4C6-21",
+        "random-S3T4C6-24",
+        "random-S3T4C7-32",
+        "random-S4T3C6-16",
+        "data3-3-8"
+      ]
+    },
+    "max_execution_time_per_job_seconds": 30,
+    "shots_per_batch": 2000,
+    "total_qpu_seconds_cap": 300
+  },
+  "approval_path": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/approval_guide.json",
+  "approval_sha256": "a8ad57416df07970a76f1d218e03196624c35e9bbbaf9a1ec3ce3ecd8af3de80",
+  "backend": "ibm_fez",
+  "caps": {
+    "per_job_seconds": 30,
+    "study_seconds": 300
+  },
+  "created_utc": "2026-10-12T17:28:32.490512+00:00",
+  "data_kind": "HARDWARE",
+  "expected_plan": "open",
+  "instance_crn": "[REDACTED: IBM instance CRN]",
+  "kind": "live",
+  "protocol": {
+    "analysis_rule": "For each slot, the analysed attempt is the FIRST attempt (in attempt order) whose results were saved and passed the identity checks. Attempts without results are reported but not analysed. A replacement is only allowed when no earlier attempt of that slot has results, so there is never a choice between result sets.",
+    "batches": 5,
+    "id": "sim9-ladder-v1: 8 items x 5 jobs x 2000 shots",
+    "jobs": 40,
+    "order": [
+      [
+        "random-S3T4C6-21",
+        "predicate"
+      ],
+      [
+        "random-S3T4C6-21",
+        "galle"
+      ],
+      [
+        "random-S3T4C6-24",
+        "galle"
+      ],
+      [
+        "random-S3T4C6-24",
+        "predicate"
+      ],
+      [
+        "random-S3T4C7-32",
+        "predicate"
+      ],
+      [
+        "random-S3T4C7-32",
+        "galle"
+      ],
+      [
+        "random-S4T3C6-16",
+        "predicate"
+      ],
+      [
+        "data3-3-8",
+        "predicate"
+      ]
+    ],
+    "replacement_rule": "At most one replacement per slot, one job, only after the original attempt is failed/cancelled (or reconciled as no job) AND its accounting is final. Both attempts and both costs are kept.",
+    "shots_per_job": 2000,
+    "total_shots": 80000
+  },
+  "schema": "sim9.2-ibm-study/1",
+  "settings": {
+    "batches": 5,
+    "check_tolerance": 1e-09,
+    "direct_cutoff": 5,
+    "enumeration_qubit_guard": 22,
+    "fake_device": "FakeFez",
+    "max_execution_time_per_job_seconds": 30,
+    "mitigation": "none: dynamical decoupling off, gate and measurement twirling off, no readout correction",
+    "optimization_level": 3,
+    "p": 2,
+    "preparation_max_age_hours": 24,
+    "presolve": "standard",
+    "protocol_id": "sim9-ladder-v1: 8 items x 5 jobs x 2000 shots",
+    "seed_transpiler": 11,
+    "shots_per_batch": 2000,
+    "synthesis": "pauli",
+    "total_qpu_seconds_cap": 300
+  },
+  "slots": [
+    {
+      "case": "random-S3T4C6-21",
+      "index": 0,
+      "method": "predicate",
+      "repetition": 1,
+      "shots": 2000,
+      "slot_id": "01_random-S3T4C6-21__predicate__rep1"
+    },
+    {
+      "case": "random-S3T4C6-21",
+      "index": 1,
+      "method": "predicate",
+      "repetition": 2,
+      "shots": 2000,
+      "slot_id": "02_random-S3T4C6-21__predicate__rep2"
+    },
+    {
+      "case": "random-S3T4C6-21",
+      "index": 2,
+      "method": "predicate",
+      "repetition": 3,
+      "shots": 2000,
+      "slot_id": "03_random-S3T4C6-21__predicate__rep3"
+    },
+    {
+      "case": "random-S3T4C6-21",
+      "index": 3,
+      "method": "predicate",
+      "repetition": 4,
+      "shots": 2000,
+      "slot_id": "04_random-S3T4C6-21__predicate__rep4"
+    },
+    {
+      "case": "random-S3T4C6-21",
+      "index": 4,
+      "method": "predicate",
+      "repetition": 5,
+      "shots": 2000,
+      "slot_id": "05_random-S3T4C6-21__predicate__rep5"
+    },
+    {
+      "case": "random-S3T4C6-21",
+      "index": 5,
+      "method": "galle",
+      "repetition": 1,
+      "shots": 2000,
+      "slot_id": "06_random-S3T4C6-21__galle__rep1"
+    },
+    {
+      "case": "random-S3T4C6-21",
+      "index": 6,
+      "method": "galle",
+      "repetition": 2,
+      "shots": 2000,
+      "slot_id": "07_random-S3T4C6-21__galle__rep2"
+    },
+    {
+      "case": "random-S3T4C6-21",
+      "index": 7,
+      "method": "galle",
+      "repetition": 3,
+      "shots": 2000,
+      "slot_id": "08_random-S3T4C6-21__galle__rep3"
+    },
+    {
+      "case": "random-S3T4C6-21",
+      "index": 8,
+      "method": "galle",
+      "repetition": 4,
+      "shots": 2000,
+      "slot_id": "09_random-S3T4C6-21__galle__rep4"
+    },
+    {
+      "case": "random-S3T4C6-21",
+      "index": 9,
+      "method": "galle",
+      "repetition": 5,
+      "shots": 2000,
+      "slot_id": "10_random-S3T4C6-21__galle__rep5"
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "index": 10,
+      "method": "galle",
+      "repetition": 1,
+      "shots": 2000,
+      "slot_id": "11_random-S3T4C6-24__galle__rep1"
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "index": 11,
+      "method": "galle",
+      "repetition": 2,
+      "shots": 2000,
+      "slot_id": "12_random-S3T4C6-24__galle__rep2"
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "index": 12,
+      "method": "galle",
+      "repetition": 3,
+      "shots": 2000,
+      "slot_id": "13_random-S3T4C6-24__galle__rep3"
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "index": 13,
+      "method": "galle",
+      "repetition": 4,
+      "shots": 2000,
+      "slot_id": "14_random-S3T4C6-24__galle__rep4"
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "index": 14,
+      "method": "galle",
+      "repetition": 5,
+      "shots": 2000,
+      "slot_id": "15_random-S3T4C6-24__galle__rep5"
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "index": 15,
+      "method": "predicate",
+      "repetition": 1,
+      "shots": 2000,
+      "slot_id": "16_random-S3T4C6-24__predicate__rep1"
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "index": 16,
+      "method": "predicate",
+      "repetition": 2,
+      "shots": 2000,
+      "slot_id": "17_random-S3T4C6-24__predicate__rep2"
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "index": 17,
+      "method": "predicate",
+      "repetition": 3,
+      "shots": 2000,
+      "slot_id": "18_random-S3T4C6-24__predicate__rep3"
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "index": 18,
+      "method": "predicate",
+      "repetition": 4,
+      "shots": 2000,
+      "slot_id": "19_random-S3T4C6-24__predicate__rep4"
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "index": 19,
+      "method": "predicate",
+      "repetition": 5,
+      "shots": 2000,
+      "slot_id": "20_random-S3T4C6-24__predicate__rep5"
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "index": 20,
+      "method": "predicate",
+      "repetition": 1,
+      "shots": 2000,
+      "slot_id": "21_random-S3T4C7-32__predicate__rep1"
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "index": 21,
+      "method": "predicate",
+      "repetition": 2,
+      "shots": 2000,
+      "slot_id": "22_random-S3T4C7-32__predicate__rep2"
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "index": 22,
+      "method": "predicate",
+      "repetition": 3,
+      "shots": 2000,
+      "slot_id": "23_random-S3T4C7-32__predicate__rep3"
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "index": 23,
+      "method": "predicate",
+      "repetition": 4,
+      "shots": 2000,
+      "slot_id": "24_random-S3T4C7-32__predicate__rep4"
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "index": 24,
+      "method": "predicate",
+      "repetition": 5,
+      "shots": 2000,
+      "slot_id": "25_random-S3T4C7-32__predicate__rep5"
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "index": 25,
+      "method": "galle",
+      "repetition": 1,
+      "shots": 2000,
+      "slot_id": "26_random-S3T4C7-32__galle__rep1"
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "index": 26,
+      "method": "galle",
+      "repetition": 2,
+      "shots": 2000,
+      "slot_id": "27_random-S3T4C7-32__galle__rep2"
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "index": 27,
+      "method": "galle",
+      "repetition": 3,
+      "shots": 2000,
+      "slot_id": "28_random-S3T4C7-32__galle__rep3"
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "index": 28,
+      "method": "galle",
+      "repetition": 4,
+      "shots": 2000,
+      "slot_id": "29_random-S3T4C7-32__galle__rep4"
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "index": 29,
+      "method": "galle",
+      "repetition": 5,
+      "shots": 2000,
+      "slot_id": "30_random-S3T4C7-32__galle__rep5"
+    },
+    {
+      "case": "random-S4T3C6-16",
+      "index": 30,
+      "method": "predicate",
+      "repetition": 1,
+      "shots": 2000,
+      "slot_id": "31_random-S4T3C6-16__predicate__rep1"
+    },
+    {
+      "case": "random-S4T3C6-16",
+      "index": 31,
+      "method": "predicate",
+      "repetition": 2,
+      "shots": 2000,
+      "slot_id": "32_random-S4T3C6-16__predicate__rep2"
+    },
+    {
+      "case": "random-S4T3C6-16",
+      "index": 32,
+      "method": "predicate",
+      "repetition": 3,
+      "shots": 2000,
+      "slot_id": "33_random-S4T3C6-16__predicate__rep3"
+    },
+    {
+      "case": "random-S4T3C6-16",
+      "index": 33,
+      "method": "predicate",
+      "repetition": 4,
+      "shots": 2000,
+      "slot_id": "34_random-S4T3C6-16__predicate__rep4"
+    },
+    {
+      "case": "random-S4T3C6-16",
+      "index": 34,
+      "method": "predicate",
+      "repetition": 5,
+      "shots": 2000,
+      "slot_id": "35_random-S4T3C6-16__predicate__rep5"
+    },
+    {
+      "case": "data3-3-8",
+      "index": 35,
+      "method": "predicate",
+      "repetition": 1,
+      "shots": 2000,
+      "slot_id": "36_data3-3-8__predicate__rep1"
+    },
+    {
+      "case": "data3-3-8",
+      "index": 36,
+      "method": "predicate",
+      "repetition": 2,
+      "shots": 2000,
+      "slot_id": "37_data3-3-8__predicate__rep2"
+    },
+    {
+      "case": "data3-3-8",
+      "index": 37,
+      "method": "predicate",
+      "repetition": 3,
+      "shots": 2000,
+      "slot_id": "38_data3-3-8__predicate__rep3"
+    },
+    {
+      "case": "data3-3-8",
+      "index": 38,
+      "method": "predicate",
+      "repetition": 4,
+      "shots": 2000,
+      "slot_id": "39_data3-3-8__predicate__rep4"
+    },
+    {
+      "case": "data3-3-8",
+      "index": 39,
+      "method": "predicate",
+      "repetition": 5,
+      "shots": 2000,
+      "slot_id": "40_data3-3-8__predicate__rep5"
+    }
+  ],
+  "versions": {
+    "numpy": "2.5.3",
+    "python": "3.12.14",
+    "qiskit": "2.5.2",
+    "qiskit_aer": "0.17.2",
+    "qiskit_ibm_runtime": "0.50.0",
+    "sim_sha256": "bbd2c4473ac4540d8770d02191e505dd6c204dda4f3bac7a6085dc14b9a6dec0"
+  }
+}

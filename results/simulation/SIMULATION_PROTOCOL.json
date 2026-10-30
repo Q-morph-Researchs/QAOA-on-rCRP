@@ -1,0 +1,21 @@
+{
+  "study": "post-hardware supplementary simulation; not preregistered before hardware",
+  "frozen_angles": true,
+  "retuning": false,
+  "pairings": 8,
+  "matched_hardware_jobs": 40,
+  "shots_per_simulated_job": 2000,
+  "conditions": [
+    "ideal exact probabilities and independently sampled shots",
+    "snapshot gate-depolarization plus asymmetric readout, thermal_relaxation=False"
+  ],
+  "noise_limitations": "Saved properties lack qubit frequency; use gate-error-only depolarization and readout. No separately modelled T1/T2, idle relaxation, crosstalk, leakage, coherent errors or drift. Gate error may already reflect relaxation contributions. Not a reconstruction of actual noise.",
+  "seed_root": 2026101701,
+  "streams": "SeedSequence.spawn(80), alternating ideal and noisy per sorted job; seeds fixed before sampling",
+  "cost": "2000 simulated shots not equal cost to SA evaluations or QPU shots",
+  "reference": "exact uniform encoded bitstrings, independently replayed legal plans; known optimum used only for scoring",
+  "simulator": "Aer statevector trajectories, two threads, one parallel shot, max_memory_mb=2048",
+  "tolerance": 1e-09,
+  "analysis": "per pairing exact ideal/uniform; hardware and simulated counts, job rates, conditional Wilson CI; no quantum advantage claims",
+  "stop_rule": "all planned 40 jobs in each condition, no outcome-based stopping"
+}

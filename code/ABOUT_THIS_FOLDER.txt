@@ -1,0 +1,43 @@
+ABOUT THIS FOLDER: CODE
+=======================
+
+Short version: all the code behind the paper, kept exactly as it was run.
+
+WHAT'S IN HERE
+- Sim9_2.py: the main study program (about 7,000 lines). It builds both
+  encodings, makes the QAOA circuits, handled the IBM jobs, and decodes
+  every shot into crane moves. Every IBM job recorded its SHA-256 hash,
+  which starts with bbd2c447.
+- classical/: the exact MILP, the greedy rule and simulated annealing.
+- simulation/: the ideal and noise-model simulations, and the resource
+  estimates for bigger bays.
+- analysis/: the scripts that built the results tables and the database.
+- decoder_check/: a second decoder, written from scratch, used to check the
+  first one.
+- posthoc/: the later angle and depth study. Each subfolder has its own
+  ABOUT_THIS_FOLDER.txt.
+
+WHERE THE SCIENCE IS INSIDE Sim9_2.py
+- ibm_build: takes a bay name and an encoding, and returns the reduced
+  problem and the frozen angles.
+- qubo and galle: the QUBO encoding.
+- predicate and PredicateModel: the predicate encoding.
+- outcome: the decoder. It turns a bit string into legal or illegal, a list
+  of crane moves and a relocation count.
+
+HEADS-UP
+- The scripts are kept as they ran, so some still point to folders on our
+  own computers (and the helpers expect Sim9_2.py in the folder layout we
+  used). They won't all run unchanged on yours; they're here so you can read
+  exactly how each number was made.
+- Please don't run the "ibm" commands in Sim9_2.py. They would try to use an
+  IBM account.
+- The packages we used are listed in ../requirements.txt (Python 3.12).
+
+NAMES USED IN THE FILES
+- random-S3T4C6-21 = bay A, random-S3T4C6-24 = bay B, random-S3T4C7-32 = bay
+  C, random-S4T3C6-16 = bay D, data3-3-8 = bay E.
+- "galle" = the QUBO-based encoding (named after the Galle et al. model).
+  "predicate" = the predicate-based encoding.
+- "accepted" = what the paper calls a legal plan. "replay-optimal" = an
+  optimal plan.

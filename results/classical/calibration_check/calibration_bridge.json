@@ -1,0 +1,3872 @@
+{
+  "schema": "companion-calibration-bridge/1",
+  "study": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1",
+  "source_files": {
+    "angles_json": {
+      "path": "/Users/radin/Downloads/QAOA_Quantum_Hardware_revised_2026_10_09_v2/release_evidence/calibration/angles.json",
+      "sha256": "2aa449cd3e22ca36f932e93f40d47ad653a1d49a8cf957bbf10f773178529ac9"
+    },
+    "selection_provenance": {
+      "path": "/Users/radin/Downloads/QAOA_Quantum_Hardware_revised_2026_10_09_v2/release_evidence/calibration_checks/calibration_selection_provenance.json",
+      "sha256": "79f741b1e5b381c85f68d15989ee49b18e6cfc0a1fd50102e39bbb5e1a685a3f"
+    },
+    "calibration_ledger": {
+      "path": "/Users/radin/Downloads/QAOA_Quantum_Hardware_revised_2026_10_09_v2/release_evidence/calibration_checks/calibration_ledger.json",
+      "sha256": "c1239d74b1f3bf449a814403099aaa9ba9b4bcc591eadf2d6f06e15b0d12858f"
+    },
+    "sim9_2_py": {
+      "path": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/Sim9_2.py",
+      "sha256": "bbd2c4473ac4540d8770d02191e505dd6c204dda4f3bac7a6085dc14b9a6dec0"
+    },
+    "summary_csv": {
+      "path": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/summary.csv",
+      "sha256": "e460821d86ab03e138912f89fce39c83674bf3121aeedecc9a18790af5e439fd"
+    },
+    "study_json": {
+      "path": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/study.json",
+      "sha256": "c0f9122be5ed9d53fdfe8811e36a27a811351aa63f8f1a7dad073aee0106cec8",
+      "note": "hashed only; contains the instance CRN, which is not copied"
+    }
+  },
+  "sim9_sha256_before": "bbd2c4473ac4540d8770d02191e505dd6c204dda4f3bac7a6085dc14b9a6dec0",
+  "sim9_sha256_after": "bbd2c4473ac4540d8770d02191e505dd6c204dda4f3bac7a6085dc14b9a6dec0",
+  "tolerance": 1e-09,
+  "pairings": [
+    {
+      "case": "random-S3T4C6-21",
+      "encoding": "predicate",
+      "encoding_name": "predicate",
+      "logical_qubits": 8,
+      "milp_optimum": 1.0,
+      "angle_id": "loo:random-S3T4C6-21:p2",
+      "angle_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5522082029399951,
+        -0.2607101873221711
+      ],
+      "angle_vector_order": "[gamma_1, gamma_2, beta_1, beta_2]",
+      "angle_source": {
+        "file": "/Users/radin/Downloads/QAOA_Quantum_Hardware_revised_2026_10_09_v2/release_evidence/calibration/angles.json",
+        "file_sha256": "2aa449cd3e22ca36f932e93f40d47ad653a1d49a8cf957bbf10f773178529ac9",
+        "calibration_record_sha256": "7141ca750658e92f00be5f28311bd739027ba83a7823a685128b23361f92dcbd",
+        "calibration_record_hash_rule": "sha256 of canonical JSON of the angles.json entry (sort_keys, compact), same rule as revised/artifacts.digest",
+        "selection_provenance_angle_hash": null,
+        "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+        "training_ids": [
+          "data3-3-3",
+          "data3-3-30",
+          "data3-3-8",
+          "random-S3T4C6-12",
+          "random-S3T4C6-24",
+          "random-S3T4C7-32",
+          "random-S3T4C7-7",
+          "random-S3T5C7-27",
+          "random-S4T3C6-16",
+          "random-S4T3C7-44",
+          "random-S4T4C7-25",
+          "random-S4T4C7-31",
+          "random-S4T4C7-43",
+          "random-S4T4C8-42"
+        ],
+        "rounding": "none; historical full precision"
+      },
+      "prep_versions_used": [
+        1
+      ],
+      "prep_versions_on_disk": [
+        1,
+        2,
+        3
+      ],
+      "compiled_two_qubit_gates_by_version_used": {
+        "1": 158
+      },
+      "jobs": [
+        {
+          "attempt_id": "01_random-S3T4C6-21__predicate__rep1__a1",
+          "slot_id": "01_random-S3T4C6-21__predicate__rep1",
+          "case": "random-S3T4C6-21",
+          "method": "predicate",
+          "repetition": 1,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6hn1qmb58s738brlqg",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T17:40:21.846002+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/01_random-S3T4C6-21__predicate__rep1__a1.json",
+          "registry_sha256": "2533dab79c987afd47153481ee50e0d483198d556d3e0d29189ee00af88846ff",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.005266+00:00",
+          "job_created_utc": "2026-10-12T17:40:21.846002+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1/logical.qpy",
+            "sha256": "0ba0dbfeca2adf1b09ad58b2346c96600d4d83ef88feaf077451647ceabf0da7"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1/isa.qpy",
+            "sha256": "ab6afd9b3061ead4b25c1c2100b56dcf1b4bbfe2cfff66e2e8e4e9ce585abe83",
+            "two_qubit_gates": 158,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/01_random-S3T4C6-21__predicate__rep1__a1/raw_result.json",
+            "sha256": "49ce91f78f48ffd7f20e17bda1f7d58501b501fd134be28dae69844808778219"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/01_random-S3T4C6-21__predicate__rep1__a1/states.npy",
+            "sha256": "4fc40fbe1bf90ff2caab32424d2a9545bc4d39868497d7a8a618d2c21e9e40da"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 290,
+            "legal_and_optimal": 74,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 290,
+            "legal_and_optimal": 74
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.0408340855860843e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 4.926614671774132e-16,
+            "max_abs_diff_isa_vs_logical": 5.967448757360216e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.001657948327809508
+          }
+        },
+        {
+          "attempt_id": "02_random-S3T4C6-21__predicate__rep2__a1",
+          "slot_id": "02_random-S3T4C6-21__predicate__rep2",
+          "case": "random-S3T4C6-21",
+          "method": "predicate",
+          "repetition": 2,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6hqgg4qg6s73c4r2o0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T17:47:44.808112+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/02_random-S3T4C6-21__predicate__rep2__a1.json",
+          "registry_sha256": "6853dda55c9b9bb1c1fb7fdee9838dc162dfe9c1b5f4411e4da43408fdb890d9",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.005266+00:00",
+          "job_created_utc": "2026-10-12T17:47:44.808112+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1/logical.qpy",
+            "sha256": "0ba0dbfeca2adf1b09ad58b2346c96600d4d83ef88feaf077451647ceabf0da7"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1/isa.qpy",
+            "sha256": "ab6afd9b3061ead4b25c1c2100b56dcf1b4bbfe2cfff66e2e8e4e9ce585abe83",
+            "two_qubit_gates": 158,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/02_random-S3T4C6-21__predicate__rep2__a1/raw_result.json",
+            "sha256": "3a88cb08219cd5045265236d3fb547c031ed2c0053b678486ad629dae02c178e"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/02_random-S3T4C6-21__predicate__rep2__a1/states.npy",
+            "sha256": "0569a53007f49d7900fbb876cfc4b2f7ed23f44cf147a6c8264d6b3c44522d7e"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 272,
+            "legal_and_optimal": 83,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 272,
+            "legal_and_optimal": 83
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.0408340855860843e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 4.926614671774132e-16,
+            "max_abs_diff_isa_vs_logical": 5.967448757360216e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.001657948327809508
+          }
+        },
+        {
+          "attempt_id": "03_random-S3T4C6-21__predicate__rep3__a1",
+          "slot_id": "03_random-S3T4C6-21__predicate__rep3",
+          "case": "random-S3T4C6-21",
+          "method": "predicate",
+          "repetition": 3,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6ht1imb58s738bru1g",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T17:53:07.398164+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/03_random-S3T4C6-21__predicate__rep3__a1.json",
+          "registry_sha256": "411be582a890a2f93b29070890f2a7203e8765d9a7af3823515e559964f576d1",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.005266+00:00",
+          "job_created_utc": "2026-10-12T17:53:07.398164+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1/logical.qpy",
+            "sha256": "0ba0dbfeca2adf1b09ad58b2346c96600d4d83ef88feaf077451647ceabf0da7"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1/isa.qpy",
+            "sha256": "ab6afd9b3061ead4b25c1c2100b56dcf1b4bbfe2cfff66e2e8e4e9ce585abe83",
+            "two_qubit_gates": 158,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/03_random-S3T4C6-21__predicate__rep3__a1/raw_result.json",
+            "sha256": "008c6bd68a9e6a172080ce636fd112075bd1bf289759417fa7c489dc11bcff5c"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/03_random-S3T4C6-21__predicate__rep3__a1/states.npy",
+            "sha256": "9179d203fd3b946439a2af22385bf68939dfd58f362c745a59f53bda508928c5"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 256,
+            "legal_and_optimal": 73,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 256,
+            "legal_and_optimal": 73
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.0408340855860843e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 4.926614671774132e-16,
+            "max_abs_diff_isa_vs_logical": 5.967448757360216e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.001657948327809508
+          }
+        },
+        {
+          "attempt_id": "04_random-S3T4C6-21__predicate__rep4__a1",
+          "slot_id": "04_random-S3T4C6-21__predicate__rep4",
+          "case": "random-S3T4C6-21",
+          "method": "predicate",
+          "repetition": 4,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6hus04qg6s73c4r9o0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T17:57:03.078011+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/04_random-S3T4C6-21__predicate__rep4__a1.json",
+          "registry_sha256": "e59db29d42a8c9d9679580bee6ddf34399ce15e172aa182b8b559f538ad631d9",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.005266+00:00",
+          "job_created_utc": "2026-10-12T17:57:03.078011+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1/logical.qpy",
+            "sha256": "0ba0dbfeca2adf1b09ad58b2346c96600d4d83ef88feaf077451647ceabf0da7"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1/isa.qpy",
+            "sha256": "ab6afd9b3061ead4b25c1c2100b56dcf1b4bbfe2cfff66e2e8e4e9ce585abe83",
+            "two_qubit_gates": 158,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/04_random-S3T4C6-21__predicate__rep4__a1/raw_result.json",
+            "sha256": "82026679ba492fff18added68893e5db8691b0838e31fbb02339cc09f49ebf53"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/04_random-S3T4C6-21__predicate__rep4__a1/states.npy",
+            "sha256": "361719c3a3e56a5344426fbb7c49161b350ceeabefad276763f9154aa57d1c6e"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 270,
+            "legal_and_optimal": 62,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 270,
+            "legal_and_optimal": 62
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.0408340855860843e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 4.926614671774132e-16,
+            "max_abs_diff_isa_vs_logical": 5.967448757360216e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.001657948327809508
+          }
+        },
+        {
+          "attempt_id": "05_random-S3T4C6-21__predicate__rep5__a1",
+          "slot_id": "05_random-S3T4C6-21__predicate__rep5",
+          "case": "random-S3T4C6-21",
+          "method": "predicate",
+          "repetition": 5,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6i302mb58s738bs8kg",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T18:05:51.229408+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/05_random-S3T4C6-21__predicate__rep5__a1.json",
+          "registry_sha256": "5716caf1120381779f2d424e7425ed6869240afa6b216abf4e3dbb5e25d1f452",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.005266+00:00",
+          "job_created_utc": "2026-10-12T18:05:51.229408+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1/logical.qpy",
+            "sha256": "0ba0dbfeca2adf1b09ad58b2346c96600d4d83ef88feaf077451647ceabf0da7"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__predicate/v1/isa.qpy",
+            "sha256": "ab6afd9b3061ead4b25c1c2100b56dcf1b4bbfe2cfff66e2e8e4e9ce585abe83",
+            "two_qubit_gates": 158,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/05_random-S3T4C6-21__predicate__rep5__a1/raw_result.json",
+            "sha256": "62548ca530f8c89e1cb35fec5b28c272a0c73342101bec7fac0e5d913ac25adb"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/05_random-S3T4C6-21__predicate__rep5__a1/states.npy",
+            "sha256": "cd7f9c085643ae287b840146c6b43998578afeb8bd4b6012c60f098190ce0f12"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 280,
+            "legal_and_optimal": 62,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 280,
+            "legal_and_optimal": 62
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.0408340855860843e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 4.926614671774132e-16,
+            "max_abs_diff_isa_vs_logical": 5.967448757360216e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.001657948327809508
+          }
+        }
+      ],
+      "final_rates": {
+        "shots": 10000,
+        "legal_rate_recomputed": 0.1368,
+        "optimal_rate_recomputed": 0.0354,
+        "legal_rate_summary_csv": 0.1368,
+        "optimal_rate_summary_csv": 0.0354,
+        "uniform_legal_summary_csv": 0.0413,
+        "uniform_optimal_summary_csv": 0.0125,
+        "optimal_defined_against": "part-A MILP optimum"
+      },
+      "pairing_checks": {
+        "angles_json_sha_equals_sha_embedded_in_Sim9_2": true,
+        "calibration_vector_equals_Sim9_2_embedded_vector": true,
+        "predicate_LOO_excludes_own_bay": true,
+        "five_jobs": true,
+        "recomputed_rates_equal_summary_csv": true,
+        "all_job_checks_pass": true
+      }
+    },
+    {
+      "case": "random-S3T4C6-21",
+      "encoding": "galle",
+      "encoding_name": "QUBO (Galle CRP-I)",
+      "logical_qubits": 12,
+      "milp_optimum": 1.0,
+      "angle_id": "fresh:galle:p2",
+      "angle_vector": [
+        0.647,
+        -2.595,
+        -0.409,
+        0.211
+      ],
+      "angle_vector_order": "[gamma_1, gamma_2, beta_1, beta_2]",
+      "angle_source": {
+        "file": "/Users/radin/Downloads/QAOA_Quantum_Hardware_revised_2026_10_09_v2/release_evidence/calibration/angles.json",
+        "file_sha256": "2aa449cd3e22ca36f932e93f40d47ad653a1d49a8cf957bbf10f773178529ac9",
+        "calibration_record_sha256": "af42ad798424230eca8db833783b3ed7f60640588315e95656633d1d06cb0577",
+        "calibration_record_hash_rule": "sha256 of canonical JSON of the angles.json entry (sort_keys, compact), same rule as revised/artifacts.digest",
+        "selection_provenance_angle_hash": "af42ad798424230eca8db833783b3ed7f60640588315e95656633d1d06cb0577",
+        "selection": "maximum mean log legal amplification among 8 wrapped candidates plus median; validate separately",
+        "training_ids": [
+          "calibration:galle:0",
+          "calibration:galle:1",
+          "calibration:galle:2",
+          "calibration:galle:3",
+          "calibration:galle:4",
+          "calibration:galle:5",
+          "calibration:galle:6",
+          "calibration:galle:7"
+        ],
+        "rounding": "3 decimal places; preserved historical evaluated vector"
+      },
+      "prep_versions_used": [
+        1
+      ],
+      "prep_versions_on_disk": [
+        1,
+        2,
+        3
+      ],
+      "compiled_two_qubit_gates_by_version_used": {
+        "1": 228
+      },
+      "jobs": [
+        {
+          "attempt_id": "06_random-S3T4C6-21__galle__rep1__a1",
+          "slot_id": "06_random-S3T4C6-21__galle__rep1",
+          "case": "random-S3T4C6-21",
+          "method": "galle",
+          "repetition": 1,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6i8bcvf2bc73d19mlg",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T18:17:15.694412+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/06_random-S3T4C6-21__galle__rep1__a1.json",
+          "registry_sha256": "54557e42de5e58a27933ca6610225b4cfcbc4dc8c676f4b6416387f71ddc48dd",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.143831+00:00",
+          "job_created_utc": "2026-10-12T18:17:15.694412+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1/logical.qpy",
+            "sha256": "2e622e6a27b754ea8bee01886e852e20e85a2c1e9b1fae94a9cc13e1ba78b989"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1/isa.qpy",
+            "sha256": "d23d2895ae21aa418d6ade2b362191f00aa99fbfe069942707122548898c066e",
+            "two_qubit_gates": 228,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/06_random-S3T4C6-21__galle__rep1__a1/raw_result.json",
+            "sha256": "df2687c223be7a3efcd8a4f1d9f2a4b7da0f9a81deee89a7c473dd35f904ebd7"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/06_random-S3T4C6-21__galle__rep1__a1/states.npy",
+            "sha256": "c20e6e41b63d382c7ee4555ea364bae21cf3e4d4c1a2cde0785c67d344a44002"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 322,
+            "legal_and_optimal": 134,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 322,
+            "legal_and_optimal": 134
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 6.071532165918825e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 1.3097162243624894e-16,
+            "max_abs_diff_isa_vs_logical": 1.3097162243624894e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0004572024072272071
+          }
+        },
+        {
+          "attempt_id": "07_random-S3T4C6-21__galle__rep2__a1",
+          "slot_id": "07_random-S3T4C6-21__galle__rep2",
+          "case": "random-S3T4C6-21",
+          "method": "galle",
+          "repetition": 2,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6i9fqmb58s738bsi10",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T18:19:41.389037+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/07_random-S3T4C6-21__galle__rep2__a1.json",
+          "registry_sha256": "8770575611923bd8fdf2f95cc30bfb5c9991c1e8f78eb3c59edafe9b8ccd871d",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.143831+00:00",
+          "job_created_utc": "2026-10-12T18:19:41.389037+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1/logical.qpy",
+            "sha256": "2e622e6a27b754ea8bee01886e852e20e85a2c1e9b1fae94a9cc13e1ba78b989"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1/isa.qpy",
+            "sha256": "d23d2895ae21aa418d6ade2b362191f00aa99fbfe069942707122548898c066e",
+            "two_qubit_gates": 228,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/07_random-S3T4C6-21__galle__rep2__a1/raw_result.json",
+            "sha256": "b5890aad53f0a5e6b24ec892512db5ffb654da10885bac6f1cbfa964ca5ad156"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/07_random-S3T4C6-21__galle__rep2__a1/states.npy",
+            "sha256": "54e64e1d43f0460a54ba79a7fa1bedcd96ad5e295218d233b1004f07351e6560"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 309,
+            "legal_and_optimal": 109,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 309,
+            "legal_and_optimal": 109
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 6.071532165918825e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 1.3097162243624894e-16,
+            "max_abs_diff_isa_vs_logical": 1.3097162243624894e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0004572024072272071
+          }
+        },
+        {
+          "attempt_id": "08_random-S3T4C6-21__galle__rep3__a1",
+          "slot_id": "08_random-S3T4C6-21__galle__rep3",
+          "case": "random-S3T4C6-21",
+          "method": "galle",
+          "repetition": 3,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6ibe04qg6s73c4rur0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T18:23:51.258227+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/08_random-S3T4C6-21__galle__rep3__a1.json",
+          "registry_sha256": "bf714e85cbc5d7ce5b5c774a3ef2471eabb2b5f69bb73b090b143593527bd032",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.143831+00:00",
+          "job_created_utc": "2026-10-12T18:23:51.258227+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1/logical.qpy",
+            "sha256": "2e622e6a27b754ea8bee01886e852e20e85a2c1e9b1fae94a9cc13e1ba78b989"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1/isa.qpy",
+            "sha256": "d23d2895ae21aa418d6ade2b362191f00aa99fbfe069942707122548898c066e",
+            "two_qubit_gates": 228,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/08_random-S3T4C6-21__galle__rep3__a1/raw_result.json",
+            "sha256": "45fc761fc2408883e110b03a79f9cdacd422c539db3a828bec9b30655232a114"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/08_random-S3T4C6-21__galle__rep3__a1/states.npy",
+            "sha256": "08b5a898bef817ecfbd8505d8cc1b04f4207310e3e793f0e159e936147802646"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 314,
+            "legal_and_optimal": 138,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 314,
+            "legal_and_optimal": 138
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 6.071532165918825e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 1.3097162243624894e-16,
+            "max_abs_diff_isa_vs_logical": 1.3097162243624894e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0004572024072272071
+          }
+        },
+        {
+          "attempt_id": "09_random-S3T4C6-21__galle__rep4__a1",
+          "slot_id": "09_random-S3T4C6-21__galle__rep4",
+          "case": "random-S3T4C6-21",
+          "method": "galle",
+          "repetition": 4,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6iddslf4us73c5eb3g",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T18:28:05.688317+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/09_random-S3T4C6-21__galle__rep4__a1.json",
+          "registry_sha256": "b9d111edd0e3c70618c7c1fbe55e86aa51fcf2ea531357b0f11a62e3b9b90f0a",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.143831+00:00",
+          "job_created_utc": "2026-10-12T18:28:05.688317+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1/logical.qpy",
+            "sha256": "2e622e6a27b754ea8bee01886e852e20e85a2c1e9b1fae94a9cc13e1ba78b989"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1/isa.qpy",
+            "sha256": "d23d2895ae21aa418d6ade2b362191f00aa99fbfe069942707122548898c066e",
+            "two_qubit_gates": 228,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/09_random-S3T4C6-21__galle__rep4__a1/raw_result.json",
+            "sha256": "646c9a5956c41cc78381dc444f29cd4a34a71549720fe904145b79036b845541"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/09_random-S3T4C6-21__galle__rep4__a1/states.npy",
+            "sha256": "24143f31b0026d465f95dfeaa30cf42fe98d9fcd7ea8165cd1996d4fc688865a"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 320,
+            "legal_and_optimal": 126,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 320,
+            "legal_and_optimal": 126
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 6.071532165918825e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 1.3097162243624894e-16,
+            "max_abs_diff_isa_vs_logical": 1.3097162243624894e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0004572024072272071
+          }
+        },
+        {
+          "attempt_id": "10_random-S3T4C6-21__galle__rep5__a1",
+          "slot_id": "10_random-S3T4C6-21__galle__rep5",
+          "case": "random-S3T4C6-21",
+          "method": "galle",
+          "repetition": 5,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6ier2mb58s738bsq60",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T18:31:07.200085+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/10_random-S3T4C6-21__galle__rep5__a1.json",
+          "registry_sha256": "6ee43df249f1e1b94e8931176b1b5b78fb4d88b4cc721b5adcbafd0ce0bc8fb5",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.143831+00:00",
+          "job_created_utc": "2026-10-12T18:31:07.200085+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1/logical.qpy",
+            "sha256": "2e622e6a27b754ea8bee01886e852e20e85a2c1e9b1fae94a9cc13e1ba78b989"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-21__galle/v1/isa.qpy",
+            "sha256": "d23d2895ae21aa418d6ade2b362191f00aa99fbfe069942707122548898c066e",
+            "two_qubit_gates": 228,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/10_random-S3T4C6-21__galle__rep5__a1/raw_result.json",
+            "sha256": "b77b7c947d1ddd3a66e5b5dfd6906932910dee8ec217916999af1168c45ee1ed"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/10_random-S3T4C6-21__galle__rep5__a1/states.npy",
+            "sha256": "1c2f2f3392c7d8e76ba6b2b90210a9face9cac4bfe566d961abfd79eb4fcd261"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 303,
+            "legal_and_optimal": 121,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 303,
+            "legal_and_optimal": 121
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 6.071532165918825e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 1.3097162243624894e-16,
+            "max_abs_diff_isa_vs_logical": 1.3097162243624894e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0004572024072272071
+          }
+        }
+      ],
+      "final_rates": {
+        "shots": 10000,
+        "legal_rate_recomputed": 0.1568,
+        "optimal_rate_recomputed": 0.0628,
+        "legal_rate_summary_csv": 0.1568,
+        "optimal_rate_summary_csv": 0.0628,
+        "uniform_legal_summary_csv": 0.0498,
+        "uniform_optimal_summary_csv": 0.015,
+        "optimal_defined_against": "part-A MILP optimum"
+      },
+      "pairing_checks": {
+        "provenance_angle_hash_equals_record_hash": true,
+        "angles_json_sha_equals_sha_embedded_in_Sim9_2": true,
+        "calibration_vector_equals_Sim9_2_embedded_vector": true,
+        "five_jobs": true,
+        "recomputed_rates_equal_summary_csv": true,
+        "all_job_checks_pass": true
+      }
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "encoding": "galle",
+      "encoding_name": "QUBO (Galle CRP-I)",
+      "logical_qubits": 12,
+      "milp_optimum": 2.0,
+      "angle_id": "fresh:galle:p2",
+      "angle_vector": [
+        0.647,
+        -2.595,
+        -0.409,
+        0.211
+      ],
+      "angle_vector_order": "[gamma_1, gamma_2, beta_1, beta_2]",
+      "angle_source": {
+        "file": "/Users/radin/Downloads/QAOA_Quantum_Hardware_revised_2026_10_09_v2/release_evidence/calibration/angles.json",
+        "file_sha256": "2aa449cd3e22ca36f932e93f40d47ad653a1d49a8cf957bbf10f773178529ac9",
+        "calibration_record_sha256": "af42ad798424230eca8db833783b3ed7f60640588315e95656633d1d06cb0577",
+        "calibration_record_hash_rule": "sha256 of canonical JSON of the angles.json entry (sort_keys, compact), same rule as revised/artifacts.digest",
+        "selection_provenance_angle_hash": "af42ad798424230eca8db833783b3ed7f60640588315e95656633d1d06cb0577",
+        "selection": "maximum mean log legal amplification among 8 wrapped candidates plus median; validate separately",
+        "training_ids": [
+          "calibration:galle:0",
+          "calibration:galle:1",
+          "calibration:galle:2",
+          "calibration:galle:3",
+          "calibration:galle:4",
+          "calibration:galle:5",
+          "calibration:galle:6",
+          "calibration:galle:7"
+        ],
+        "rounding": "3 decimal places; preserved historical evaluated vector"
+      },
+      "prep_versions_used": [
+        1
+      ],
+      "prep_versions_on_disk": [
+        1,
+        2,
+        3
+      ],
+      "compiled_two_qubit_gates_by_version_used": {
+        "1": 235
+      },
+      "jobs": [
+        {
+          "attempt_id": "11_random-S3T4C6-24__galle__rep1__a1",
+          "slot_id": "11_random-S3T4C6-24__galle__rep1",
+          "case": "random-S3T4C6-24",
+          "method": "galle",
+          "repetition": 1,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6j3804qg6s73c4stn0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T19:14:39.168213+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/11_random-S3T4C6-24__galle__rep1__a1.json",
+          "registry_sha256": "15803bc497a20622723e0bc7e97a215513c96571a2e62b45c856dc14ababf638",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.272641+00:00",
+          "job_created_utc": "2026-10-12T19:14:39.168213+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1/logical.qpy",
+            "sha256": "bbf557220a3916cacb626f5e1e528688e7bb03867d946b8bb7464448233463cd"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1/isa.qpy",
+            "sha256": "784b8cfafc9985b6e9f28c2f3cdf8e1bc4874aee810adde9f34780c3e49e6cd5",
+            "two_qubit_gates": 235,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/11_random-S3T4C6-24__galle__rep1__a1/raw_result.json",
+            "sha256": "7e0a361756ef9dc687fad851073287438897513b84683b15714bde9b0ce614f7"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/11_random-S3T4C6-24__galle__rep1__a1/states.npy",
+            "sha256": "eb19626dfb42dfe3e434f3e63ffbd2c661ac5352c720b10c8c0a9170b5d9548f"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 103,
+            "legal_and_optimal": 17,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 103,
+            "legal_and_optimal": 17
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 6.071532165918825e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 2.862293735361732e-17,
+            "max_abs_diff_isa_vs_logical": 2.6020852139652106e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00031577634839081384
+          }
+        },
+        {
+          "attempt_id": "12_random-S3T4C6-24__galle__rep2__a1",
+          "slot_id": "12_random-S3T4C6-24__galle__rep2",
+          "case": "random-S3T4C6-24",
+          "method": "galle",
+          "repetition": 2,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6jj7svf2bc73d1bfc0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T19:48:46.213402+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/12_random-S3T4C6-24__galle__rep2__a1.json",
+          "registry_sha256": "e0f44d153ec8db65ac25f2d7b90fd51a585aa0dd81e8fce4a2d95509be7a0384",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.272641+00:00",
+          "job_created_utc": "2026-10-12T19:48:46.213402+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1/logical.qpy",
+            "sha256": "bbf557220a3916cacb626f5e1e528688e7bb03867d946b8bb7464448233463cd"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1/isa.qpy",
+            "sha256": "784b8cfafc9985b6e9f28c2f3cdf8e1bc4874aee810adde9f34780c3e49e6cd5",
+            "two_qubit_gates": 235,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/12_random-S3T4C6-24__galle__rep2__a1/raw_result.json",
+            "sha256": "6539b3ae223c0ca8822204bed28d0e2aa74238e18d35bb470ae3835d998562ba"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/12_random-S3T4C6-24__galle__rep2__a1/states.npy",
+            "sha256": "b02f1cd2dacd917384fbbfd6914cec7a2742dbb4a0370fcb8a5fb8a892f5c19e"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 81,
+            "legal_and_optimal": 9,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 81,
+            "legal_and_optimal": 9
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 6.071532165918825e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 2.862293735361732e-17,
+            "max_abs_diff_isa_vs_logical": 2.6020852139652106e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00031577634839081384
+          }
+        },
+        {
+          "attempt_id": "13_random-S3T4C6-24__galle__rep3__a1",
+          "slot_id": "13_random-S3T4C6-24__galle__rep3",
+          "case": "random-S3T4C6-24",
+          "method": "galle",
+          "repetition": 3,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6jk14lf4us73c5ft0g",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T19:50:27.440307+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/13_random-S3T4C6-24__galle__rep3__a1.json",
+          "registry_sha256": "94759bc884a67494ac3f4e1b4deaf03221003a8c21dce3f622e9c98f6b780467",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.272641+00:00",
+          "job_created_utc": "2026-10-12T19:50:27.440307+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1/logical.qpy",
+            "sha256": "bbf557220a3916cacb626f5e1e528688e7bb03867d946b8bb7464448233463cd"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1/isa.qpy",
+            "sha256": "784b8cfafc9985b6e9f28c2f3cdf8e1bc4874aee810adde9f34780c3e49e6cd5",
+            "two_qubit_gates": 235,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/13_random-S3T4C6-24__galle__rep3__a1/raw_result.json",
+            "sha256": "1ac82b17259621f1ba85482e9961dd134f99ef60c7f1f6ff63ab2f9048f875ea"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/13_random-S3T4C6-24__galle__rep3__a1/states.npy",
+            "sha256": "634b258dcdbf1c33752cfa9f288873a2472b07e08470cb4711aee46ac73eab0e"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 87,
+            "legal_and_optimal": 13,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 87,
+            "legal_and_optimal": 13
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 6.071532165918825e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 2.862293735361732e-17,
+            "max_abs_diff_isa_vs_logical": 2.6020852139652106e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00031577634839081384
+          }
+        },
+        {
+          "attempt_id": "14_random-S3T4C6-24__galle__rep4__a1",
+          "slot_id": "14_random-S3T4C6-24__galle__rep4",
+          "case": "random-S3T4C6-24",
+          "method": "galle",
+          "repetition": 4,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6jl104qg6s73c4tkp0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T19:52:35.415842+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/14_random-S3T4C6-24__galle__rep4__a1.json",
+          "registry_sha256": "680e935a37b6fe4762457d0adb9f719ccb22e985e26b89beff5437adf01e2553",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.272641+00:00",
+          "job_created_utc": "2026-10-12T19:52:35.415842+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1/logical.qpy",
+            "sha256": "bbf557220a3916cacb626f5e1e528688e7bb03867d946b8bb7464448233463cd"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1/isa.qpy",
+            "sha256": "784b8cfafc9985b6e9f28c2f3cdf8e1bc4874aee810adde9f34780c3e49e6cd5",
+            "two_qubit_gates": 235,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/14_random-S3T4C6-24__galle__rep4__a1/raw_result.json",
+            "sha256": "bec62ff3a760be85d569addadfb13b4246ee2f1260c14653bcc5181c8f40b4f3"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/14_random-S3T4C6-24__galle__rep4__a1/states.npy",
+            "sha256": "cbdaeff26ea96d8059da48dd5b2b452097e2fbf8357e8ea5f84d107be007d8d9"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 100,
+            "legal_and_optimal": 15,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 100,
+            "legal_and_optimal": 15
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 6.071532165918825e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 2.862293735361732e-17,
+            "max_abs_diff_isa_vs_logical": 2.6020852139652106e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00031577634839081384
+          }
+        },
+        {
+          "attempt_id": "15_random-S3T4C6-24__galle__rep5__a1",
+          "slot_id": "15_random-S3T4C6-24__galle__rep5",
+          "case": "random-S3T4C6-24",
+          "method": "galle",
+          "repetition": 5,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6jls2mb58s738bub4g",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T19:54:22.907376+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/15_random-S3T4C6-24__galle__rep5__a1.json",
+          "registry_sha256": "91f75ed2056c00744592d8c346b2bf040838cb2ed0e4859aaff0b6a4de2f50e3",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.272641+00:00",
+          "job_created_utc": "2026-10-12T19:54:22.907376+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1/logical.qpy",
+            "sha256": "bbf557220a3916cacb626f5e1e528688e7bb03867d946b8bb7464448233463cd"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__galle/v1/isa.qpy",
+            "sha256": "784b8cfafc9985b6e9f28c2f3cdf8e1bc4874aee810adde9f34780c3e49e6cd5",
+            "two_qubit_gates": 235,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/15_random-S3T4C6-24__galle__rep5__a1/raw_result.json",
+            "sha256": "403061cba6680141374bfe10d5c6ed1a4e54001f348f357289c6fdc69939e4ba"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/15_random-S3T4C6-24__galle__rep5__a1/states.npy",
+            "sha256": "f8d40ffcad332394ced44bd14d485b2832ee209e2b706490d896aa81f6862785"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 99,
+            "legal_and_optimal": 15,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 99,
+            "legal_and_optimal": 15
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 6.071532165918825e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 2.862293735361732e-17,
+            "max_abs_diff_isa_vs_logical": 2.6020852139652106e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00031577634839081384
+          }
+        }
+      ],
+      "final_rates": {
+        "shots": 10000,
+        "legal_rate_recomputed": 0.047,
+        "optimal_rate_recomputed": 0.0069,
+        "legal_rate_summary_csv": 0.047,
+        "optimal_rate_summary_csv": 0.0069,
+        "uniform_legal_summary_csv": 0.0255,
+        "uniform_optimal_summary_csv": 0.0097,
+        "optimal_defined_against": "part-A MILP optimum"
+      },
+      "pairing_checks": {
+        "provenance_angle_hash_equals_record_hash": true,
+        "angles_json_sha_equals_sha_embedded_in_Sim9_2": true,
+        "calibration_vector_equals_Sim9_2_embedded_vector": true,
+        "five_jobs": true,
+        "recomputed_rates_equal_summary_csv": true,
+        "all_job_checks_pass": true
+      }
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "encoding": "predicate",
+      "encoding_name": "predicate",
+      "logical_qubits": 8,
+      "milp_optimum": 2.0,
+      "angle_id": "loo:random-S3T4C6-24:p2",
+      "angle_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "angle_vector_order": "[gamma_1, gamma_2, beta_1, beta_2]",
+      "angle_source": {
+        "file": "/Users/radin/Downloads/QAOA_Quantum_Hardware_revised_2026_10_09_v2/release_evidence/calibration/angles.json",
+        "file_sha256": "2aa449cd3e22ca36f932e93f40d47ad653a1d49a8cf957bbf10f773178529ac9",
+        "calibration_record_sha256": "cdf70d7b474206387dce4717f8dcddcc6ef00192832ee3e1be5ebd508b6af3c5",
+        "calibration_record_hash_rule": "sha256 of canonical JSON of the angles.json entry (sort_keys, compact), same rule as revised/artifacts.digest",
+        "selection_provenance_angle_hash": null,
+        "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+        "training_ids": [
+          "data3-3-3",
+          "data3-3-30",
+          "data3-3-8",
+          "random-S3T4C6-12",
+          "random-S3T4C6-21",
+          "random-S3T4C7-32",
+          "random-S3T4C7-7",
+          "random-S3T5C7-27",
+          "random-S4T3C6-16",
+          "random-S4T3C7-44",
+          "random-S4T4C7-25",
+          "random-S4T4C7-31",
+          "random-S4T4C7-43",
+          "random-S4T4C8-42"
+        ],
+        "rounding": "none; historical full precision"
+      },
+      "prep_versions_used": [
+        1
+      ],
+      "prep_versions_on_disk": [
+        1,
+        2,
+        3
+      ],
+      "compiled_two_qubit_gates_by_version_used": {
+        "1": 188
+      },
+      "jobs": [
+        {
+          "attempt_id": "16_random-S3T4C6-24__predicate__rep1__a1",
+          "slot_id": "16_random-S3T4C6-24__predicate__rep1",
+          "case": "random-S3T4C6-24",
+          "method": "predicate",
+          "repetition": 1,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6jngqmb58s738bucv0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T19:57:54.050740+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/16_random-S3T4C6-24__predicate__rep1__a1.json",
+          "registry_sha256": "b8cb82a89df2587372c108330d19bd9c9fd96d33ba39d859cea88f6c94ed76c5",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.370281+00:00",
+          "job_created_utc": "2026-10-12T19:57:54.050740+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1/logical.qpy",
+            "sha256": "2e6245fa9c274a79e3dc97f84ffdeb2e6d1c6f2dad2aeb3a5dbf7a1446ad7d63"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1/isa.qpy",
+            "sha256": "0bef3b52c7e10d4cc9850e67e4616654a058e4bcb80b2f92c66cf07a7789bec9",
+            "two_qubit_gates": 188,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/16_random-S3T4C6-24__predicate__rep1__a1/raw_result.json",
+            "sha256": "459ac2eb2925b5133ab6fb8bd4c4002fa54f0ac5410eb3fcaf9ec7c42798640a"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/16_random-S3T4C6-24__predicate__rep1__a1/states.npy",
+            "sha256": "fe285dffcb3bfbb71bbf20e69ac9637dbd9d50a9a4eceae4adbc40f4f07231df"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 66,
+            "legal_and_optimal": 19,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 66,
+            "legal_and_optimal": 19
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 2.220446049250313e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 2.7755575615628914e-16,
+            "max_abs_diff_isa_vs_logical": 4.440892098500626e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00234572624942353
+          }
+        },
+        {
+          "attempt_id": "17_random-S3T4C6-24__predicate__rep2__a1",
+          "slot_id": "17_random-S3T4C6-24__predicate__rep2",
+          "case": "random-S3T4C6-24",
+          "method": "predicate",
+          "repetition": 2,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6joi4vf2bc73d1bld0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T20:00:07.288175+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/17_random-S3T4C6-24__predicate__rep2__a1.json",
+          "registry_sha256": "c0d180762e807f8ce4958210dfdae87a1d8d9c8a498c9cfc461848d1b1887a52",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.370281+00:00",
+          "job_created_utc": "2026-10-12T20:00:07.288175+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1/logical.qpy",
+            "sha256": "2e6245fa9c274a79e3dc97f84ffdeb2e6d1c6f2dad2aeb3a5dbf7a1446ad7d63"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1/isa.qpy",
+            "sha256": "0bef3b52c7e10d4cc9850e67e4616654a058e4bcb80b2f92c66cf07a7789bec9",
+            "two_qubit_gates": 188,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/17_random-S3T4C6-24__predicate__rep2__a1/raw_result.json",
+            "sha256": "5ab7a778183a940321f7a1bc35437640536912d168b6f86a1b8c743798c893de"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/17_random-S3T4C6-24__predicate__rep2__a1/states.npy",
+            "sha256": "3a4bcb47530eadf117e21a12026c2ad2a17eb8961fe728460e66a55cca76dc84"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 81,
+            "legal_and_optimal": 26,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 81,
+            "legal_and_optimal": 26
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 2.220446049250313e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 2.7755575615628914e-16,
+            "max_abs_diff_isa_vs_logical": 4.440892098500626e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00234572624942353
+          }
+        },
+        {
+          "attempt_id": "18_random-S3T4C6-24__predicate__rep3__a1",
+          "slot_id": "18_random-S3T4C6-24__predicate__rep3",
+          "case": "random-S3T4C6-24",
+          "method": "predicate",
+          "repetition": 3,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6jq284qg6s73c4tqgg",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T20:03:19.846787+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/18_random-S3T4C6-24__predicate__rep3__a1.json",
+          "registry_sha256": "f3f76c5150bbc1e2aae235771e65a6a843f6ab84f7dafaeab58e9a247e56a8a0",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.370281+00:00",
+          "job_created_utc": "2026-10-12T20:03:19.846787+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1/logical.qpy",
+            "sha256": "2e6245fa9c274a79e3dc97f84ffdeb2e6d1c6f2dad2aeb3a5dbf7a1446ad7d63"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1/isa.qpy",
+            "sha256": "0bef3b52c7e10d4cc9850e67e4616654a058e4bcb80b2f92c66cf07a7789bec9",
+            "two_qubit_gates": 188,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/18_random-S3T4C6-24__predicate__rep3__a1/raw_result.json",
+            "sha256": "ade042286d04d065196c181106decadf55f6eff0b8a6ca7c295219debd414e5b"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/18_random-S3T4C6-24__predicate__rep3__a1/states.npy",
+            "sha256": "b2b953def0db0732c11a0912d1535c403fbe122ae5aa0d30ac784433c1d642d1"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 81,
+            "legal_and_optimal": 26,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 81,
+            "legal_and_optimal": 26
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 2.220446049250313e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 2.7755575615628914e-16,
+            "max_abs_diff_isa_vs_logical": 4.440892098500626e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00234572624942353
+          }
+        },
+        {
+          "attempt_id": "19_random-S3T4C6-24__predicate__rep4__a1",
+          "slot_id": "19_random-S3T4C6-24__predicate__rep4",
+          "case": "random-S3T4C6-24",
+          "method": "predicate",
+          "repetition": 4,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6kd1klf4us73c5gpb0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T20:43:49.199132+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/19_random-S3T4C6-24__predicate__rep4__a1.json",
+          "registry_sha256": "9aad5243a4d8850d282e643b38365fd34e9cb8edb7cdd78d45806562d921458a",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.370281+00:00",
+          "job_created_utc": "2026-10-12T20:43:49.199132+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1/logical.qpy",
+            "sha256": "2e6245fa9c274a79e3dc97f84ffdeb2e6d1c6f2dad2aeb3a5dbf7a1446ad7d63"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1/isa.qpy",
+            "sha256": "0bef3b52c7e10d4cc9850e67e4616654a058e4bcb80b2f92c66cf07a7789bec9",
+            "two_qubit_gates": 188,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/19_random-S3T4C6-24__predicate__rep4__a1/raw_result.json",
+            "sha256": "46bfefc8f31499a4cdc1054cb3c9d11e35e836ce378d6caff082eb0f7b702b7d"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/19_random-S3T4C6-24__predicate__rep4__a1/states.npy",
+            "sha256": "c7299741fc0876f1e91c17f79a32b3320c1c998bd55e2df78768bdd313e16100"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 70,
+            "legal_and_optimal": 20,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 70,
+            "legal_and_optimal": 20
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 2.220446049250313e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 2.7755575615628914e-16,
+            "max_abs_diff_isa_vs_logical": 4.440892098500626e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00234572624942353
+          }
+        },
+        {
+          "attempt_id": "20_random-S3T4C6-24__predicate__rep5__a1",
+          "slot_id": "20_random-S3T4C6-24__predicate__rep5",
+          "case": "random-S3T4C6-24",
+          "method": "predicate",
+          "repetition": 5,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6kduslf4us73c5gqdg",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T20:45:46.281915+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/20_random-S3T4C6-24__predicate__rep5__a1.json",
+          "registry_sha256": "b1446697e13d4afe41bb8d4b62e3dddb75b87f85529225d13f74ae306c985099",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.370281+00:00",
+          "job_created_utc": "2026-10-12T20:45:46.281915+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1/logical.qpy",
+            "sha256": "2e6245fa9c274a79e3dc97f84ffdeb2e6d1c6f2dad2aeb3a5dbf7a1446ad7d63"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C6-24__predicate/v1/isa.qpy",
+            "sha256": "0bef3b52c7e10d4cc9850e67e4616654a058e4bcb80b2f92c66cf07a7789bec9",
+            "two_qubit_gates": 188,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/20_random-S3T4C6-24__predicate__rep5__a1/raw_result.json",
+            "sha256": "d98f4c8965d4b2ae477efe271c98e2b7194ef2df75101ffdc9960900764deefb"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/20_random-S3T4C6-24__predicate__rep5__a1/states.npy",
+            "sha256": "377cd339014c07f5b7bd4067d632b87f06498bff0f925de72a3bb12b07fa6cd4"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 77,
+            "legal_and_optimal": 20,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 77,
+            "legal_and_optimal": 20
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 2.220446049250313e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 2.7755575615628914e-16,
+            "max_abs_diff_isa_vs_logical": 4.440892098500626e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00234572624942353
+          }
+        }
+      ],
+      "final_rates": {
+        "shots": 10000,
+        "legal_rate_recomputed": 0.0375,
+        "optimal_rate_recomputed": 0.0111,
+        "legal_rate_summary_csv": 0.0375,
+        "optimal_rate_summary_csv": 0.0111,
+        "uniform_legal_summary_csv": 0.0228,
+        "uniform_optimal_summary_csv": 0.0069,
+        "optimal_defined_against": "part-A MILP optimum"
+      },
+      "pairing_checks": {
+        "angles_json_sha_equals_sha_embedded_in_Sim9_2": true,
+        "calibration_vector_equals_Sim9_2_embedded_vector": true,
+        "predicate_LOO_excludes_own_bay": true,
+        "five_jobs": true,
+        "recomputed_rates_equal_summary_csv": true,
+        "all_job_checks_pass": true
+      }
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "encoding": "predicate",
+      "encoding_name": "predicate",
+      "logical_qubits": 9,
+      "milp_optimum": 1.0,
+      "angle_id": "loo:random-S3T4C7-32:p2",
+      "angle_vector": [
+        0.18047204389825558,
+        0.3402714873349897,
+        -0.5522082029399951,
+        -0.2665598289545603
+      ],
+      "angle_vector_order": "[gamma_1, gamma_2, beta_1, beta_2]",
+      "angle_source": {
+        "file": "/Users/radin/Downloads/QAOA_Quantum_Hardware_revised_2026_10_09_v2/release_evidence/calibration/angles.json",
+        "file_sha256": "2aa449cd3e22ca36f932e93f40d47ad653a1d49a8cf957bbf10f773178529ac9",
+        "calibration_record_sha256": "2b223e34af6896d7c67a469e25d5cb93d68be660f0553ce53f0ed4e1b5c9eee8",
+        "calibration_record_hash_rule": "sha256 of canonical JSON of the angles.json entry (sort_keys, compact), same rule as revised/artifacts.digest",
+        "selection_provenance_angle_hash": null,
+        "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+        "training_ids": [
+          "data3-3-3",
+          "data3-3-30",
+          "data3-3-8",
+          "random-S3T4C6-12",
+          "random-S3T4C6-21",
+          "random-S3T4C6-24",
+          "random-S3T4C7-7",
+          "random-S3T5C7-27",
+          "random-S4T3C6-16",
+          "random-S4T3C7-44",
+          "random-S4T4C7-25",
+          "random-S4T4C7-31",
+          "random-S4T4C7-43",
+          "random-S4T4C8-42"
+        ],
+        "rounding": "none; historical full precision"
+      },
+      "prep_versions_used": [
+        1
+      ],
+      "prep_versions_on_disk": [
+        1,
+        2,
+        3
+      ],
+      "compiled_two_qubit_gates_by_version_used": {
+        "1": 237
+      },
+      "jobs": [
+        {
+          "attempt_id": "21_random-S3T4C7-32__predicate__rep1__a1",
+          "slot_id": "21_random-S3T4C7-32__predicate__rep1",
+          "case": "random-S3T4C7-32",
+          "method": "predicate",
+          "repetition": 1,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6kfbamb58s738bv87g",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T20:48:43.719858+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/21_random-S3T4C7-32__predicate__rep1__a1.json",
+          "registry_sha256": "db6a453414a07ef86f187c762047535587c63ef69dadc0bce6a84fdecb25f5b4",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.514092+00:00",
+          "job_created_utc": "2026-10-12T20:48:43.719858+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1/logical.qpy",
+            "sha256": "c3e1bf523eed6a61706f1f72cae52a54144d163ac96880d1c63d2e232d95111a"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1/isa.qpy",
+            "sha256": "23eb754ed2d9e564d4b3bec1e59bd051e344418e037102962876fb243a4f8ceb",
+            "two_qubit_gates": 237,
+            "active_qubits": 9
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/21_random-S3T4C7-32__predicate__rep1__a1/raw_result.json",
+            "sha256": "93ce487f273b57417d2c26946e6e1d1deee9775eb30ed63405ea49cbd7ffc3d0"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/21_random-S3T4C7-32__predicate__rep1__a1/states.npy",
+            "sha256": "0e0f474f225de3c7ded656a341b0d0a2946a78ab5d35243d638c6700c771b721"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 83,
+            "legal_and_optimal": 11,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 83,
+            "legal_and_optimal": 11
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.3183898417423734e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 1.457167719820518e-16,
+            "max_abs_diff_isa_vs_logical": 2.1510571102112408e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0015989596671533435
+          }
+        },
+        {
+          "attempt_id": "22_random-S3T4C7-32__predicate__rep2__a1",
+          "slot_id": "22_random-S3T4C7-32__predicate__rep2",
+          "case": "random-S3T4C7-32",
+          "method": "predicate",
+          "repetition": 2,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6kgfqmb58s738bv9ag",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T20:51:10.395357+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/22_random-S3T4C7-32__predicate__rep2__a1.json",
+          "registry_sha256": "1d6eea1a6cd04844fd01a2b32c97e8c207b4ae72b902d4fe8857dee428971c6c",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.514092+00:00",
+          "job_created_utc": "2026-10-12T20:51:10.395357+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1/logical.qpy",
+            "sha256": "c3e1bf523eed6a61706f1f72cae52a54144d163ac96880d1c63d2e232d95111a"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1/isa.qpy",
+            "sha256": "23eb754ed2d9e564d4b3bec1e59bd051e344418e037102962876fb243a4f8ceb",
+            "two_qubit_gates": 237,
+            "active_qubits": 9
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/22_random-S3T4C7-32__predicate__rep2__a1/raw_result.json",
+            "sha256": "4069fd1f5d16e95bfdbbdb76b208f7e8cb0add2427e23f1e88fa142444166506"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/22_random-S3T4C7-32__predicate__rep2__a1/states.npy",
+            "sha256": "5afbd4be6cccf9828c65c1907cff49a528bc3c3cf7849eacb9ff57619b277f46"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 66,
+            "legal_and_optimal": 12,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 66,
+            "legal_and_optimal": 12
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.3183898417423734e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 1.457167719820518e-16,
+            "max_abs_diff_isa_vs_logical": 2.1510571102112408e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0015989596671533435
+          }
+        },
+        {
+          "attempt_id": "23_random-S3T4C7-32__predicate__rep3__a1",
+          "slot_id": "23_random-S3T4C7-32__predicate__rep3",
+          "case": "random-S3T4C7-32",
+          "method": "predicate",
+          "repetition": 3,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6khlamb58s738bvah0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T20:53:39.993849+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/23_random-S3T4C7-32__predicate__rep3__a1.json",
+          "registry_sha256": "45007fe391e3617fb725c4ae9577a58a64e6bd19c091409bab4c03387ddf1e40",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.514092+00:00",
+          "job_created_utc": "2026-10-12T20:53:39.993849+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1/logical.qpy",
+            "sha256": "c3e1bf523eed6a61706f1f72cae52a54144d163ac96880d1c63d2e232d95111a"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1/isa.qpy",
+            "sha256": "23eb754ed2d9e564d4b3bec1e59bd051e344418e037102962876fb243a4f8ceb",
+            "two_qubit_gates": 237,
+            "active_qubits": 9
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/23_random-S3T4C7-32__predicate__rep3__a1/raw_result.json",
+            "sha256": "4e7fc20c00f05c52bf6865313562fc3448f0e29675cd0e66637df45f9136591f"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/23_random-S3T4C7-32__predicate__rep3__a1/states.npy",
+            "sha256": "eab65d99216da9e40659884f619e5adbaa31458711ad4b2dd9dd8d12eb43d007"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 76,
+            "legal_and_optimal": 11,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 76,
+            "legal_and_optimal": 11
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.3183898417423734e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 1.457167719820518e-16,
+            "max_abs_diff_isa_vs_logical": 2.1510571102112408e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0015989596671533435
+          }
+        },
+        {
+          "attempt_id": "24_random-S3T4C7-32__predicate__rep4__a1",
+          "slot_id": "24_random-S3T4C7-32__predicate__rep4",
+          "case": "random-S3T4C7-32",
+          "method": "predicate",
+          "repetition": 4,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6kic2mb58s738bvb90",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T20:55:10.690680+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/24_random-S3T4C7-32__predicate__rep4__a1.json",
+          "registry_sha256": "f664089f64e34718a82105b9b1650e9ad444b65f5e1ec4d02c25cb03159d33a7",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.514092+00:00",
+          "job_created_utc": "2026-10-12T20:55:10.690680+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1/logical.qpy",
+            "sha256": "c3e1bf523eed6a61706f1f72cae52a54144d163ac96880d1c63d2e232d95111a"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1/isa.qpy",
+            "sha256": "23eb754ed2d9e564d4b3bec1e59bd051e344418e037102962876fb243a4f8ceb",
+            "two_qubit_gates": 237,
+            "active_qubits": 9
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/24_random-S3T4C7-32__predicate__rep4__a1/raw_result.json",
+            "sha256": "c59ede252cf10e335d2b1c121e82dc70943b45b67a9e5b19bcc2b644424c2c53"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/24_random-S3T4C7-32__predicate__rep4__a1/states.npy",
+            "sha256": "ac444563e75aa95d7a3b879ba1a88670e83d3e300060b4d7a6175e5ea89d0575"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 82,
+            "legal_and_optimal": 23,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 82,
+            "legal_and_optimal": 23
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.3183898417423734e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 1.457167719820518e-16,
+            "max_abs_diff_isa_vs_logical": 2.1510571102112408e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0015989596671533435
+          }
+        },
+        {
+          "attempt_id": "25_random-S3T4C7-32__predicate__rep5__a1",
+          "slot_id": "25_random-S3T4C7-32__predicate__rep5",
+          "case": "random-S3T4C7-32",
+          "method": "predicate",
+          "repetition": 5,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6kjfqmb58s738bvcj0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T20:57:33.683673+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/25_random-S3T4C7-32__predicate__rep5__a1.json",
+          "registry_sha256": "586fd5a8eced91f4aa8222c62e3ae1189f632005ac8d34e5edcc73bfa7e901d8",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.514092+00:00",
+          "job_created_utc": "2026-10-12T20:57:33.683673+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1/logical.qpy",
+            "sha256": "c3e1bf523eed6a61706f1f72cae52a54144d163ac96880d1c63d2e232d95111a"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__predicate/v1/isa.qpy",
+            "sha256": "23eb754ed2d9e564d4b3bec1e59bd051e344418e037102962876fb243a4f8ceb",
+            "two_qubit_gates": 237,
+            "active_qubits": 9
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/25_random-S3T4C7-32__predicate__rep5__a1/raw_result.json",
+            "sha256": "027c25987dc4a7a6ed23391366b2d2212f8ecfb002d9795b49da96cb3822fefc"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/25_random-S3T4C7-32__predicate__rep5__a1/states.npy",
+            "sha256": "6609cb848919cf181b5bd4b33105714f42b04bc2869566654ede593e631f5fb0"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 84,
+            "legal_and_optimal": 11,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 84,
+            "legal_and_optimal": 11
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.3183898417423734e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 1.457167719820518e-16,
+            "max_abs_diff_isa_vs_logical": 2.1510571102112408e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0015989596671533435
+          }
+        }
+      ],
+      "final_rates": {
+        "shots": 10000,
+        "legal_rate_recomputed": 0.0391,
+        "optimal_rate_recomputed": 0.0068,
+        "legal_rate_summary_csv": 0.0391,
+        "optimal_rate_summary_csv": 0.0068,
+        "uniform_legal_summary_csv": 0.0239,
+        "uniform_optimal_summary_csv": 0.0078,
+        "optimal_defined_against": "part-A MILP optimum"
+      },
+      "pairing_checks": {
+        "angles_json_sha_equals_sha_embedded_in_Sim9_2": true,
+        "calibration_vector_equals_Sim9_2_embedded_vector": true,
+        "predicate_LOO_excludes_own_bay": true,
+        "five_jobs": true,
+        "recomputed_rates_equal_summary_csv": true,
+        "all_job_checks_pass": true
+      }
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "encoding": "galle",
+      "encoding_name": "QUBO (Galle CRP-I)",
+      "logical_qubits": 15,
+      "milp_optimum": 1.0,
+      "angle_id": "fresh:galle:p2",
+      "angle_vector": [
+        0.647,
+        -2.595,
+        -0.409,
+        0.211
+      ],
+      "angle_vector_order": "[gamma_1, gamma_2, beta_1, beta_2]",
+      "angle_source": {
+        "file": "/Users/radin/Downloads/QAOA_Quantum_Hardware_revised_2026_10_09_v2/release_evidence/calibration/angles.json",
+        "file_sha256": "2aa449cd3e22ca36f932e93f40d47ad653a1d49a8cf957bbf10f773178529ac9",
+        "calibration_record_sha256": "af42ad798424230eca8db833783b3ed7f60640588315e95656633d1d06cb0577",
+        "calibration_record_hash_rule": "sha256 of canonical JSON of the angles.json entry (sort_keys, compact), same rule as revised/artifacts.digest",
+        "selection_provenance_angle_hash": "af42ad798424230eca8db833783b3ed7f60640588315e95656633d1d06cb0577",
+        "selection": "maximum mean log legal amplification among 8 wrapped candidates plus median; validate separately",
+        "training_ids": [
+          "calibration:galle:0",
+          "calibration:galle:1",
+          "calibration:galle:2",
+          "calibration:galle:3",
+          "calibration:galle:4",
+          "calibration:galle:5",
+          "calibration:galle:6",
+          "calibration:galle:7"
+        ],
+        "rounding": "3 decimal places; preserved historical evaluated vector"
+      },
+      "prep_versions_used": [
+        1,
+        2,
+        3
+      ],
+      "prep_versions_on_disk": [
+        1,
+        2,
+        3
+      ],
+      "compiled_two_qubit_gates_by_version_used": {
+        "1": 372,
+        "2": 372,
+        "3": 372
+      },
+      "jobs": [
+        {
+          "attempt_id": "26_random-S3T4C7-32__galle__rep1__a1",
+          "slot_id": "26_random-S3T4C7-32__galle__rep1",
+          "case": "random-S3T4C7-32",
+          "method": "galle",
+          "repetition": 1,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db6kkrkvf2bc73d1cl4g",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-12T21:00:28.758506+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/26_random-S3T4C7-32__galle__rep1__a1.json",
+          "registry_sha256": "5ff2507db0811bfa307d3e0c7826eed429780fcc16c432434ec7c426e5552785",
+          "prep_version_used": 1,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v1",
+          "prep_prepared_utc": "2026-10-12T17:29:54.823640+00:00",
+          "job_created_utc": "2026-10-12T21:00:28.758506+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v1/logical.qpy",
+            "sha256": "85ad43eb457bc9c506c19dc771481a751db75c4ec3bd9d58a398fae0715fb45f"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v1/isa.qpy",
+            "sha256": "0b91b9321ccee7c5909a2f27a27fbbdb1d6180652eb368fa2f90e7332f6ef374",
+            "two_qubit_gates": 372,
+            "active_qubits": 15
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/26_random-S3T4C7-32__galle__rep1__a1/raw_result.json",
+            "sha256": "aa7ee9bc5b39c7a586cc15a631a40cf575721c3e4aa07e0508e41e6e8669c2b7"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/26_random-S3T4C7-32__galle__rep1__a1/states.npy",
+            "sha256": "6ec0d566c645b64433aae0d9db3e276f4d090831c676c5c99724fb4d7eea263d"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 52,
+            "legal_and_optimal": 22,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 52,
+            "legal_and_optimal": 22
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 3.469446951953614e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 2.667137344314341e-17,
+            "max_abs_diff_isa_vs_logical": 2.45029690981724e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00013029921916205825
+          }
+        },
+        {
+          "attempt_id": "27_random-S3T4C7-32__galle__rep2__a1",
+          "slot_id": "27_random-S3T4C7-32__galle__rep2",
+          "case": "random-S3T4C7-32",
+          "method": "galle",
+          "repetition": 2,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db7u1o2raffc73fb9tjg",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-14T20:06:54.188197+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/27_random-S3T4C7-32__galle__rep2__a1.json",
+          "registry_sha256": "67ab3b15daabf2710c9a336eb4e52e53dab26f4468ab8f7810eb277df77c40f6",
+          "prep_version_used": 2,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v2",
+          "prep_prepared_utc": "2026-10-14T20:05:48.596109+00:00",
+          "job_created_utc": "2026-10-14T20:06:54.188197+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v2/logical.qpy",
+            "sha256": "85ad43eb457bc9c506c19dc771481a751db75c4ec3bd9d58a398fae0715fb45f"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v2/isa.qpy",
+            "sha256": "c2982d71b553bc0b209a70fb581df5bc1717a01fc5616588127c2b92dca0ba8a",
+            "two_qubit_gates": 372,
+            "active_qubits": 15
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/27_random-S3T4C7-32__galle__rep2__a1/raw_result.json",
+            "sha256": "c36add0c3a63246eac212cb12bdbe432b27c17632b10f34b07d3eed8792372b5"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/27_random-S3T4C7-32__galle__rep2__a1/states.npy",
+            "sha256": "e4c3e9357bdf4d538c99e0ec8cb48aa830e127d4dc8f1aec73bfd6d8638492f4"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 91,
+            "legal_and_optimal": 51,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 91,
+            "legal_and_optimal": 51
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 3.469446951953614e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 2.667137344314341e-17,
+            "max_abs_diff_isa_vs_logical": 2.45029690981724e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00013029921916205825
+          }
+        },
+        {
+          "attempt_id": "28_random-S3T4C7-32__galle__rep3__a1",
+          "slot_id": "28_random-S3T4C7-32__galle__rep3",
+          "case": "random-S3T4C7-32",
+          "method": "galle",
+          "repetition": 3,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db8ura0b3g5c73eh1ce0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-16T09:25:59.194860+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/28_random-S3T4C7-32__galle__rep3__a1.json",
+          "registry_sha256": "18d4e1d27605c42caed38fa9ff31cfb80b774e79da1061812c4f6ed612d22557",
+          "prep_version_used": 3,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v3",
+          "prep_prepared_utc": "2026-10-16T09:24:51.877182+00:00",
+          "job_created_utc": "2026-10-16T09:25:59.194860+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v3/logical.qpy",
+            "sha256": "85ad43eb457bc9c506c19dc771481a751db75c4ec3bd9d58a398fae0715fb45f"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v3/isa.qpy",
+            "sha256": "19bd91a35c64271c219b630d33ee01b573d9ac744a3f3391c5119f008980cb49",
+            "two_qubit_gates": 372,
+            "active_qubits": 15
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/28_random-S3T4C7-32__galle__rep3__a1/raw_result.json",
+            "sha256": "f70adc16dab95aafaf1ccca31bdb2e843ce5f2af9af6957721ab1ee233264fe1"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/28_random-S3T4C7-32__galle__rep3__a1/states.npy",
+            "sha256": "35349fe8d5b78c743c35d81705002f49ef36a11d438451011bc26d9935e48847"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 80,
+            "legal_and_optimal": 35,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 80,
+            "legal_and_optimal": 35
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 3.469446951953614e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 2.4069288229178198e-17,
+            "max_abs_diff_isa_vs_logical": 2.190088388420719e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00013029921916205825
+          }
+        },
+        {
+          "attempt_id": "29_random-S3T4C7-32__galle__rep4__a1",
+          "slot_id": "29_random-S3T4C7-32__galle__rep4",
+          "case": "random-S3T4C7-32",
+          "method": "galle",
+          "repetition": 4,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db8v4mheukqs73arcge0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-16T09:45:59.930318+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/29_random-S3T4C7-32__galle__rep4__a1.json",
+          "registry_sha256": "49b58016817c63038dd950a7af7a2fd77ec5f9b4b7254e452565563e73c92ec9",
+          "prep_version_used": 3,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v3",
+          "prep_prepared_utc": "2026-10-16T09:24:51.877182+00:00",
+          "job_created_utc": "2026-10-16T09:45:59.930318+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v3/logical.qpy",
+            "sha256": "85ad43eb457bc9c506c19dc771481a751db75c4ec3bd9d58a398fae0715fb45f"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v3/isa.qpy",
+            "sha256": "19bd91a35c64271c219b630d33ee01b573d9ac744a3f3391c5119f008980cb49",
+            "two_qubit_gates": 372,
+            "active_qubits": 15
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/29_random-S3T4C7-32__galle__rep4__a1/raw_result.json",
+            "sha256": "98d951976958e6a0e6d8e687aa88e40084e89320a09b8a41d07a1c5636a4db12"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/29_random-S3T4C7-32__galle__rep4__a1/states.npy",
+            "sha256": "ded74cd23386dc10b8d137992ff1aef53e422187bdb89ab9209f443de6146c68"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 79,
+            "legal_and_optimal": 31,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 79,
+            "legal_and_optimal": 31
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 3.469446951953614e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 2.4069288229178198e-17,
+            "max_abs_diff_isa_vs_logical": 2.190088388420719e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00013029921916205825
+          }
+        },
+        {
+          "attempt_id": "30_random-S3T4C7-32__galle__rep5__a1",
+          "slot_id": "30_random-S3T4C7-32__galle__rep5",
+          "case": "random-S3T4C7-32",
+          "method": "galle",
+          "repetition": 5,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db8v5alckpjs73b1otdg",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-16T09:47:20.614139+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/30_random-S3T4C7-32__galle__rep5__a1.json",
+          "registry_sha256": "b3f339b4cd1bd7461585d07aa3ad6829b2baca11a97286beb4b2d471380ce463",
+          "prep_version_used": 3,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v3",
+          "prep_prepared_utc": "2026-10-16T09:24:51.877182+00:00",
+          "job_created_utc": "2026-10-16T09:47:20.614139+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v3/logical.qpy",
+            "sha256": "85ad43eb457bc9c506c19dc771481a751db75c4ec3bd9d58a398fae0715fb45f"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S3T4C7-32__galle/v3/isa.qpy",
+            "sha256": "19bd91a35c64271c219b630d33ee01b573d9ac744a3f3391c5119f008980cb49",
+            "two_qubit_gates": 372,
+            "active_qubits": 15
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/30_random-S3T4C7-32__galle__rep5__a1/raw_result.json",
+            "sha256": "9c507b7af5dae094c4ab4f4986cb861aafb5790f76d51ddcc39038252a46759e"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/30_random-S3T4C7-32__galle__rep5__a1/states.npy",
+            "sha256": "f9b759184a7666a7ec85a728d96da7ddf292d3af7f34d0521837d1bf9c551229"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 85,
+            "legal_and_optimal": 34,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 85,
+            "legal_and_optimal": 34
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 3.469446951953614e-18,
+            "max_abs_diff_isa_vs_own_qaoa": 2.4069288229178198e-17,
+            "max_abs_diff_isa_vs_logical": 2.190088388420719e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.00013029921916205825
+          }
+        }
+      ],
+      "final_rates": {
+        "shots": 10000,
+        "legal_rate_recomputed": 0.0387,
+        "optimal_rate_recomputed": 0.0173,
+        "legal_rate_summary_csv": 0.0387,
+        "optimal_rate_summary_csv": 0.0173,
+        "uniform_legal_summary_csv": 0.0244,
+        "uniform_optimal_summary_csv": 0.0073,
+        "optimal_defined_against": "part-A MILP optimum"
+      },
+      "pairing_checks": {
+        "provenance_angle_hash_equals_record_hash": true,
+        "angles_json_sha_equals_sha_embedded_in_Sim9_2": true,
+        "calibration_vector_equals_Sim9_2_embedded_vector": true,
+        "five_jobs": true,
+        "recomputed_rates_equal_summary_csv": true,
+        "all_job_checks_pass": true
+      }
+    },
+    {
+      "case": "random-S4T3C6-16",
+      "encoding": "predicate",
+      "encoding_name": "predicate",
+      "logical_qubits": 8,
+      "milp_optimum": 2.0,
+      "angle_id": "loo:random-S4T3C6-16:p2",
+      "angle_vector": [
+        0.18047204389825558,
+        0.3421377912084009,
+        -0.5645835545486001,
+        -0.2665598289545603
+      ],
+      "angle_vector_order": "[gamma_1, gamma_2, beta_1, beta_2]",
+      "angle_source": {
+        "file": "/Users/radin/Downloads/QAOA_Quantum_Hardware_revised_2026_10_09_v2/release_evidence/calibration/angles.json",
+        "file_sha256": "2aa449cd3e22ca36f932e93f40d47ad653a1d49a8cf957bbf10f773178529ac9",
+        "calibration_record_sha256": "7be4dee9213019a614f70d9216adcb1beae9744a253b6b671a182c61d9e983ae",
+        "calibration_record_hash_rule": "sha256 of canonical JSON of the angles.json entry (sort_keys, compact), same rule as revised/artifacts.digest",
+        "selection_provenance_angle_hash": null,
+        "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+        "training_ids": [
+          "data3-3-3",
+          "data3-3-30",
+          "data3-3-8",
+          "random-S3T4C6-12",
+          "random-S3T4C6-21",
+          "random-S3T4C6-24",
+          "random-S3T4C7-32",
+          "random-S3T4C7-7",
+          "random-S3T5C7-27",
+          "random-S4T3C7-44",
+          "random-S4T4C7-25",
+          "random-S4T4C7-31",
+          "random-S4T4C7-43",
+          "random-S4T4C8-42"
+        ],
+        "rounding": "none; historical full precision"
+      },
+      "prep_versions_used": [
+        3
+      ],
+      "prep_versions_on_disk": [
+        1,
+        2,
+        3
+      ],
+      "compiled_two_qubit_gates_by_version_used": {
+        "3": 276
+      },
+      "jobs": [
+        {
+          "attempt_id": "31_random-S4T3C6-16__predicate__rep1__a1",
+          "slot_id": "31_random-S4T3C6-16__predicate__rep1",
+          "case": "random-S4T3C6-16",
+          "method": "predicate",
+          "repetition": 1,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db8v5se94fic73eu5rq0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-16T09:48:31.947644+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/31_random-S4T3C6-16__predicate__rep1__a1.json",
+          "registry_sha256": "adbfe77e1b65ad2934baefe58d6fe5b3ef736cc9fce7f19602eefd2d1eb91f5c",
+          "prep_version_used": 3,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3",
+          "prep_prepared_utc": "2026-10-16T09:24:51.988210+00:00",
+          "job_created_utc": "2026-10-16T09:48:31.947644+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3/logical.qpy",
+            "sha256": "cb2dcbc60ed91fda17806a9e88455bf45f4780e721535a54a7ef0064847f32b7"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3/isa.qpy",
+            "sha256": "b27622f11a0522676330346a3b10e5ea4cc84552e22e658cf1100212a76d57ce",
+            "two_qubit_gates": 276,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/31_random-S4T3C6-16__predicate__rep1__a1/raw_result.json",
+            "sha256": "8484ce9593284d031716f80f7737548149934080d4fe50827ef3a9493552bef6"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/31_random-S4T3C6-16__predicate__rep1__a1/states.npy",
+            "sha256": "535c3f30180b2d21930888140d37233f5c0e42194e25db7acfc30b13b8d75103"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 184,
+            "legal_and_optimal": 165,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 184,
+            "legal_and_optimal": 165
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.8041124150158794e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 7.615436059538183e-16,
+            "max_abs_diff_isa_vs_logical": 7.676151381197371e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0025535030747380755
+          }
+        },
+        {
+          "attempt_id": "32_random-S4T3C6-16__predicate__rep2__a1",
+          "slot_id": "32_random-S4T3C6-16__predicate__rep2",
+          "case": "random-S4T3C6-16",
+          "method": "predicate",
+          "repetition": 2,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db8v6g8b3g5c73eh200g",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-16T09:49:52.250110+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/32_random-S4T3C6-16__predicate__rep2__a1.json",
+          "registry_sha256": "ef9f3516adc099e1f4ee22ba7e471b31139340ba8689225115535d0c57f154d0",
+          "prep_version_used": 3,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3",
+          "prep_prepared_utc": "2026-10-16T09:24:51.988210+00:00",
+          "job_created_utc": "2026-10-16T09:49:52.250110+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3/logical.qpy",
+            "sha256": "cb2dcbc60ed91fda17806a9e88455bf45f4780e721535a54a7ef0064847f32b7"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3/isa.qpy",
+            "sha256": "b27622f11a0522676330346a3b10e5ea4cc84552e22e658cf1100212a76d57ce",
+            "two_qubit_gates": 276,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/32_random-S4T3C6-16__predicate__rep2__a1/raw_result.json",
+            "sha256": "aca6c81c38462237c0e8e236089e7dad22273f52beb3a2305c7dd4323d486467"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/32_random-S4T3C6-16__predicate__rep2__a1/states.npy",
+            "sha256": "fa8621190a51e764451fa082b80f40ac8e13ae0d87a1ce0495735f96a68a5490"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 167,
+            "legal_and_optimal": 151,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 167,
+            "legal_and_optimal": 151
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.8041124150158794e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 7.615436059538183e-16,
+            "max_abs_diff_isa_vs_logical": 7.676151381197371e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0025535030747380755
+          }
+        },
+        {
+          "attempt_id": "33_random-S4T3C6-16__predicate__rep3__a1",
+          "slot_id": "33_random-S4T3C6-16__predicate__rep3",
+          "case": "random-S4T3C6-16",
+          "method": "predicate",
+          "repetition": 3,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db8v8k9eukqs73arcm1g",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-16T09:54:23.492982+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/33_random-S4T3C6-16__predicate__rep3__a1.json",
+          "registry_sha256": "d3249c92ebae4ed1382336d98cd59f4a3ee1543d8c901edd1507a6fa3d6b0633",
+          "prep_version_used": 3,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3",
+          "prep_prepared_utc": "2026-10-16T09:24:51.988210+00:00",
+          "job_created_utc": "2026-10-16T09:54:23.492982+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3/logical.qpy",
+            "sha256": "cb2dcbc60ed91fda17806a9e88455bf45f4780e721535a54a7ef0064847f32b7"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3/isa.qpy",
+            "sha256": "b27622f11a0522676330346a3b10e5ea4cc84552e22e658cf1100212a76d57ce",
+            "two_qubit_gates": 276,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/33_random-S4T3C6-16__predicate__rep3__a1/raw_result.json",
+            "sha256": "1b8b4997e3cc811c8b080c125dd2294476a8118409a778371ee0649a8374cf5f"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/33_random-S4T3C6-16__predicate__rep3__a1/states.npy",
+            "sha256": "b9a41a512be8d9279f154e71db2ab6d0b3cad4f96ddc21bfba590595607e8504"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 157,
+            "legal_and_optimal": 143,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 157,
+            "legal_and_optimal": 143
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.8041124150158794e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 7.615436059538183e-16,
+            "max_abs_diff_isa_vs_logical": 7.676151381197371e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0025535030747380755
+          }
+        },
+        {
+          "attempt_id": "34_random-S4T3C6-16__predicate__rep4__a1",
+          "slot_id": "34_random-S4T3C6-16__predicate__rep4",
+          "case": "random-S4T3C6-16",
+          "method": "predicate",
+          "repetition": 4,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db8v9jheukqs73arco8g",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-16T09:56:28.930584+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/34_random-S4T3C6-16__predicate__rep4__a1.json",
+          "registry_sha256": "9349495f3099be8d2123674b113397d79fd5e3c7886afd3d1963947a8ed198cc",
+          "prep_version_used": 3,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3",
+          "prep_prepared_utc": "2026-10-16T09:24:51.988210+00:00",
+          "job_created_utc": "2026-10-16T09:56:28.930584+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3/logical.qpy",
+            "sha256": "cb2dcbc60ed91fda17806a9e88455bf45f4780e721535a54a7ef0064847f32b7"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3/isa.qpy",
+            "sha256": "b27622f11a0522676330346a3b10e5ea4cc84552e22e658cf1100212a76d57ce",
+            "two_qubit_gates": 276,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/34_random-S4T3C6-16__predicate__rep4__a1/raw_result.json",
+            "sha256": "d41c8408973c60249d5cd0c9b93817635344fe1568ae7bfcd93fa3d81b7d63d7"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/34_random-S4T3C6-16__predicate__rep4__a1/states.npy",
+            "sha256": "a83e44dd07a06ed4334cf0d76def6ed23b544a4e3b82d3bc04529b65a1ac0794"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 155,
+            "legal_and_optimal": 140,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 155,
+            "legal_and_optimal": 140
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.8041124150158794e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 7.615436059538183e-16,
+            "max_abs_diff_isa_vs_logical": 7.676151381197371e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0025535030747380755
+          }
+        },
+        {
+          "attempt_id": "35_random-S4T3C6-16__predicate__rep5__a1",
+          "slot_id": "35_random-S4T3C6-16__predicate__rep5",
+          "case": "random-S4T3C6-16",
+          "method": "predicate",
+          "repetition": 5,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db8va48b3g5c73eh26d0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-16T09:57:35.489320+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/35_random-S4T3C6-16__predicate__rep5__a1.json",
+          "registry_sha256": "1032176814ef0639c911f15622f3c594434fbb24722a4312494c9219fe2e2ab8",
+          "prep_version_used": 3,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3",
+          "prep_prepared_utc": "2026-10-16T09:24:51.988210+00:00",
+          "job_created_utc": "2026-10-16T09:57:35.489320+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3/logical.qpy",
+            "sha256": "cb2dcbc60ed91fda17806a9e88455bf45f4780e721535a54a7ef0064847f32b7"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/random-S4T3C6-16__predicate/v3/isa.qpy",
+            "sha256": "b27622f11a0522676330346a3b10e5ea4cc84552e22e658cf1100212a76d57ce",
+            "two_qubit_gates": 276,
+            "active_qubits": 8
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/35_random-S4T3C6-16__predicate__rep5__a1/raw_result.json",
+            "sha256": "d1eaeaef40d8da7f6f099d96820d172879d9fb5d2e01e3c217f006748795aaba"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/35_random-S4T3C6-16__predicate__rep5__a1/states.npy",
+            "sha256": "8f8f3631b2af157a28d8d7ac878ec220201e2f7f82909bc37808f2b545df9bd8"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 152,
+            "legal_and_optimal": 128,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 152,
+            "legal_and_optimal": 128
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 1.8041124150158794e-16,
+            "max_abs_diff_isa_vs_own_qaoa": 7.615436059538183e-16,
+            "max_abs_diff_isa_vs_logical": 7.676151381197371e-16,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0025535030747380755
+          }
+        }
+      ],
+      "final_rates": {
+        "shots": 10000,
+        "legal_rate_recomputed": 0.0815,
+        "optimal_rate_recomputed": 0.0727,
+        "legal_rate_summary_csv": 0.0815,
+        "optimal_rate_summary_csv": 0.0727,
+        "uniform_legal_summary_csv": 0.0393,
+        "uniform_optimal_summary_csv": 0.031,
+        "optimal_defined_against": "part-A MILP optimum"
+      },
+      "pairing_checks": {
+        "angles_json_sha_equals_sha_embedded_in_Sim9_2": true,
+        "calibration_vector_equals_Sim9_2_embedded_vector": true,
+        "predicate_LOO_excludes_own_bay": true,
+        "five_jobs": true,
+        "recomputed_rates_equal_summary_csv": true,
+        "all_job_checks_pass": true
+      }
+    },
+    {
+      "case": "data3-3-8",
+      "encoding": "predicate",
+      "encoding_name": "predicate",
+      "logical_qubits": 12,
+      "milp_optimum": 2.0,
+      "angle_id": "loo:data3-3-8:p2",
+      "angle_vector": [
+        0.1890154920164095,
+        0.34828050608427163,
+        -0.5522082029399951,
+        -0.2533214357321605
+      ],
+      "angle_vector_order": "[gamma_1, gamma_2, beta_1, beta_2]",
+      "angle_source": {
+        "file": "/Users/radin/Downloads/QAOA_Quantum_Hardware_revised_2026_10_09_v2/release_evidence/calibration/angles.json",
+        "file_sha256": "2aa449cd3e22ca36f932e93f40d47ad653a1d49a8cf957bbf10f773178529ac9",
+        "calibration_record_sha256": "78cbcdb5264b2dc54ea4900da41915b2e09ac1d7d15977ee96e56b37bacfbf15",
+        "calibration_record_hash_rule": "sha256 of canonical JSON of the angles.json entry (sort_keys, compact), same rule as revised/artifacts.digest",
+        "selection_provenance_angle_hash": null,
+        "selection": "componentwise median, simultaneous sign canonicalization on gamma0",
+        "training_ids": [
+          "data3-3-3",
+          "data3-3-30",
+          "random-S3T4C6-12",
+          "random-S3T4C6-21",
+          "random-S3T4C6-24",
+          "random-S3T4C7-32",
+          "random-S3T4C7-7",
+          "random-S3T5C7-27",
+          "random-S4T3C6-16",
+          "random-S4T3C7-44",
+          "random-S4T4C7-25",
+          "random-S4T4C7-31",
+          "random-S4T4C7-43",
+          "random-S4T4C8-42"
+        ],
+        "rounding": "none; historical full precision"
+      },
+      "prep_versions_used": [
+        3
+      ],
+      "prep_versions_on_disk": [
+        1,
+        2,
+        3
+      ],
+      "compiled_two_qubit_gates_by_version_used": {
+        "3": 418
+      },
+      "jobs": [
+        {
+          "attempt_id": "36_data3-3-8__predicate__rep1__a1",
+          "slot_id": "36_data3-3-8__predicate__rep1",
+          "case": "data3-3-8",
+          "method": "predicate",
+          "repetition": 1,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db8vcne94fic73eu68t0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-16T10:03:07.570249+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/36_data3-3-8__predicate__rep1__a1.json",
+          "registry_sha256": "7e78d7d898ff60618bbbd11ac6f8d6bf75e226fa2a0bb6f4c4b0c47b667cdb01",
+          "prep_version_used": 3,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3",
+          "prep_prepared_utc": "2026-10-16T09:24:52.202666+00:00",
+          "job_created_utc": "2026-10-16T10:03:07.570249+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3/logical.qpy",
+            "sha256": "20d8f99ba8f2b4c15ea41f28f79ecbf99b9e9c8d7ebcc01902315c5a5c432018"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3/isa.qpy",
+            "sha256": "66eb9446078a4ba5e19bba46a9f7e980decc3f523c12091a0f572e5a6c242bb7",
+            "two_qubit_gates": 418,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/36_data3-3-8__predicate__rep1__a1/raw_result.json",
+            "sha256": "5130e327eedd23545601362d47b410dae27a85280c311be0ba7aedd361cb54ae"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/36_data3-3-8__predicate__rep1__a1/states.npy",
+            "sha256": "d70fb40238dfbffef3290234f02d38b0942b67fe94b5850416960ef3ea81e350"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 21,
+            "legal_and_optimal": 8,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 21,
+            "legal_and_optimal": 8
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 7.979727989493313e-17,
+            "max_abs_diff_isa_vs_own_qaoa": 8.500145032286355e-17,
+            "max_abs_diff_isa_vs_logical": 4.2500725161431774e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0002487995981941952
+          }
+        },
+        {
+          "attempt_id": "37_data3-3-8__predicate__rep2__a1",
+          "slot_id": "37_data3-3-8__predicate__rep2",
+          "case": "data3-3-8",
+          "method": "predicate",
+          "repetition": 2,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db8vd68b3g5c73eh2djg",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-16T10:04:07.731722+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/37_data3-3-8__predicate__rep2__a1.json",
+          "registry_sha256": "5a89619b300f93b124159e54b72964ceed144d4a297acfc90ba2fa5169e6f73a",
+          "prep_version_used": 3,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3",
+          "prep_prepared_utc": "2026-10-16T09:24:52.202666+00:00",
+          "job_created_utc": "2026-10-16T10:04:07.731722+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3/logical.qpy",
+            "sha256": "20d8f99ba8f2b4c15ea41f28f79ecbf99b9e9c8d7ebcc01902315c5a5c432018"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3/isa.qpy",
+            "sha256": "66eb9446078a4ba5e19bba46a9f7e980decc3f523c12091a0f572e5a6c242bb7",
+            "two_qubit_gates": 418,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/37_data3-3-8__predicate__rep2__a1/raw_result.json",
+            "sha256": "50858c571838daf4bbd98e499442c0850a107108a3016ccbda7808c3e3b495b3"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/37_data3-3-8__predicate__rep2__a1/states.npy",
+            "sha256": "5d2ce6941b81784c9eac232df564024214ee402a30fed25433b2371ede1ccd59"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 38,
+            "legal_and_optimal": 11,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 38,
+            "legal_and_optimal": 11
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 7.979727989493313e-17,
+            "max_abs_diff_isa_vs_own_qaoa": 8.500145032286355e-17,
+            "max_abs_diff_isa_vs_logical": 4.2500725161431774e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0002487995981941952
+          }
+        },
+        {
+          "attempt_id": "38_data3-3-8__predicate__rep3__a1",
+          "slot_id": "38_data3-3-8__predicate__rep3",
+          "case": "data3-3-8",
+          "method": "predicate",
+          "repetition": 3,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db8vdie94fic73eu6b30",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-16T10:04:55.150660+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/38_data3-3-8__predicate__rep3__a1.json",
+          "registry_sha256": "85ca53323aa186902fd1fbdc4cd0a2fd23b122cb750d961ada50ed55c64d785d",
+          "prep_version_used": 3,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3",
+          "prep_prepared_utc": "2026-10-16T09:24:52.202666+00:00",
+          "job_created_utc": "2026-10-16T10:04:55.150660+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3/logical.qpy",
+            "sha256": "20d8f99ba8f2b4c15ea41f28f79ecbf99b9e9c8d7ebcc01902315c5a5c432018"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3/isa.qpy",
+            "sha256": "66eb9446078a4ba5e19bba46a9f7e980decc3f523c12091a0f572e5a6c242bb7",
+            "two_qubit_gates": 418,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/38_data3-3-8__predicate__rep3__a1/raw_result.json",
+            "sha256": "43c338679d69d6b50677b092eb8495b7bc7d99e530dec498562f05505bbe0966"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/38_data3-3-8__predicate__rep3__a1/states.npy",
+            "sha256": "792fde03de0aa5c6fcd3b6539d5cb64a0686bb525a45448327d01c664c9961e5"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 13,
+            "legal_and_optimal": 0,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 13,
+            "legal_and_optimal": 0
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 7.979727989493313e-17,
+            "max_abs_diff_isa_vs_own_qaoa": 8.500145032286355e-17,
+            "max_abs_diff_isa_vs_logical": 4.2500725161431774e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0002487995981941952
+          }
+        },
+        {
+          "attempt_id": "39_data3-3-8__predicate__rep4__a1",
+          "slot_id": "39_data3-3-8__predicate__rep4",
+          "case": "data3-3-8",
+          "method": "predicate",
+          "repetition": 4,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db8ve6e94fic73eu6cb0",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-16T10:06:16.086481+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/39_data3-3-8__predicate__rep4__a1.json",
+          "registry_sha256": "8992542fc4728d25a75004dff8dd94bec9e85dc80fe9557326e38e9e23d316f5",
+          "prep_version_used": 3,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3",
+          "prep_prepared_utc": "2026-10-16T09:24:52.202666+00:00",
+          "job_created_utc": "2026-10-16T10:06:16.086481+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3/logical.qpy",
+            "sha256": "20d8f99ba8f2b4c15ea41f28f79ecbf99b9e9c8d7ebcc01902315c5a5c432018"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3/isa.qpy",
+            "sha256": "66eb9446078a4ba5e19bba46a9f7e980decc3f523c12091a0f572e5a6c242bb7",
+            "two_qubit_gates": 418,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/39_data3-3-8__predicate__rep4__a1/raw_result.json",
+            "sha256": "8510d2521dd86d71d794e53ea3c59238be450311b159fe8bfc7c81943fc6394a"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/39_data3-3-8__predicate__rep4__a1/states.npy",
+            "sha256": "1fad24b0169633fb4b7e3dd1bf2e00680ad54e7f02c72a00ae2bda5263a50cd4"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 23,
+            "legal_and_optimal": 6,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 23,
+            "legal_and_optimal": 6
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 7.979727989493313e-17,
+            "max_abs_diff_isa_vs_own_qaoa": 8.500145032286355e-17,
+            "max_abs_diff_isa_vs_logical": 4.2500725161431774e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0002487995981941952
+          }
+        },
+        {
+          "attempt_id": "40_data3-3-8__predicate__rep5__a1",
+          "slot_id": "40_data3-3-8__predicate__rep5",
+          "case": "data3-3-8",
+          "method": "predicate",
+          "repetition": 5,
+          "state": "completed",
+          "analysis_role": "primary",
+          "job_id": "db8vek8b3g5c73eh2h50",
+          "backend": "ibm_fez",
+          "data_kind": "HARDWARE",
+          "created_utc": "2026-10-16T10:07:11.731350+00:00",
+          "planned_shots": 2000,
+          "registry_file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/registry/40_data3-3-8__predicate__rep5__a1.json",
+          "registry_sha256": "49f301f5cacd69f45f7a5bde40f5d125f61000a019d281569255a488d4bed462",
+          "prep_version_used": 3,
+          "prep_dir": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3",
+          "prep_prepared_utc": "2026-10-16T09:24:52.202666+00:00",
+          "job_created_utc": "2026-10-16T10:07:11.731350+00:00",
+          "logical_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3/logical.qpy",
+            "sha256": "20d8f99ba8f2b4c15ea41f28f79ecbf99b9e9c8d7ebcc01902315c5a5c432018"
+          },
+          "compiled_isa_circuit": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/prep/data3-3-8__predicate/v3/isa.qpy",
+            "sha256": "66eb9446078a4ba5e19bba46a9f7e980decc3f523c12091a0f572e5a6c242bb7",
+            "two_qubit_gates": 418,
+            "active_qubits": 12
+          },
+          "raw_result": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/40_data3-3-8__predicate__rep5__a1/raw_result.json",
+            "sha256": "7ffd11945801b4e88c896956bb9236cd68af624ca1edbcf784f954f3c9cf9bf0"
+          },
+          "states": {
+            "file": "/Users/radin/Downloads/QAOA_Sim9_2_IBM_Repaired_2026_10_12/studies/ibm_live_guide_1/results/40_data3-3-8__predicate__rep5__a1/states.npy",
+            "sha256": "41744c74959d4d803e2005f2f49ef7a5a601f7b4d42f4c220e348c5b204006b5"
+          },
+          "registry_identity_input_circuit": "equal to frozen ISA circuit",
+          "options": {
+            "dynamical_decoupling": false,
+            "twirling_gates": false,
+            "twirling_measure": false,
+            "max_execution_time": 30
+          },
+          "qpu_seconds_final": 3.0,
+          "executed_shots": 2000,
+          "recomputed": {
+            "legal": 21,
+            "legal_and_optimal": 9,
+            "shots": 2000
+          },
+          "registry_score": {
+            "legal": 21,
+            "legal_and_optimal": 9
+          },
+          "checks": {
+            "registry_theta_equals_calibration_vector": true,
+            "prep_theta_equals_calibration_vector": true,
+            "registry_angle_id_equals_prep_angle_id": true,
+            "isa_file_sha_equals_prep_and_registry": true,
+            "logical_file_sha_equals_prep": true,
+            "check_file_sha_equals_prep": true,
+            "circuits_fully_bound": true,
+            "logical_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "isa_circuit_matches_own_qaoa_at_calibration_angles": true,
+            "perturbed_angles_are_distinguishable": true,
+            "states_sha_equals_registry": true,
+            "raw_counts_equal_states": true,
+            "shots_2000": true,
+            "recomputed_legal_equals_registry": true,
+            "recomputed_optimal_equals_registry": true,
+            "isa_identity_confirmed_by_job": true,
+            "no_mitigation": true,
+            "completed_primary": true
+          },
+          "circuit_angle_check_numbers": {
+            "max_abs_diff_logical_vs_own_qaoa": 7.979727989493313e-17,
+            "max_abs_diff_isa_vs_own_qaoa": 8.500145032286355e-17,
+            "max_abs_diff_isa_vs_logical": 4.2500725161431774e-17,
+            "max_abs_diff_own_qaoa_vs_perturbed_angles": 0.0002487995981941952
+          }
+        }
+      ],
+      "final_rates": {
+        "shots": 10000,
+        "legal_rate_recomputed": 0.0116,
+        "optimal_rate_recomputed": 0.0034,
+        "legal_rate_summary_csv": 0.0116,
+        "optimal_rate_summary_csv": 0.0034,
+        "uniform_legal_summary_csv": 0.0053,
+        "uniform_optimal_summary_csv": 0.0018,
+        "optimal_defined_against": "part-A MILP optimum"
+      },
+      "pairing_checks": {
+        "angles_json_sha_equals_sha_embedded_in_Sim9_2": true,
+        "calibration_vector_equals_Sim9_2_embedded_vector": true,
+        "predicate_LOO_excludes_own_bay": true,
+        "five_jobs": true,
+        "recomputed_rates_equal_summary_csv": true,
+        "all_job_checks_pass": true
+      }
+    }
+  ],
+  "flags": [],
+  "verdict": "ALL CHECKS PASS"
+}

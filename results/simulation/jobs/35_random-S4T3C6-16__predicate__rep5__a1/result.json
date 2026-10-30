@@ -1,0 +1,113 @@
+{
+  "slot": 35,
+  "item": "random-S4T3C6-16__predicate",
+  "case": "random-S4T3C6-16",
+  "method": "predicate",
+  "job_id": "db8va48b3g5c73eh26d0",
+  "prep_version": 3,
+  "ideal_seed": 1385472531,
+  "noise_seed": 870226036,
+  "rng_before": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 282195612400673083909907150983656086344,
+      "inc": 212032972293989339553187053667802975763
+    },
+    "has_uint32": 0,
+    "uinteger": 0
+  },
+  "rng_after": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 274748991496772244529960525028949760728,
+      "inc": 212032972293989339553187053667802975763
+    },
+    "has_uint32": 0,
+    "uinteger": 0
+  },
+  "noisy_wall_seconds": 5.721876416995656,
+  "scores": {
+    "hardware": {
+      "shots": 2000,
+      "legal_count": 152,
+      "optimal_count": 128
+    },
+    "ideal_sampled": {
+      "shots": 2000,
+      "legal_count": 202,
+      "optimal_count": 185
+    },
+    "snapshot_noise": {
+      "shots": 2000,
+      "legal_count": 198,
+      "optimal_count": 174
+    }
+  },
+  "simulator_metadata": {
+    "num_bind_params": 1,
+    "runtime_parameter_bind": false,
+    "parallel_state_update": 2,
+    "parallel_shots": 1,
+    "noise": "circuit",
+    "batched_shots_optimization": false,
+    "remapped_qubits": false,
+    "active_input_qubits": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "device": "CPU",
+    "time_taken": 5.704131083,
+    "measure_sampling": false,
+    "num_clbits": 8,
+    "max_memory_mb": 2048,
+    "input_qubit_map": [
+      [
+        7,
+        7
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "num_qubits": 8,
+    "method": "statevector",
+    "required_memory_mb": 1,
+    "fusion": {
+      "applied": false,
+      "max_fused_qubits": 5,
+      "threshold": 14,
+      "enabled": true
+    }
+  }
+}

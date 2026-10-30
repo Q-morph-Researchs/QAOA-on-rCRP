@@ -1,0 +1,189 @@
+{
+  "protocol": "PROTOCOL_PREREGISTERED.json",
+  "protocol_sha256": "8d92846b972e4cc6fdbd7bf4ed02b1ccd5c8653d6432eab90a715a6c1cf3e7ed",
+  "environment": {
+    "python": "3.12.14",
+    "executable": "/Users/radin/Downloads/QAOA_IBM_Hardware_Study_2026_10_10_v1/.venv/bin/python",
+    "platform": "macOS-15.6-arm64-arm-64bit",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "highs": "1.12.0",
+    "threads": {
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2",
+      "VECLIB_MAXIMUM_THREADS": "2"
+    }
+  },
+  "sim9_sha256_before": "bbd2c4473ac4540d8770d02191e505dd6c204dda4f3bac7a6085dc14b9a6dec0",
+  "sim9_sha256_after": "bbd2c4473ac4540d8770d02191e505dd6c204dda4f3bac7a6085dc14b9a6dec0",
+  "rows": [
+    {
+      "case": "random-S3T4C6-21",
+      "encoding": "predicate",
+      "n_bits": 8,
+      "milp_optimum": 1.0,
+      "runs": 5,
+      "runs_with_legal_plan": 5,
+      "runs_optimal": 5,
+      "success_fraction": 1.0,
+      "selected_relocations_by_seed": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "evaluated_candidates": 10000,
+      "candidate_legal_fraction": 0.2798,
+      "candidate_legal_optimal_fraction": 0.0793,
+      "all_independent_checks_agree": true
+    },
+    {
+      "case": "random-S3T4C6-21",
+      "encoding": "galle",
+      "n_bits": 12,
+      "milp_optimum": 1.0,
+      "runs": 5,
+      "runs_with_legal_plan": 5,
+      "runs_optimal": 5,
+      "success_fraction": 1.0,
+      "selected_relocations_by_seed": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "evaluated_candidates": 10000,
+      "candidate_legal_fraction": 0.4303,
+      "candidate_legal_optimal_fraction": 0.2599,
+      "all_independent_checks_agree": true
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "encoding": "galle",
+      "n_bits": 12,
+      "milp_optimum": 2.0,
+      "runs": 5,
+      "runs_with_legal_plan": 5,
+      "runs_optimal": 5,
+      "success_fraction": 1.0,
+      "selected_relocations_by_seed": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "evaluated_candidates": 10000,
+      "candidate_legal_fraction": 0.1358,
+      "candidate_legal_optimal_fraction": 0.0519,
+      "all_independent_checks_agree": true
+    },
+    {
+      "case": "random-S3T4C6-24",
+      "encoding": "predicate",
+      "n_bits": 8,
+      "milp_optimum": 2.0,
+      "runs": 5,
+      "runs_with_legal_plan": 5,
+      "runs_optimal": 5,
+      "success_fraction": 1.0,
+      "selected_relocations_by_seed": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "evaluated_candidates": 10000,
+      "candidate_legal_fraction": 0.1645,
+      "candidate_legal_optimal_fraction": 0.051,
+      "all_independent_checks_agree": true
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "encoding": "predicate",
+      "n_bits": 9,
+      "milp_optimum": 1.0,
+      "runs": 5,
+      "runs_with_legal_plan": 5,
+      "runs_optimal": 5,
+      "success_fraction": 1.0,
+      "selected_relocations_by_seed": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "evaluated_candidates": 10000,
+      "candidate_legal_fraction": 0.2574,
+      "candidate_legal_optimal_fraction": 0.1048,
+      "all_independent_checks_agree": true
+    },
+    {
+      "case": "random-S3T4C7-32",
+      "encoding": "galle",
+      "n_bits": 15,
+      "milp_optimum": 1.0,
+      "runs": 5,
+      "runs_with_legal_plan": 5,
+      "runs_optimal": 4,
+      "success_fraction": 0.8,
+      "selected_relocations_by_seed": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "evaluated_candidates": 10000,
+      "candidate_legal_fraction": 0.2997,
+      "candidate_legal_optimal_fraction": 0.1363,
+      "all_independent_checks_agree": true
+    },
+    {
+      "case": "random-S4T3C6-16",
+      "encoding": "predicate",
+      "n_bits": 8,
+      "milp_optimum": 2.0,
+      "runs": 5,
+      "runs_with_legal_plan": 5,
+      "runs_optimal": 5,
+      "success_fraction": 1.0,
+      "selected_relocations_by_seed": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "evaluated_candidates": 10000,
+      "candidate_legal_fraction": 0.2164,
+      "candidate_legal_optimal_fraction": 0.208,
+      "all_independent_checks_agree": true
+    },
+    {
+      "case": "data3-3-8",
+      "encoding": "predicate",
+      "n_bits": 12,
+      "milp_optimum": 2.0,
+      "runs": 5,
+      "runs_with_legal_plan": 5,
+      "runs_optimal": 5,
+      "success_fraction": 1.0,
+      "selected_relocations_by_seed": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "evaluated_candidates": 10000,
+      "candidate_legal_fraction": 0.2122,
+      "candidate_legal_optimal_fraction": 0.0753,
+      "all_independent_checks_agree": true
+    }
+  ]
+}

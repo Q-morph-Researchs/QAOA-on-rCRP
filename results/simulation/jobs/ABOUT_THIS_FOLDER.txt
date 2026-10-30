@@ -1,0 +1,10 @@
+ABOUT THIS FOLDER: JOBS
+=======================
+
+One folder per hardware job (40), each with:
+- ideal_states.npy: 2,000 shots sampled from the noiseless circuit.
+- noisy_states.npy: 2,000 shots from the noise-model simulation of that
+  job's compiled circuit.
+- result.json: the seeds, the random-number-generator state before and
+  after, the legal and optimal scores, and the simulator settings. Seeds
+  come from SeedSequence 2026101701 (paper Section 2.8 and Appendix B.7).

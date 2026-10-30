@@ -1,0 +1,26 @@
+ABOUT THIS FOLDER: SIMULATED_ANNEALING
+======================================
+
+Simulated annealing (paper Section 2.7.3, Table 5 and Figure 3).
+- PROTOCOL_PREREGISTERED.json: the settings, fixed before any run (2,000
+  candidates per run, temperature falling from 1 to 0.01, seeds 0 to 4).
+- C_summary.json: the summary for each pairing.
+- runs/: one file per run (8 pairings x 5 seeds = 40): seed, starting bit
+  string, the plan it selected (its best legal candidate) and whether that
+  plan was optimal.
+- traces/: one CSV per run with every step, accepted or rejected. Columns:
+  step number, proposed bit string and its energy, temperature, random
+  number, energy change, accepted or not, current bit string, and the
+  decoded verdict.
+
+HEADS-UP
+The random-number states were reconstructed from the seeds after the runs;
+they weren't saved during the runs. The traces themselves are complete.
+
+NAMES USED IN THE FILES
+- random-S3T4C6-21 = bay A, random-S3T4C6-24 = bay B, random-S3T4C7-32 = bay
+  C, random-S4T3C6-16 = bay D, data3-3-8 = bay E.
+- "galle" = the QUBO-based encoding (named after the Galle et al. model).
+  "predicate" = the predicate-based encoding.
+- "accepted" = what the paper calls a legal plan. "replay-optimal" = an
+  optimal plan.

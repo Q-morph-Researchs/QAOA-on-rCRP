@@ -1,0 +1,20 @@
+{
+  "protocol_id": "companion-sa-matched-2000/1",
+  "written_utc": "2026-10-16 (before any SA run; sha256 logged in logs/RUN_LOG.md before execution)",
+  "purpose": "Matched-count classical companion to the IBM study: 2,000 SA candidate evaluations per seed against 2,000 IBM shots per job.",
+  "pairings": "the 8 hardware (bay, encoding) pairings; search space = the exact n-bit register that was measured on IBM for that pairing",
+  "seeds": [0, 1, 2, 3, 4],
+  "evaluations_per_seed": 2000,
+  "evaluations_definition": "evaluation 1 = the random initial state; evaluations 2..2000 = the 1,999 proposals (each proposal is evaluated whether accepted or not)",
+  "total_evaluations_per_pairing": 10000,
+  "rng": "numpy.random.Generator(numpy.random.PCG64(seed)); draw order per run: initial state = rng.integers(0, 2, size=n) (bit i = variable i); then for each proposal k: flip index = rng.integers(0, n), then u = rng.random() (always drawn)",
+  "energy": "the pairing's own energy E(x) from Sim9_2.py (predicate: R + W*V; QUBO: penalty QUBO), divided by the pairing's energy scale (Problem.scale), i.e. the same normalisation used by the QAOA phase",
+  "proposal": "single uniformly random bit flip",
+  "acceptance": "Metropolis: accept if dE <= 0, else accept if u < exp(-dE / T_k)",
+  "temperature_schedule": "geometric, T_k = T0 * (T1/T0)^((k-1)/1998) for proposal k = 1..1999, T0 = 1.0, T1 = 0.01 (energy/scale units); fixed before seeing any outcome, never tuned",
+  "selection_rule": "after the run, every evaluated candidate (all 2,000) is decoded and replayed; the selected state is the legal candidate with the fewest replayed relocations, ties broken by the earliest evaluation; if no candidate is legal, the run returns no plan. This mirrors the QAOA rule (best legal shot).",
+  "known_optimum_use": "none during the run. The independent MILP optimum (part A) is read only after all 40 runs are saved, to score success.",
+  "success_definition": "the selected plan is legal and its replayed relocation count equals the part-A MILP optimum",
+  "also_reported": "fraction of the 10,000 evaluated candidates that are legal and that are legal-and-optimal (correlated Markov-chain samples; NOT independent like IBM shots)",
+  "budget_caveat": "2,000 SA evaluations and 2,000 QAOA shots are matched COUNT budgets only, not equal physical or computational costs."
+}

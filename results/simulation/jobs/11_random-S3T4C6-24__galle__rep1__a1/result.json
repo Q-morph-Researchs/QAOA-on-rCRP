@@ -1,0 +1,133 @@
+{
+  "slot": 11,
+  "item": "random-S3T4C6-24__galle",
+  "case": "random-S3T4C6-24",
+  "method": "galle",
+  "job_id": "db6j3804qg6s73c4stn0",
+  "prep_version": 1,
+  "ideal_seed": 531327475,
+  "noise_seed": 2942808334,
+  "rng_before": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 197970920698989555736765289981957364878,
+      "inc": 55163438783567235501731126975067260753
+    },
+    "has_uint32": 0,
+    "uinteger": 0
+  },
+  "rng_after": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 171459192125326385520017426072625938494,
+      "inc": 55163438783567235501731126975067260753
+    },
+    "has_uint32": 0,
+    "uinteger": 0
+  },
+  "noisy_wall_seconds": 18.85381224998855,
+  "scores": {
+    "hardware": {
+      "shots": 2000,
+      "legal_count": 103,
+      "optimal_count": 17
+    },
+    "ideal_sampled": {
+      "shots": 2000,
+      "legal_count": 167,
+      "optimal_count": 67
+    },
+    "snapshot_noise": {
+      "shots": 2000,
+      "legal_count": 128,
+      "optimal_count": 54
+    }
+  },
+  "simulator_metadata": {
+    "num_bind_params": 1,
+    "runtime_parameter_bind": false,
+    "parallel_state_update": 2,
+    "parallel_shots": 1,
+    "noise": "circuit",
+    "batched_shots_optimization": false,
+    "remapped_qubits": false,
+    "active_input_qubits": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "device": "CPU",
+    "time_taken": 18.832761583,
+    "measure_sampling": false,
+    "num_clbits": 12,
+    "max_memory_mb": 2048,
+    "input_qubit_map": [
+      [
+        11,
+        11
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "num_qubits": 12,
+    "method": "statevector",
+    "required_memory_mb": 1,
+    "fusion": {
+      "applied": false,
+      "max_fused_qubits": 5,
+      "threshold": 14,
+      "enabled": true
+    }
+  }
+}

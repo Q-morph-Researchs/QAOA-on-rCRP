@@ -1,0 +1,89 @@
+{
+  "case": "random-S3T4C6-24",
+  "input": {
+    "stacks_bottom_to_top": [
+      [
+        5,
+        2,
+        6,
+        1
+      ],
+      [
+        4
+      ],
+      [
+        3
+      ]
+    ],
+    "capacity": 4
+  },
+  "rule": "(fixed before any run; a min-max rule in the spirit of Caserta et al. 2012):\n  1. If the current target container is on top of its stack, retrieve it.\n  2. Otherwise take the top container c of the target's stack and relocate it.\n     Candidate destinations: every OTHER stack with free capacity.\n     a. \"Safe\" stacks are those where c will not block anything: the stack is empty\n        or every container in it has a larger number than c. If any safe stack\n        exists, choose the safe stack whose smallest container number is LOWEST\n        (an empty stack counts as infinity, so it is used only when no non-empty\n        safe stack exists). This keeps empty stacks for later.\n     b. If no safe stack exists, choose the stack whose smallest container number\n        is HIGHEST (c will be dug out as late as possible).\n  3. TIE-BREAK: lowest stack index (stack 1 before stack 2 ...).\nThe rule never looks ahead and never reads any optimum.",
+  "moves": [
+    {
+      "type": "retrieve",
+      "container": 1,
+      "source": 1
+    },
+    {
+      "type": "relocate",
+      "container": 6,
+      "source": 1,
+      "destination": 2,
+      "rule": "no safe stack; stack with the highest smallest-number"
+    },
+    {
+      "type": "retrieve",
+      "container": 2,
+      "source": 1
+    },
+    {
+      "type": "retrieve",
+      "container": 3,
+      "source": 3
+    },
+    {
+      "type": "relocate",
+      "container": 6,
+      "source": 2,
+      "destination": 3,
+      "rule": "safe stack with the lowest smallest-number"
+    },
+    {
+      "type": "retrieve",
+      "container": 4,
+      "source": 2
+    },
+    {
+      "type": "retrieve",
+      "container": 5,
+      "source": 1
+    },
+    {
+      "type": "retrieve",
+      "container": 6,
+      "source": 3
+    }
+  ],
+  "relocations_by_rule": 2,
+  "replay": {
+    "legal": true,
+    "relocations": 2,
+    "error": null
+  },
+  "runtime_first_call_seconds": 1.404198701493442e-05,
+  "runtime_mean_seconds_over_1000_calls": 6.718709002598189e-06,
+  "deterministic_over_1000_calls": true,
+  "environment": {
+    "python": "3.12.14",
+    "executable": "/Users/radin/Downloads/QAOA_IBM_Hardware_Study_2026_10_10_v1/.venv/bin/python",
+    "platform": "macOS-15.6-arm64-arm-64bit",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "highs": "1.12.0",
+    "threads": {
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2",
+      "VECLIB_MAXIMUM_THREADS": "2"
+    }
+  }
+}

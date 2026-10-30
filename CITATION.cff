@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below. Radin Baghbanian and Barman Alibeigi contributed equally."
+title: "Fixed-angle QAOA for small restricted Container Relocation Problems on IBM Quantum hardware: Code and data"
+type: software
+authors:
+  - family-names: Baghbanian
+    given-names: Radin
+    affiliation: "Hakim International School, Tehran, Iran"
+  - family-names: Alibeigi
+    given-names: Barman
+    affiliation: "The British International School Bratislava, Bratislava, Slovakia"
+version: "1.0"
+date-released: "2026-10-30"
+repository-code: "https://github.com/Q-morph-Researchs/QAOA-on-rCRP"
+url: "https://github.com/Q-morph-Researchs/QAOA-on-rCRP/releases/tag/v1.0"
+license: MIT
+keywords:
+  - QAOA
+  - quantum optimization
+  - container relocation problem
+  - QUBO
+  - IBM Quantum
+  - simulated annealing
+  - MILP
+abstract: >-
+  Code, raw IBM hardware records and analysis for a study of fixed-angle,
+  depth-2 QAOA on five small restricted Container Relocation Problem bays
+  (8 instance-encoding pairings, 40 jobs, 80,000 shots on ibm_fez), compared
+  with exact uniform random sampling, an exact MILP model, a greedy rule and
+  simulated annealing. Code is MIT-licensed; data and documentation are
+  CC BY 4.0 (see LICENSE-DATA.md).

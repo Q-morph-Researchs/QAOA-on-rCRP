@@ -1,0 +1,92 @@
+{
+  "active_qubits": 12,
+  "angle_id": "fresh:galle:p2",
+  "backend": "ibm_fez",
+  "best_cost_by_enumeration": 1,
+  "case": "random-S3T4C6-21",
+  "check_A_max_abs_prob_diff": 8.673617379884035e-18,
+  "check_B_enumerated_optimum_equals_BFS": true,
+  "check_B_every_ground_string_replays_optimal": true,
+  "check_C_max_abs_prob_diff": 1.3530843112619095e-16,
+  "compile_seconds": 0.06,
+  "compiled_depth": 415,
+  "compiled_ops": {
+    "cz": 228,
+    "measure": 12,
+    "rz": 281,
+    "sx": 485,
+    "x": 4
+  },
+  "compiled_two_qubit": 228,
+  "compiled_two_qubit_depth": 143,
+  "created_utc": "2026-10-12T17:29:54.030337+00:00",
+  "data_kind": "CHECK (no shots)",
+  "ideal": {
+    "accepted": 0.24553944156986873,
+    "energy_ground": 0.009029500120853316,
+    "replay_optimal": 0.1265994526793844
+  },
+  "layout_final": [
+    23,
+    25,
+    21,
+    24,
+    4,
+    16,
+    26,
+    50,
+    5,
+    3,
+    2,
+    22
+  ],
+  "layout_initial": [
+    26,
+    3,
+    5,
+    22,
+    4,
+    23,
+    25,
+    50,
+    16,
+    24,
+    2,
+    21
+  ],
+  "live_target": true,
+  "method": "galle",
+  "method_name": "QUBO QAOA (Galle CRP-I)",
+  "optimum_for_scoring_only": 1,
+  "passed": true,
+  "qubits": 12,
+  "settings": {
+    "batches": 5,
+    "check_tolerance": 1e-09,
+    "direct_cutoff": 5,
+    "enumeration_qubit_guard": 22,
+    "fake_device": "FakeFez",
+    "max_execution_time_per_job_seconds": 30,
+    "mitigation": "none: dynamical decoupling off, gate and measurement twirling off, no readout correction",
+    "optimization_level": 3,
+    "p": 2,
+    "preparation_max_age_hours": 24,
+    "presolve": "standard",
+    "protocol_id": "sim9-ladder-v1: 8 items x 5 jobs x 2000 shots",
+    "seed_transpiler": 11,
+    "shots_per_batch": 2000,
+    "synthesis": "pauli",
+    "total_qpu_seconds_cap": 300
+  },
+  "theta": [
+    0.647,
+    -2.595,
+    -0.409,
+    0.211
+  ],
+  "uniform": {
+    "accepted": 0.046875,
+    "energy_ground": 0.000244140625,
+    "replay_optimal": 0.015625
+  }
+}

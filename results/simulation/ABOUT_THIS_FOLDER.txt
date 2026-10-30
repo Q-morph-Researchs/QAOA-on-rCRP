@@ -1,0 +1,18 @@
+ABOUT THIS FOLDER: SIMULATION
+=============================
+
+The ideal and noise-model simulations of the same circuits that ran on
+hardware (paper Section 2.8, Table 6 and Figure 4).
+- jobs/: simulated shots for each of the 40 jobs.
+- pairings/: exact results over every possible bit string, for each pairing.
+- noise_models/: the noise model and circuit audit for each circuit version.
+- SIMULATION_PROTOCOL.json: the frozen settings (seeds, noise-model
+  settings, limits).
+- environment.json: the software versions used.
+
+HEADS-UP
+The noise model has depolarizing gate errors and readout errors from IBM's
+calibration data, but no explicit thermal relaxation (T1/T2), because IBM's
+snapshot had no qubit frequencies. It also leaves out crosstalk, leakage and
+drift. That's why the hardware lost more than the model predicted; the paper
+discusses this.
