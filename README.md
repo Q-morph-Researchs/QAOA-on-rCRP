@@ -73,4 +73,4 @@ This checks the SHA-256 hash of every file against `MANIFEST_SHA256.json`.
 
 Use GitHub's **"Cite this repository"** button, or cite:
 
-> Baghbanian, R., & Alibeigi, B. (2026). *Fixed-angle QAOA for small restricted Container Relocation Problems on IBM Quantum hardware: Code and data* (Version 1.0). GitHub. https://github.com/Q-morph-Researchs/QAOA-on-rCRP/releases/tag/v1.0
+>   Alibeigi B. & Baghbanian R. (2026). *Fixed-angle QAOA for small restricted Container Relocation Problems on IBM Quantum hardware: Code and data* (Version 1.0). GitHub. https://github.com/Q-morph-Researchs/QAOA-on-rCRP/releases/tag/v1.0
