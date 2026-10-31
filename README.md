@@ -1,6 +1,6 @@
 # Fixed-angle QAOA for small restricted Container Relocation Problems on IBM Quantum hardware
 
-Code, IBM hardware data and results for the study by **Radin Baghbanian** and **Barman Alibeigi** (equal contribution).
+Code, IBM hardware data and results for the study by **Barman Alibeigi** and **Radin Baghbanian** (equal contribution).
 
 > **Paper:** *Fixed-Angle Quantum Approximate Optimization Algorithm (QAOA) for Small Restricted Container Relocation Problems on IBM Quantum Hardware: A Comparison with Random Sampling and Classical Methods.* Submitted to the *Journal of High School Science* (2026).
 >
