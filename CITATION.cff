@@ -1,14 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this code or data, please cite it as below. Radin Baghbanian and Barman Alibeigi contributed equally."
+message: "If you use this code or data, please cite it as below. Barman Alibeigi and Radin Baghbanian contributed equally."
 title: "Fixed-angle QAOA for small restricted Container Relocation Problems on IBM Quantum hardware: Code and data"
 type: software
 authors:
-  - family-names: Baghbanian
-    given-names: Radin
-    affiliation: "Hakim International School, Tehran, Iran"
   - family-names: Alibeigi
     given-names: Barman
-    affiliation: "The British International School Bratislava, Bratislava, Slovakia"
+    affiliation: "None"
+  - family-names: Baghbanian
+    given-names: Radin
+    affiliation: "None"
 version: "1.0"
 date-released: "2026-10-30"
 repository-code: "https://github.com/Q-morph-Researchs/QAOA-on-rCRP"
